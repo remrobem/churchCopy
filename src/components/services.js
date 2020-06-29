@@ -27,7 +27,6 @@ const Services = () => {
 
   return (
     <div className={styles.container}>
-      <a name="epiphany_services"></a>
       <div className={styles.background}></div>
       <div className={styles.messageTop}>
         <div className={styles.message}>

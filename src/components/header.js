@@ -1,8 +1,6 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
-// import './header.module.scss'
+import { graphql, useStaticQuery } from "gatsby"
 import styles from "./header.module.scss"
-import { GrLocation } from "react-icons/gr"
 import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa"
 
 const Header = () => {
@@ -26,7 +24,7 @@ const Header = () => {
             <a
               className={styles.link}
               href="//maps.google.com/?f=q&amp;hl=en&amp;q=Church of the Epiphany Eden NC&maptype=roadmap"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <FaMapMarkerAlt /> 538 Henry St. Eden, NC 27288
             </a>
