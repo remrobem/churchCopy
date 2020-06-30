@@ -22,14 +22,17 @@
   -webkit-filter: blur(3px);
 }
 
-h1 {
+/* h1 {
   margin: 0;
   font-size: 4vw;
-}
+} */
 /* a {   display: inline-block;
  } */
 
-
+.text {
+  color: white;
+  font-size: 0.5em;
+}
 
 .messageTop {
   align-items: center;

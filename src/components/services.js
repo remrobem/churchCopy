@@ -31,13 +31,11 @@ const Services = () => {
       <div className={styles.background}></div>
       <div className={styles.messageTop}>
         <div className={styles.message}>
-          {/* <ul> */}
-            <p>
+            <p className={styles.text}>
               In-person services and events at Epiphany have been suspended due
               the the COVID-19 pandemic.
             </p>
-            <p>Sunday services have been recorded for your viewing.</p>
-          {/* </ul> */}
+            <p className={styles.text}>Sunday services have been recorded for your viewing.</p>
         </div>
         <div className={styles.buttonContainer}>
           {services.map(service => {

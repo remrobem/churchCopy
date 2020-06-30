@@ -6,8 +6,8 @@ const Donations = () => {
     <div className={styles.container}>
       <a name="epiphany_donate"></a>
       <h2>Please Donate</h2>
-      <blockquote>
-        <p>
+      <blockquote className={styles.quote}>
+        <p className={styles.text}>
           “Do not store up for yourselves treasures on earth, where moth and
           rust consume and where thieves break in and steal; but store up for
           yourselves treasures in heaven, where neither moth nor rust consumes
@@ -17,15 +17,15 @@ const Donations = () => {
 
         <footer>Matthew 6: 19-21</footer>
       </blockquote>
-      <p>
+      <p className={styles.text}>
         Please remember to continue fulfilling your pledges or make
         contributions to Epiphany.
       </p>
-      <p>
+      <p className={styles.text}>
         Checks can be made out to Church of the Epiphany and mailed to 538 Henry
         St, Eden NC 27288
       </p>
-      <p>
+      <p className={styles.text}>
         Or you can use the link below to use your credit card to make a
         contribution directly to Epiphany.
       </p>
