@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import styles from "./services.module.scss"
+import styles from "./services.module.css"
 
 const Services = () => {
   const query = useStaticQuery(graphql`
@@ -27,16 +27,17 @@ const Services = () => {
 
   return (
     <div className={styles.container}>
+      <a name="epiphany_services"></a>
       <div className={styles.background}></div>
       <div className={styles.messageTop}>
         <div className={styles.message}>
-          <h1>
-            In-person services and events at Epiphany have been suspended due the the COVID-19 pandemic
-          </h1>
-        </div>
-
-        <div className={styles.message}>
-          <h1>However, Sunday services are being recorded</h1>
+          {/* <ul> */}
+            <p>
+              In-person services and events at Epiphany have been suspended due
+              the the COVID-19 pandemic.
+            </p>
+            <p>Sunday services have been recorded for your viewing.</p>
+          {/* </ul> */}
         </div>
         <div className={styles.buttonContainer}>
           {services.map(service => {

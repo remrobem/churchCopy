@@ -3,7 +3,7 @@ import React from "react"
 // import styled from 'styled-components'
 
 // import BackgroundImage from "gatsby-background-image"
-import styles from "./landingPage.module.scss"
+import styles from "./landingPage.module.css"
 
 const LandingPage = () => {
   return (

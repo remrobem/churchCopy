@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import styles from "./header.module.scss"
+import styles from "./header.module.css"
 import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa"
 
 const Header = () => {

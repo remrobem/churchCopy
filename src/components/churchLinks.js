@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./churchLinks.module.scss"
+import styles from "./churchLinks.module.css"
 
 const ChurchLinks = () => {
   return (
@@ -9,6 +9,9 @@ const ChurchLinks = () => {
       <div className={styles.container}>
         <a href="#epiphany_services">
           <button className={styles.button}>Epiphany Services</button>
+        </a>
+        <a href="#epiphany_donate">
+          <button className={styles.button}>Please Donate</button>
         </a>
       </div>
 
