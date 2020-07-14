@@ -13,7 +13,7 @@ const Vbs = () => {
 
       <div className={styles.children}>
         <h2>At-Home Virtual Vacation Bible School</h2>
-        <p>
+        <p className={styles.text}>
         July 27 – 31
         </p>
         <p className={styles.text}>
