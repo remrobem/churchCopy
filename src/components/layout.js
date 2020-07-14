@@ -5,6 +5,7 @@ import LandingPage from "./landingPage"
 import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
+import VBS from "./vbs"
 
 const Layout = ({ location, title, children }) => {
   // const rootPath = `${__PATH_PREFIX__}/`
@@ -13,6 +14,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <VBS />
       <ChurchLinks />
       <Services />
       <Donations />
