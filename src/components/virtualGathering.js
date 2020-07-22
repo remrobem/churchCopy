@@ -1,12 +1,11 @@
 import React from "react"
 import styles from "./virtualGathering.module.css"
 import image from "../../content/assets/AndTheySaw.jpg"
-import { FaPhone } from "react-icons/fa"
 
 const Vbs = () => {
   return (
     <div>
-      <a name="gathering"></a>
+      <a name="gathering"> </a>
       <div className={styles.container}>
         <div className={styles.children}>
           <h2>Virtual Gathering</h2>

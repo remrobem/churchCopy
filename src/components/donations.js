@@ -14,7 +14,6 @@ const Donations = () => {
           and where thieves do not break in and steal. For where your treasure
           is, there your heart will be also.”
         </p>
-
         <footer>Matthew 6: 19-21</footer>
       </blockquote>
       <p className={styles.text}>
@@ -30,9 +29,11 @@ const Donations = () => {
         contribution directly to Epiphany.
       </p>
       <div>
-        <a href="https://checkout.square.site/pay/fb10e2bb3b5e485491b377295f5a0ab9">
-          <button className={styles.button}>Donate</button>
-        </a>
+        <form>
+          <button className={styles.button} formaction="https://checkout.square.site/pay/fb10e2bb3b5e485491b377295f5a0ab9">
+            Donate
+          </button>
+        </form>
       </div>
     </div>
   )

@@ -6,38 +6,51 @@ const ChurchLinks = () => {
     <div>
       
       {/* // Epiphany Links */}
+
+
       <div className={styles.container}>
-        <a href="#epiphany_services">
-          <button className={styles.button}>Epiphany Services</button>
-        </a>
-        <a href="#epiphany_donate">
-          <button className={styles.button}>Please Donate</button>
-        </a>
+
+      <form>
+          <button className={styles.button} formaction="#epiphany_services">
+          Epiphany Services
+          </button>
+     
+          <button className={styles.button} formaction="#epiphany_donate">
+          Please Donate
+          </button>
+        </form>
+
       </div>
 
       {/* // NC Diocese links */}
       <div className={styles.container}>
-        <a href="https://conta.cc/3i0nySw">
-          <button className={styles.button}>Please Note</button>
-        </a>
-        <a href="https://www.episdionc.org/coronavirus/">
-          <button className={styles.button}>
-            NC Episcopal Diocese COVID-19
+
+      <form>
+          <button className={styles.button} formaction="https://www.episdionc.org/please-note/">
+          Please Note
           </button>
-        </a>
-        <a href="https://www.episdionc.org/">
-          <button className={styles.button}>NC Episcopal Diocese</button>
-        </a>
+   
+          <button className={styles.button} formaction="https://www.episdionc.org/coronavirus/">
+          NC Episcopal Diocese COVID-19
+          </button>
+      
+          <button className={styles.button} formaction="https://www.episdionc.org/">
+          NC Episcopal Diocese
+          </button>
+        </form>
       </div>
 
       {/* // National Church Links */}
       <div className={styles.container}>
-        <a href="https://cathedral.org/worship/">
-          <button className={styles.button}>National Cathedral Services</button>
-        </a>
-        <a href="https://episcopalchurch.org/">
-          <button className={styles.button}>National Episcopal Church</button>
-        </a>
+      
+      <form>
+          <button className={styles.button} formaction="https://cathedral.org/worship/">
+          National Cathedral Services
+          </button>
+          <button className={styles.button} formaction="https://episcopalchurch.org/">
+          National Episcopal Church
+          </button>
+        </form>
       </div>
     </div>
   )

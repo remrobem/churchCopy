@@ -31,22 +31,25 @@ const Services = () => {
       <div className={styles.background}></div>
       <div className={styles.messageTop}>
         <div className={styles.message}>
-            <p className={styles.text}>
-              In-person services and events at Epiphany have been suspended due
-              the the COVID-19 pandemic.
-            </p>
-            <p className={styles.text}>Sunday services have been recorded for your viewing.</p>
+          <p>
+            In-person services and events at Epiphany have been suspended due to
+            the COVID-19 pandemic.
+          </p>
+          <p>Sunday services have been recorded for your viewing.</p>
         </div>
         <div className={styles.buttonContainer}>
-          {services.map(service => {
-            return (
-              <a href={service.node.frontmatter.videoLink}>
-                <button className={styles.button}>
+          <form>
+            {services.map(service => {
+              return (
+                <button
+                  className={styles.button}
+                  formaction={service.node.frontmatter.videoLink}
+                >
                   {service.node.frontmatter.title}
                 </button>
-              </a>
-            )
-          })}
+              )
+            })}
+          </form>
         </div>
       </div>
     </div>
