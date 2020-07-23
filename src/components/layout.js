@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <VBS />
-      <VirtualGathering />
+      {/* <VirtualGathering /> */}
       <ChurchLinks />
       <Services />
       <Donations />
