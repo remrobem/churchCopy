@@ -1,16 +1,10 @@
 import React from "react"
-// import { graphql, StaticQuery } from "gatsby"
-// import styled from 'styled-components'
-
-// import BackgroundImage from "gatsby-background-image"
 import styles from "./landingPage.module.css"
 
 const LandingPage = () => {
   return (
     <div className={styles.container}>
       
-      <div className={styles.background}></div>
-
       <div className={styles.messageTop}>
         <div className={styles.message}>
           <h1>ALL ARE WELCOME</h1>

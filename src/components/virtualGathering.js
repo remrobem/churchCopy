@@ -4,35 +4,34 @@ import image from "../../content/assets/AndTheySaw.jpg"
 
 const Vbs = () => {
   return (
-    <div>
+    <div className={styles.main}>
       <a name="gathering"> </a>
+
       <div className={styles.container}>
-        <div className={styles.children}>
+
+        <div className={styles.image}>
+          <img src={image} alt="And They Saw image"></img>
+        </div>
+
+        <div>
           <h2>Virtual Gathering</h2>
           <p className={styles.text}>
             We want to give our parishioners a virtual option for conversation
             and a chance to see one another, if only on a screen. If you're
-            interested, select the button below and choose one of the following date and time
-            options, and we will send you a Zoom invitation to join our
-            conversation on that day. This is an informal gathering with no
-            meeting or other work to do. Strictly social! We hope to see you at
-            one of the gatherings!
+            interested, select the button below and choose one of the following
+            date and time options, and we will send you a Zoom invitation to
+            join our conversation on that day. This is an informal gathering
+            with no meeting or other work to do. Strictly social! We hope to see
+            you at one of the gatherings!
           </p>
-          <div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6EFdrnj0AWkMUYAOB7P07OFaKCRpccSQzmJ8mgxyOIuJXZA/viewform?usp=sf_link">
-              <button className={styles.button}>
-                Select Date and Time
-              </button>
-            </a>
-          </div>
         </div>
-        <div className={`${styles.image} ${styles.children}`}>
-          <img src={image} alt="Compassion VBS logo"></img>
-        </div>
+   
+      <div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6EFdrnj0AWkMUYAOB7P07OFaKCRpccSQzmJ8mgxyOIuJXZA/viewform?usp=sf_link">
+          <button className={styles.button}>Select Date and Time</button>
+        </a>
       </div>
-
-  
-
+      </div>
     </div>
   )
 }
