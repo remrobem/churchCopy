@@ -20,7 +20,6 @@ const Layout = ({ location, title, children }) => {
       <ChurchLinks />
       <Services />
       <Donations />
-      {/* <main>{children}</main> */}
       <Footer />
     </div>
   )

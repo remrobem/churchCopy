@@ -1,0 +1,89 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  /* height: 200vh; */
+  width: 100vw;
+  align-items: space-around;
+  background-color: black;
+}
+
+.background {
+  background-color: #8c93f6;
+  width: 100vw;
+  height: 150vh;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("../../content/assets/EpiphanyCandleHymnal.jpg"); */
+  
+  /* filter: blur(3px); */
+  /* -webkit-filter: blur(3px); */
+}
+
+.text {
+  color: white;
+  font-size: 0.5em;
+}
+
+.messageTop {
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+}
+
+.message {
+  color: white;
+  width: 100vw;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p {
+  color: white;
+  font-size: 1em;
+}
+
+.buttonContainer {
+display: flex;
+flex-direction: row;
+}
+
+.button {
+	background: #8cf6ef;
+	border-radius: 8px;
+	cursor: pointer;
+	color: black;
+	font-family: Arial;
+	font-size: 1.75vw;
+  padding: 0.5em 0.5em;
+  margin: 0.3em;
+  text-decoration: none;
+  width: 15vw;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0,0,0, 0.4);
+  transition: all 1.3s ease;
+  outline: none;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.button:hover {
+  background-color:#55fdf2;
+  /* transition: all 0.3s ease; */
+  font-weight: bolder;
+  box-shadow: 0px 8px 15px rgba(0,0,0, 0.7);
+
+}
+.button:active {
+	position:relative;
+	top:1px;
+}

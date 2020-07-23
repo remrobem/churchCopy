@@ -26,33 +26,30 @@ const Services = () => {
   })
 
   return (
-    <div className={styles.container}>
-      <a name="epiphany_services"></a>
-      <div className={styles.background}></div>
-      <div className={styles.messageTop}>
-        <div className={styles.message}>
-          <p>
-            In-person services and events at Epiphany have been suspended due to
-            the COVID-19 pandemic.
-          </p>
-          <p>Sunday services have been recorded for your viewing.</p>
-        </div>
+    <div className={styles.background}>
+      <div className={styles.message}>
+        <p className={styles.pageHeading}>Sunday Services</p>
+        <p>
+          In-person services and events at Epiphany have been suspended due to
+          the COVID-19 pandemic.
+        </p>
+        <p>Sunday services have been recorded for your viewing.</p>
+      </div>
+
         <div className={styles.buttonContainer}>
-          <form>
-            {services.map(service => {
-              return (
+          {services.map(service => {
+            return (
+              <form>
                 <button
                   className={styles.button}
-                  formaction={service.node.frontmatter.videoLink}
-                >
+                  formaction={service.node.frontmatter.videoLink}>
                   {service.node.frontmatter.title}
                 </button>
-              )
-            })}
-          </form>
+              </form>
+            )
+          })}
         </div>
       </div>
-    </div>
   )
 }
 
