@@ -7,13 +7,13 @@
     margin: 0;
     padding: 0;
     padding-bottom: 2rem;
+    height: auto;
   }
 
 .row {
     display: flex;
     flex-direction: row;
     padding: 2rem 0;
-
 }
 
 .item {

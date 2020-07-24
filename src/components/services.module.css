@@ -4,17 +4,11 @@
 
 .background {
   background-color: #8c93f6;
-  width: 100vw;
-  height: auto;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .message {
   margin: 0 1rem;
   color: white;
-  width: 100vw;
   font-size: 2em;
   text-align: center;
   padding: 1em 1em;
