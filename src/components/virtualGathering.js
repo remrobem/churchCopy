@@ -32,7 +32,7 @@ const Vbs = () => {
         </div>
       </div>
 
-      <form name="contact" method="POST" data-netlify="true">
+      {/* <form name="contact" method="POST" data-netlify="true">
         <p>
           <label>
             Your Name: <input type="text" name="name" />
@@ -60,7 +60,7 @@ const Vbs = () => {
         <p>
           <button type="submit">Send</button>
         </p>
-      </form>
+      </form> */}
     </div>
   )
 }
