@@ -7,11 +7,11 @@ const ChurchLinks = () => {
       {/* // Epiphany Links */}
 
       <form className={styles.buttonContainer}>
-        <button className={styles.button} formaction="#epiphany_services">
+        <button className={styles.button} formAction="#epiphany_services">
           Epiphany Services
         </button>
 
-        <button className={styles.button} formaction="#epiphany_donate">
+        <button className={styles.button} formAction="#epiphany_donate">
           Make A Donation
         </button>
       </form>
@@ -20,21 +20,21 @@ const ChurchLinks = () => {
       <form className={styles.buttonContainer}>
         <button
           className={styles.button}
-          formaction="https://www.episdionc.org/please-note/"
+          formAction="https://www.episdionc.org/please-note/"
         >
           Please Note
         </button>
 
         <button
           className={styles.button}
-          formaction="https://www.episdionc.org/coronavirus/"
+          formAction="https://www.episdionc.org/coronavirus/"
         >
           NC Episcopal Diocese COVID-19
         </button>
 
         <button
           className={styles.button}
-          formaction="https://www.episdionc.org/"
+          formAction="https://www.episdionc.org/"
         >
           NC Episcopal Diocese
         </button>
@@ -44,13 +44,13 @@ const ChurchLinks = () => {
       <form className={styles.buttonContainer}>
         <button
           className={styles.button}
-          formaction="https://cathedral.org/worship/"
+          formAction="https://cathedral.org/worship/"
         >
           National Cathedral Services
         </button>
         <button
           className={styles.button}
-          formaction="https://episcopalchurch.org/"
+          formAction="https://episcopalchurch.org/"
         >
           National Episcopal Church
         </button>

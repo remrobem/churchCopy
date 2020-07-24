@@ -39,10 +39,10 @@ const Services = () => {
         <div className={styles.buttonContainer}>
           {services.map(service => {
             return (
-              <form>
+              <form key={service.node.frontmatter.videoLink}>
                 <button
                   className={styles.button}
-                  formaction={service.node.frontmatter.videoLink}>
+                  formAction={service.node.frontmatter.videoLink}>
                   {service.node.frontmatter.title}
                 </button>
               </form>

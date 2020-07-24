@@ -30,7 +30,7 @@ const Donations = () => {
       </p>
       <div>
         <form>
-          <button className={styles.button} formaction="https://checkout.square.site/pay/fb10e2bb3b5e485491b377295f5a0ab9">
+          <button className={styles.button} formAction="https://checkout.square.site/pay/fb10e2bb3b5e485491b377295f5a0ab9">
             Donate
           </button>
         </form>
