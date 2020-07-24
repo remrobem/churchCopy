@@ -36,11 +36,11 @@ const Vbs = () => {
           <img src={image} alt="Compassion VBS logo"></img>
         </div>
       </div>
-      <p className={styles.text}>
+      <h1 className={styles.text}>
         Children will discover how Compassion helps us: welcome others, be
         brave, love ourselves, be present with each other, and gives us a fresh
         start.
-      </p>
+      </h1>
     </div>
   )
 }
