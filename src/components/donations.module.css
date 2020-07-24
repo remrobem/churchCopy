@@ -12,11 +12,14 @@
 }
 
 .text {
-  font-size: 1em;
+  font-size: 1rem;
   color: black;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
+.title {
+  padding-top: 2rem;
+}
 .quote {
   width: 60vw;
 }
@@ -32,7 +35,7 @@
     text-decoration: none;
     margin: 0.3rem;
     border: none;
-    width: 50vw;
+    width: 40rem;
   }
   
   .button:hover {

@@ -5,7 +5,7 @@ const Donations = () => {
   return (
     <div className={styles.container}>
       <a name="epiphany_donate"></a>
-      <h2>Please Donate</h2>
+      <h2 className={styles.title}>Please Donate</h2>
       <blockquote className={styles.quote}>
         <p className={styles.text}>
           “Do not store up for yourselves treasures on earth, where moth and
