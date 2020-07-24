@@ -8,7 +8,6 @@ const Vbs = () => {
       <a name="gathering"> </a>
 
       <div className={styles.container}>
-
         <div className={styles.image}>
           <img src={image} alt="And They Saw image"></img>
         </div>
@@ -25,13 +24,43 @@ const Vbs = () => {
             you at one of the gatherings!
           </p>
         </div>
-   
-      <div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6EFdrnj0AWkMUYAOB7P07OFaKCRpccSQzmJ8mgxyOIuJXZA/viewform?usp=sf_link">
-          <button className={styles.button}>Select Date and Time</button>
-        </a>
+
+        <div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6EFdrnj0AWkMUYAOB7P07OFaKCRpccSQzmJ8mgxyOIuJXZA/viewform?usp=sf_link">
+            <button className={styles.button}>Select Date and Time</button>
+          </a>
+        </div>
       </div>
-      </div>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>
+            Your Name: <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Email: <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Role:{" "}
+            <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label>
+            Message: <textarea name="message"></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </div>
   )
 }
