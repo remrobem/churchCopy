@@ -27,7 +27,7 @@ const Vbs = () => {
             We want to give our parishioners a virtual option for conversation
             and a chance to see one another, if only on a screen.{" "}
           </p>
-          <p>
+          <p className={styles.text}>
             If you're interested, please fill out the survey below with your
             preferred days and times. This is an informal gathering with no
             meeting or other work to do. Strictly social! We hope to see you at
