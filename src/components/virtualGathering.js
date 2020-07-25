@@ -5,7 +5,7 @@ import image from "../../content/assets/AndTheySaw.jpg"
 const Vbs = () => {
   return (
     <div className={styles.main}>
-      <a name="gathering"> </a>
+      <a name="gathering"></a>
 
       <div className={styles.container}>
         <div className={styles.image}>

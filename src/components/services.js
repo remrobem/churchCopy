@@ -26,7 +26,7 @@ const Services = () => {
   })
 
   return (
-    <div className={styles.background}>
+    <div className={styles.background} id="epiphany_services">
       <div className={styles.message}>
         <p className={styles.pageHeading}>Sunday Services</p>
         <p>

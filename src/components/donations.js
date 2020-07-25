@@ -3,8 +3,7 @@ import styles from "./donations.module.css"
 
 const Donations = () => {
   return (
-    <div className={styles.container}>
-      <a name="epiphany_donate"></a>
+    <div className={styles.container} id="epiphany_donate">
       <h2 className={styles.title}>Please Donate</h2>
       <blockquote className={styles.quote}>
         <p className={styles.text}>

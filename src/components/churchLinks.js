@@ -1,18 +1,21 @@
 import React from "react"
 import styles from "./churchLinks.module.css"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const ChurchLinks = () => {
   return (
     <div>
-      {/* // Epiphany Links */}
-
       <form className={styles.buttonContainer}>
-        <button className={styles.button} formAction="#epiphany_services">
-          Epiphany Services
+        <button className={styles.button}>
+          <AnchorLink to="/#epiphany_services" className="anchorLink" stripHash>
+            Epiphany Services
+          </AnchorLink>
         </button>
 
-        <button className={styles.button} formAction="#epiphany_donate">
-          Make A Donation
+        <button className={styles.button}>
+          <AnchorLink to="/#epiphany_donate" className="anchorLink" stripHash>
+            Make A Donation
+          </AnchorLink>
         </button>
       </form>
 

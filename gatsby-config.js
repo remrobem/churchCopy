@@ -11,6 +11,7 @@ module.exports = {
     "gatsby-plugin-sass",
     `gatsby-plugin-netlify-cms`,
     `gatsby-background-image`,
+    `gatsby-plugin-anchor-links`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
