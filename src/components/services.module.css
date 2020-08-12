@@ -2,6 +2,11 @@
   background-color: #8c93f6;
 }
 
+
+
+.text {
+  font-size: 1rem
+}
 .message {
   margin: 0 1rem;
   color: white;

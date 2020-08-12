@@ -28,28 +28,41 @@ const Services = () => {
   return (
     <div className={styles.background} id="epiphany_services">
       <div className={styles.message}>
-        <p className={styles.pageHeading}>Sunday Services</p>
-        <p>
-          In-person services and events at Epiphany have been suspended due to
-          the COVID-19 pandemic.
-        </p>
-        <p>Sunday services have been recorded for your viewing.</p>
+        <h1 className={styles.pageHeading}>Sunday Services</h1>
+        <main>
+          <p className={styles.text}>
+            In-person services and events at Epiphany have been suspended due to
+            the COVID-19 pandemic.
+          </p>
+          <p className={styles.text}>
+            Sunday services have been recorded for your viewing.
+          </p>
+          <p className={styles.text}>
+            Most of the services are recorded using Facebook. However, you do
+            not need a Facebook account to view the video.
+          </p>
+          <p className={styles.text}>
+            When you receive a page requesting you to logon, select the "Not
+            Now" option at the bottom.
+          </p>
+        </main>
       </div>
 
-        <div className={styles.buttonContainer}>
-          {services.map(service => {
-            return (
-              <form key={service.node.frontmatter.videoLink}>
-                <button
-                  className={styles.button}
-                  formAction={service.node.frontmatter.videoLink}>
-                  {service.node.frontmatter.title}
-                </button>
-              </form>
-            )
-          })}
-        </div>
+      <div className={styles.buttonContainer}>
+        {services.map(service => {
+          return (
+            <form key={service.node.frontmatter.videoLink}>
+              <button
+                className={styles.button}
+                formAction={service.node.frontmatter.videoLink}
+              >
+                {service.node.frontmatter.title}
+              </button>
+            </form>
+          )
+        })}
       </div>
+    </div>
   )
 }
 
