@@ -45,6 +45,16 @@ const Services = () => {
             When you receive a page requesting you to logon, select the "Not
             Now" option at the bottom.
           </p>
+          <p className={styles.text}>
+          <form>
+            <button
+              className={styles.button}
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9pqjJPlUiSxZ00aUUD?e=zSgntS"
+            >
+              Order of Service for Sunday August 23
+            </button>
+          </form>
+          </p>
         </main>
       </div>
 
