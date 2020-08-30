@@ -59,7 +59,7 @@ const Services = () => {
             Due to internet issues, the service for August 30 will not be available until after 5 pm. on Aug 30 
           </p>
           <p className={styles.announcement}>
-            In the meantime, the National Cathedral service is avaibable
+            In the meantime, the National Cathedral service is available
           </p>
           <form>
             <button
