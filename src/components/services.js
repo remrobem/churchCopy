@@ -55,26 +55,7 @@ const Services = () => {
               </button>
             </form>
           </p>
-          <div className={styles.announcement}>
-          <p >
-            Due to internet issues, the service for August 30 will not be
-            available until after 5 pm. on Aug 30
-          </p>
-          <p>
-            In the meantime, the National Cathedral service is available
-          </p>
-          </div>
-          <form>
-            <button
-              className={styles.button}
-              formAction="https://www.youtube.com/watch?v=9EPVSE-BpuA&feature=youtu.be"
-            >
-              National Cathedral Service for Sunday August 30
-            </button>
-          </form>
-        </main>
-      </div>
-
+         
       <div className={styles.buttonContainer}>
         {services.map(service => {
           return (
