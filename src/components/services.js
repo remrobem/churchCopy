@@ -55,7 +55,10 @@ const Services = () => {
               </button>
             </form>
           </p>
-         
+
+        </main>
+      </div>
+
       <div className={styles.buttonContainer}>
         {services.map(service => {
           return (
