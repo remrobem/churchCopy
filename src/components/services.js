@@ -46,21 +46,24 @@ const Services = () => {
             Now" option at the bottom.
           </p>
           <p className={styles.text}>
-          <form>
-            <button
-              className={styles.button}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9pqkmc-WpOUab6Mblq?e=oJZLTm"
-            >
-              Order of Service for Sunday August 30
-            </button>
-          </form>
+            <form>
+              <button
+                className={styles.button}
+                formAction="https://1drv.ms/b/s!AiflQFCf7v9pqkmc-WpOUab6Mblq?e=oJZLTm"
+              >
+                Order of Service for Sunday August 30
+              </button>
+            </form>
           </p>
-          <p className={styles.announcement}>
-            Due to internet issues, the service for August 30 will not be available until after 5 pm. on Aug 30 
+          <div className={styles.announcement}>
+          <p >
+            Due to internet issues, the service for August 30 will not be
+            available until after 5 pm. on Aug 30
           </p>
-          <p className={styles.announcement}>
+          <p>
             In the meantime, the National Cathedral service is available
           </p>
+          </div>
           <form>
             <button
               className={styles.button}
