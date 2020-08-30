@@ -5,8 +5,13 @@
 
 
 .text {
-  font-size: 1rem
+  font-size: 1rem;
 }
+.announcement {
+  font-size: 1.5rem;
+  background-color: red;
+}
+
 .message {
   margin: 0 1rem;
   color: white;

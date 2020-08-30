@@ -49,12 +49,26 @@ const Services = () => {
           <form>
             <button
               className={styles.button}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9pqjJPlUiSxZ00aUUD?e=zSgntS"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9pqkmc-WpOUab6Mblq?e=oJZLTm"
             >
-              Order of Service for Sunday August 23
+              Order of Service for Sunday August 30
             </button>
           </form>
           </p>
+          <p className={styles.announcement}>
+            Due to internet issues, the service for August 30 will not be available until after 5 pm. on Aug 30 
+          </p>
+          <p className={styles.announcement}>
+            In the meantime, the National Cathedral service is avaibable
+          </p>
+          <form>
+            <button
+              className={styles.button}
+              formAction="https://www.youtube.com/watch?v=9EPVSE-BpuA&feature=youtu.be"
+            >
+              National Cathedral Service for Sunday August 30
+            </button>
+          </form>
         </main>
       </div>
 
