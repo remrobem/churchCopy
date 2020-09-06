@@ -51,7 +51,7 @@ const Services = () => {
                 className={styles.button}
                 formAction="https://1drv.ms/b/s!AiflQFCf7v9pqk6047nbT9M4C5d1?e=A5jile"
               >
-                Order of Service for Sunday September 6, 2020
+                Order of Service for Sunday Sept 6, 2020
               </button>
             </form>
           </p>
