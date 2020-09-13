@@ -17,6 +17,12 @@ const ChurchLinks = () => {
             Make A Donation
           </AnchorLink>
         </button>
+        <button
+          className={styles.button}
+          formAction="https://us02web.zoom.us/j/86458901723?pwd=L3pHbmxsblFqM3NpbDA5TzdEeHJ1dz09"
+        >
+          Sunday School at 2 pm
+        </button>
       </form>
 
       {/* // NC Diocese links */}
