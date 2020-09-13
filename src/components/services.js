@@ -49,9 +49,9 @@ const Services = () => {
             <form>
               <button
                 className={styles.button}
-                formAction="https://1drv.ms/b/s!AiflQFCf7v9pqk6047nbT9M4C5d1?e=A5jile"
+                formAction="https://1drv.ms/b/s!AiflQFCf7v9pqlhMcQRfmsu1ILRM?e=dfzcr7"
               >
-                Order of Service for Sunday Sept 6, 2020
+                Order of Service for Sunday Sept 13, 2020
               </button>
             </form>
           </p>
