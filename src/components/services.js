@@ -48,7 +48,7 @@ const Services = () => {
           <p className={styles.text}>
             <form>
               <button
-                className={styles.button}
+                className={`${styles.button} ${styles.button_wide}`}
                 formAction="https://1drv.ms/b/s!AiflQFCf7v9pql0XkPKY5Zf-b6U4?e=1ISl6k"
               >
                 Order of Service for Sunday Sept 20, 2020
