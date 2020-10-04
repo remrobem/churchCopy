@@ -17,7 +17,7 @@ const OutdoorService = () => {
             Attendence is limited and must be reserved ahead of time.
             <form>
               <button
-                className={`${styles.button} ${styles.button_wide}`}
+                className={`${styles.button}`}
                 formAction="https://www.eventbrite.com/e/outdoor-worship-at-epiphany-tickets-123488293811?aff=ebdssbeac"
               >
                 Reserve A Spot
@@ -26,8 +26,9 @@ const OutdoorService = () => {
           </h2>
           <p>Note that reservations are for individuals, not families</p>
           <p>Please cancel your reservations if it turns out you will not attend</p>
+          <p>In the event of inclement weather on Saturday or Sunday, please check back here or see emails regarding your reservation</p>
           <h3>
-            Bring your own Order of Service or Prayer Book on paper or
+            Bring your own Prayer Book or Order of Service on paper or
             electronic device.
           </h3>
           <h3>
