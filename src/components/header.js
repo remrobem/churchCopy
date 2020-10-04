@@ -54,33 +54,6 @@ const Header = () => {
 
           </div>
         </div>
-        {/* <div>
-          <div className={(styles.title2, styles.address, styles.link)}>
-           
-            <a className={styles.link}
-              href="//maps.google.com/?f=q&amp;hl=en&amp;q=Church of the Epiphany Eden NC&maptype=roadmap"
-              target="_blank"
-            >
-               <FaMapMarkerAlt /> 538 Henry St. Eden, NC 27288
-            </a>
-          </div>
-          <div className={(styles.title2, styles.phone, styles.link)}>
-            <a className={styles.link}
-            href="tel:1-336-623-9410"><FaPhone /> 336-623-9410</a>
-          </div>
-          <div className={(styles.title2, styles.email, styles.link)}>
-            <a  className={styles.link}
-            href="mailto:epiphanyeden@embarqmail.com">
-              <FaEnvelope /> epiphanyeden@embarqmail.com
-            </a>
-          </div> */}
-        {/* </div> */}
-        {/* <div> 
-          <div className={styles.address}>538 Henry St</div>
-          <div className={styles.address}>Eden, NC 27288</div>
-          <div className={styles.phone}>336-623-9410</div>
-          <div className={styles.email}>epiphanyeden@embarqmail.com</div>
-        </div> */}
       </div>
     </header>
   )

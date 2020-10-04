@@ -5,7 +5,8 @@ import LandingPage from "./landingPage"
 import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
-import VBS from "./vbs"
+// import VBS from "./vbs"
+import OutdoorService from "./outdoorService.js"
 import VirtualGathering from "./virtualGathering"
 
 const Layout = ({ location, title, children }) => {
@@ -15,9 +16,11 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <OutdoorService />
       <ChurchLinks />
       {/* <VBS /> */}
-      <VirtualGathering />
+      {/* <VirtualGathering /> */}
+      
       <Services />
       <Donations />
       <Footer />

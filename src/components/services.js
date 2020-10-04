@@ -45,17 +45,14 @@ const Services = () => {
             When you receive a page requesting you to logon, select the "Not
             Now" option at the bottom.
           </p>
-          <p className={styles.text}>
-            <form>
-              <button
-                className={`${styles.button} ${styles.button_wide}`}
-                formAction="https://1drv.ms/b/s!AiflQFCf7v9pqx9CJYEx_QQ2uy-d?e=7vLYbx"
-              >
-                Order of Service for Sunday Oct 4, 2020
-              </button>
-            </form>
-          </p>
-
+          <form>
+            <button
+              className={`${styles.button} ${styles.button_wide}`}
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9pqx9CJYEx_QQ2uy-d?e=7vLYbx"
+            >
+              Order of Service for Sunday Oct 4, 2020
+            </button>
+          </form>
         </main>
       </div>
 
