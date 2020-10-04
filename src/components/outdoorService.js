@@ -25,6 +25,7 @@ const OutdoorService = () => {
             </form>
           </h2>
           <p>Note that reservations are for individuals, not families</p>
+          <p>Please cancel your reservations if it turns out you will not attend</p>
           <h3>
             Bring your own Order of Service or Prayer Book on paper or
             electronic device.
