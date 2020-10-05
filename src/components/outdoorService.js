@@ -25,8 +25,13 @@ const OutdoorService = () => {
             </form>
           </h2>
           <p>Note that reservations are for individuals, not families</p>
-          <p>Please cancel your reservations if it turns out you will not attend</p>
-          <p>In the event of inclement weather on Saturday or Sunday, please check back here or see emails regarding your reservation</p>
+          <p>
+            Please cancel your reservations if it turns out you will not attend
+          </p>
+          <p>
+            In the event of inclement weather on Saturday or Sunday, please
+            check back here or see emails regarding your reservation
+          </p>
           <h3>
             Bring your own Prayer Book or Order of Service on paper or
             electronic device.
