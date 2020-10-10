@@ -6,17 +6,18 @@ import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
 // import VBS from "./vbs"
-import OutdoorService from "./outdoorService.js"
-import VirtualGathering from "./virtualGathering"
+import OutdoorService from "./outdoorService"
+import OutdoorServiceCancel from "./outdoorServiceCancel"
+// import VirtualGathering from "./virtualGathering"
 
 const Layout = ({ location, title, children }) => {
-  // const rootPath = `${__PATH_PREFIX__}/`
   
   return (
     <div>
       <Header />
       <LandingPage />
-      <OutdoorService />
+      {/* <OutdoorService /> */}
+      <OutdoorServiceCancel />
       <ChurchLinks />
       {/* <VBS /> */}
       {/* <VirtualGathering /> */}
