@@ -7,18 +7,17 @@ const OutdoorService = () => {
       <div className={styles.messageTop}>
         <div className={styles.message}>
           <h1>Outdoor Service</h1>
-          <h1>Morning Prayer</h1>
-          <h2>October 11, 2020</h2>
-          <h2>10 am</h2>
-          <h2>Side yard behind the playground</h2>
+          <h1>Bishop Sam will be with us to preach and celebrate Holy Eucharist</h1>
+          <h2>October 18, 2020</h2>
+          <h2>9 am</h2>
         </div>
         <div className={styles.message}>
           <h2>
-            Attendence is limited and must be reserved ahead of time.
+            Attendence is limited to 20 people and must be reserved ahead of time.
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/outdoor-worship-at-epiphany-tickets-123488293811?aff=ebdssbeac"
+                formAction="https://www.eventbrite.com/e/bishop-sams-visitation-and-outdoor-eucharist-tickets-125023357227?aff=ebdssbdestsearch"
               >
                 Reserve A Spot
               </button>
