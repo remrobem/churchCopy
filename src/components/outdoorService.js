@@ -3,7 +3,7 @@ import styles from "./outdoorService.module.css"
 
 const OutdoorService = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="outdoor">
       <div className={styles.messageTop}>
         <div className={styles.message}>
           <h1>Outdoor Service</h1>
