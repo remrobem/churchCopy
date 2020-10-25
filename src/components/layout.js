@@ -6,7 +6,7 @@ import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
 // import VBS from "./vbs"
-import OutdoorService from "./outdoorService"
+// import OutdoorService from "./outdoorService"
 import OutdoorServiceCancel from "./outdoorServiceCancel"
 // import VirtualGathering from "./virtualGathering"
 
@@ -16,8 +16,8 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <OutdoorService />
-      {/* <OutdoorServiceCancel /> */}
+      {/* <OutdoorService /> */}
+      <OutdoorServiceCancel />
       <ChurchLinks />
       {/* <VBS /> */}
       {/* <VirtualGathering /> */}
