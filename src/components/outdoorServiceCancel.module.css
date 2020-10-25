@@ -17,10 +17,8 @@ h1, h2 {
     margin: 1rem;
 }
 
-a .link {
-  color: white;
-  text-decoration: underline;
-}
+
+
 .cancel {
   color: red;
 }
