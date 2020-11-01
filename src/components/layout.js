@@ -8,7 +8,8 @@ import Donations from "./donations"
 // import VBS from "./vbs"
 import OutdoorService from "./outdoorService"
 import OutdoorServiceCancel from "./outdoorServiceCancel"
-// import VirtualGathering from "./virtualGathering"
+import VirtualGathering from "./virtualGathering"
+import HealingService from "./healingService"
 
 const Layout = ({ location, title, children }) => {
   
@@ -16,12 +17,12 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <HealingService />
       {/* <OutdoorService /> */}
-      <OutdoorServiceCancel />
+      {/* <OutdoorServiceCancel /> */}
       <ChurchLinks />
       {/* <VBS /> */}
       {/* <VirtualGathering /> */}
-      
       <Services />
       <Donations />
       <Footer />
