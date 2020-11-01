@@ -8,7 +8,7 @@ const OutdoorServiceCancel = () => {
       <div className={styles.messageTop}>
         <div className={styles.message}>
           <h1>Outdoor Service</h1>
-          <h2>October 25, 2020</h2>
+          <h2>November 1, 2020</h2>
           <h1 className={styles.cancel}>
             Canceled due to poor weather conditions
           </h1>
