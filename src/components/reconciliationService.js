@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./reconciliationService.module.css"
 // import image from "./../../content/assets/HoldingHope_Calendar-756x624.jpg"
 
-const HealingService = () => {
+const ReconciliationService = () => {
   return (
     <div className={styles.container}>
       <a name="reconciliation"></a>
@@ -31,4 +31,4 @@ const HealingService = () => {
   )
 }
 
-export default HealingService
+export default ReconciliationService
