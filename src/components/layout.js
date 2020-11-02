@@ -10,6 +10,7 @@ import OutdoorService from "./outdoorService"
 import OutdoorServiceCancel from "./outdoorServiceCancel"
 import VirtualGathering from "./virtualGathering"
 import HealingService from "./healingService"
+import ReconciliationService from "./reconciliationService"
 
 const Layout = ({ location, title, children }) => {
   
@@ -17,9 +18,10 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <HealingService />
+      {/* <HealingService /> */}
       {/* <OutdoorService /> */}
       {/* <OutdoorServiceCancel /> */}
+      <ReconciliationService />
       <ChurchLinks />
       {/* <VBS /> */}
       {/* <VirtualGathering /> */}
