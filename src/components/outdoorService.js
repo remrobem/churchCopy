@@ -8,7 +8,7 @@ const OutdoorService = () => {
         <div className={styles.message}>
           <h1>Outdoor Service</h1>
           <h2>Holy Eucharist</h2>
-          <h2>Sunday November 15, 2020</h2>
+          <h2>Sunday November 22, 2020</h2>
           <h2>10 am</h2>
         </div>
         <div className={styles.message}>
@@ -17,7 +17,7 @@ const OutdoorService = () => {
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/november-15-holy-eucharist-tickets-128782268231"
+                formAction="https://www.eventbrite.com/e/november-22-outdoor-holy-eucharist-tickets-129337222113?fbclid=IwAR3R4kLRZAqUy90pP5g5saQ6wm7C-2dglUM8m-90eJaLdd-9i3a-p_-5dAc"
               >
                 Reserve A Spot
               </button>
