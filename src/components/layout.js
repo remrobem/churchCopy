@@ -19,7 +19,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       {/* <HealingService /> */}
-      <OutdoorService />
+      {/* <OutdoorService /> */}
       {/* <OutdoorServiceCancel /> */}
       {/* <ReconciliationService /> */}
       <ChurchLinks />
