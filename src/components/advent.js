@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "./advent.module.css"
-import image from "../../content/assets/advent.png"
 
 const Advent = () => {
   return (
