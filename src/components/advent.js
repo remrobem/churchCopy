@@ -21,20 +21,19 @@ const Advent = () => {
             Retreat leaders: The Rt. Rev. William Gregg, The Rev. Wheigar Bright
             and The Rev. Linda Nye
           </h2>
-          <h2>Join the meeting on Facebook Live @stthomasreidsville</h2>
-          <h2>Or Zoom at https://us02web.zoom.us/j/84933334949?pwd=ZXpaV0N5dDhtTWlYODZmdlFXSWUzZz09</h2>
+          {/* <h2>Join the meeting on Facebook Live @stthomasreidsville</h2>
+          <h2>Or Zoom at https://us02web.zoom.us/j/84933334949?pwd=ZXpaV0N5dDhtTWlYODZmdlFXSWUzZz09</h2> */}
         </div>
       </div>
-      {/* <div>
+      <div>
         <form>
           <button
             className={styles.button}
-            formAction="https://us02web.zoom.us/j/84933334949?pwd=ZXpaV0N5dDhtTWlYODZmdlFXSWUzZz09"
-          >
+            formAction="https://us02web.zoom.us/j/84933334949?pwd=ZXpaV0N5dDhtTWlYODZmdlFXSWUzZz09">
             Join the Zoom Meeting Here
           </button>
         </form>
-      </div> */}
+      </div>
     </div>
   )
 }
