@@ -19,7 +19,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <Advent />
+      {/* <Advent /> */}
       {/* <HealingService /> */}
       {/* <OutdoorService /> */}
       {/* <OutdoorServiceCancel /> */}
