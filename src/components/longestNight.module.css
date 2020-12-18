@@ -1,6 +1,6 @@
 
   .container {
-    background-color: lightcyan;
+    background-color: white;
     margin: 0;
     padding: 0;
     padding-bottom: 2rem;
@@ -21,10 +21,10 @@
 }
 
 .image {
-    margin: 0 1rem;
-    width: 40rem;
-    border: none;
-    float: left;
+    margin: 1 1rem;
+    width: 100vw;
+    border: white solid 5px;
+    /* float: left; */
 }
 
 .text {
