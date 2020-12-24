@@ -18,7 +18,7 @@ const Christmas = () => {
       <h3>Christmas Eve</h3>
       <h4 className={styles.text}>10:00 am Eucharist of the Incarnation.</h4>
       <p className={styles.text}>
-        Watch <a href="https://www.facebook.com/madre.linda.7">here</a> or
+        Watch the service<a href="https://www.facebook.com/madre.linda.7/videos/3418521311534932"> here</a> or
         Services below
       </p>
       <p className={styles.text}>
