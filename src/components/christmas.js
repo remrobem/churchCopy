@@ -23,12 +23,12 @@ const Christmas = () => {
       </p>
       <p className={styles.text}>
         From 11:00 am - 1:00 pm, and from 4:00 - 6:00 pm, you can drive up to a
-        space in front of the church. container. 
+        space in front of the church. 
         </p>
       <p className={styles.text}>
         Mother Linda will bring
         communion to everyone in your car. If someone in your family can't
-        travel by car, I'll give you a wafer to take to them.
+        travel by car, Mother Linda will give you a wafer to take to them.
       </p>
       <h3>Christmas Day</h3>
       <h4 className={styles.text}>9:00 am Zoom Meeting</h4>
