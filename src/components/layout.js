@@ -12,7 +12,7 @@ import OutdoorServiceCancel from "./outdoorServiceCancel"
 import VirtualGathering from "./virtualGathering"
 import HealingService from "./healingService"
 import ReconciliationService from "./reconciliationService"
-import LongestNight from "./longestNight"
+import Christmas from "./christmas"
 
 const Layout = ({ location, title, children }) => {
   
@@ -20,6 +20,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <Christmas />
       {/* <LongestNight /> */}
       {/* <Advent /> */}
       {/* <HealingService /> */}
