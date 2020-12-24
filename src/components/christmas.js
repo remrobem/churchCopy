@@ -5,7 +5,7 @@ const Christmas = () => {
   return (
     <div className={styles.container} id="christmas">
       <h2 className={styles.title}>Christmas Services</h2>
-      <blockquote className={styles.quote}>
+      {/* <blockquote className={styles.quote}>
         <p className={styles.text}>
           But the angel said to them, "Do not be afraid; for see-- I am bringing
           you good news of great joy for all the people: to you is born this day
@@ -14,7 +14,7 @@ const Christmas = () => {
           lying in a manger."
         </p>
         <footer>Luke 2: 10-12</footer>
-      </blockquote>
+      </blockquote> */}
       <h3>Christmas Eve</h3>
       <h4 className={styles.text}>10:00 am Eucharist of the Incarnation.</h4>
       <p className={styles.text}>
