@@ -32,11 +32,15 @@ const Christmas = () => {
       </p>
       <h3>Christmas Day</h3>
       <h4 className={styles.text}>9:00 am Zoom Meeting</h4>
-      <p className={styles.text}>Check back here for Zoom details</p>
       <p className={styles.text}>
        A short service on Christmas morning from 9:00 - 9:30 will be offered
         via Zoom, so that we might see each other's faces on that holy morning.
       </p>
+      <p className={styles.text}>Click 
+      <a href="https://us02web.zoom.us/j/86407715791"> here </a>
+      to join the Zoom meeting</p>
+      <p className={styles.text}>or call 301.715.8592 and use meeting id 86407715791#</p>
+      
     </div>
   )
 }
