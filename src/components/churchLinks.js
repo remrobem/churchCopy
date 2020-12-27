@@ -12,6 +12,12 @@ const ChurchLinks = () => {
           </AnchorLink>
         </button>
 
+        <button className={styles.button}>
+          <AnchorLink to="/#epiphany_donate" className="anchorLink" stripHash>
+            Donate
+          </AnchorLink>
+        </button>
+
         <button
           className={styles.button}
           formAction="https://1drv.ms/b/s!AiflQFCf7v9pqyDxjnFS53t99gR2?e=6LdhAD"
