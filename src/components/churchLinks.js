@@ -18,15 +18,15 @@ const ChurchLinks = () => {
         >
           Newsletter
         </button>
-        
-        <button className={styles.button}>
-          <AnchorLink to="/#epiphany_donate" className="anchorLink" stripHash>
-            Make A Donation
-          </AnchorLink>
-        </button>
+
         <button
+          type="button"
           className={styles.button}
-          formAction="https://us02web.zoom.us/j/86458901723?pwd=L3pHbmxsblFqM3NpbDA5TzdEeHJ1dz09"
+          onClick={e => {
+            e.preventDefault()
+            window.location.href =
+              "https://us02web.zoom.us/j/86458901723?pwd=L3pHbmxsblFqM3NpbDA5TzdEeHJ1dz09"
+          }}
         >
           Sunday School at 2 pm
         </button>
