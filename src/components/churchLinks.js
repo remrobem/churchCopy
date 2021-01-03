@@ -31,7 +31,7 @@ const ChurchLinks = () => {
           onClick={e => {
             e.preventDefault()
             window.location.href =
-              "https://us02web.zoom.us/j/86458901723?pwd=L3pHbmxsblFqM3NpbDA5TzdEeHJ1dz09"
+              "https://us02web.zoom.us/j/86264215594"
           }}
         >
           Sunday School at 2 pm
