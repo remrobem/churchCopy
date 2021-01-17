@@ -38,13 +38,20 @@ const Services = () => {
             Sunday services have been recorded for your viewing.
           </p>
           <p className={styles.text}>
-            Most of the services are recorded using Facebook. However, you do
-            not need a Facebook account to view the video.
+            Most of the services are recorded on <a href="https://www.facebook.com/epiphanyeden">Facebook.</a> 
           </p>
           <p className={styles.text}>
+            Starting January 17, 2021, the video will also be uploaded to
+            YouTube and the link below will open the video in YouTube.
+          </p>
+          <p className={styles.text}>
+            This process takes some time so the Youtube video will not be
+            available for at least 1 hour after the service ends.
+          </p>
+          {/* <p className={styles.text}>
             When you receive a page requesting you to logon, select the "Not
             Now" option at the bottom.
-          </p>
+          </p> */}
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
