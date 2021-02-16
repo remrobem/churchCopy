@@ -13,6 +13,7 @@ import VirtualGathering from "./virtualGathering"
 import HealingService from "./healingService"
 import ReconciliationService from "./reconciliationService"
 import Christmas from "./christmas"
+import ShroveTuesday from "./shrove_tuesday"
 
 const Layout = ({ location, title, children }) => {
   
@@ -20,6 +21,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <ShroveTuesday />
       {/* <Christmas /> */}
       {/* <LongestNight /> */}
       {/* <Advent /> */}
