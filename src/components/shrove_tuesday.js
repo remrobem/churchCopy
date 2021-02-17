@@ -24,10 +24,10 @@ const ShroveTuesday = () => {
           onClick={e => {
             e.preventDefault()
             window.location.href =
-              "https://us02web.zoom.us/j/82068036592"
+              "https://youtu.be/Igyf-0BiEU8"
           }}
         >
-          Join Service at 7 pm
+          Watch the Service
         </button>
         </div>
       </div>
