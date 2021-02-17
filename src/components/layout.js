@@ -15,6 +15,7 @@ import ReconciliationService from "./reconciliationService"
 import Christmas from "./christmas"
 import ShroveTuesday from "./shrove_tuesday"
 import AshWednesday from "./ash-wednesday"
+import AshWednesday1 from "./ash-wednesday1"
 
 const Layout = ({ location, title, children }) => {
   
@@ -22,7 +23,8 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <AshWednesday />
+      {/* <AshWednesday /> */}
+      <AshWednesday1 />
       <ShroveTuesday />
       {/* <Christmas /> */}
       {/* <LongestNight /> */}

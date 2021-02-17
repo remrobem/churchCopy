@@ -1,7 +1,7 @@
 import React from "react"
-import styles from "./ash-wednesday.module.css"
+import styles from "./ash-wednesday1.module.css"
 
-const AshWednesday = () => {
+const AshWednesday1 = () => {
   return (
     <div className={styles.container}>
       <div className={styles.messageTop}>
@@ -26,4 +26,4 @@ const AshWednesday = () => {
   )
 }
 
-export default AshWednesday
+export default AshWednesday1
