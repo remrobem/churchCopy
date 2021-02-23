@@ -12,6 +12,8 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-background-image`,
     `gatsby-plugin-anchor-links`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -55,8 +57,7 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+  
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
