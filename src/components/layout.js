@@ -5,7 +5,8 @@ import LandingPage from "./landingPage"
 import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
-import Advent from "./advent"
+// import Advent from "./advent"
+import LentenStudy from "./lentenStudy"
 // import VBS from "./vbs"
 // import OutdoorService from "./outdoorService"
 // import OutdoorServiceCancel from "./outdoorServiceCancel"
@@ -23,6 +24,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <LentenStudy />
       {/* <AshWednesday /> */}
       {/* <AshWednesday1 /> */}
       {/* <ShroveTuesday /> */}
