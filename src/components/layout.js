@@ -5,6 +5,7 @@ import LandingPage from "./landingPage"
 import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
+import Pledge from "./pledge"
 // import Advent from "./advent"
 import LentenStudy from "./lentenStudy"
 // import VBS from "./vbs"
@@ -39,6 +40,7 @@ const Layout = ({ location, title, children }) => {
       {/* <VBS /> */}
       {/* <VirtualGathering /> */}
       <Services />
+      <Pledge />
       <Donations />
       <Footer />
     </div>

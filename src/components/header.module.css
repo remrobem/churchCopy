@@ -2,15 +2,7 @@
 .title {
   text-decoration: none;
   font-size: 4vw;
-}
-
-.container {
-  width: 100%;
-  max-width: 100%;
-  padding: 1em;
-  margin: 0;
-  color: black;
-  background-color: white;
+  text-align: center;
 }
 
 .header .container {
@@ -20,6 +12,16 @@
   flex-wrap: nowrap;
   text-decoration: none;
 }
+.container {
+  /* width: 100vw; */
+  /* max-width: 100vw; */
+  padding: 1em;
+  margin: 0;
+  color: black;
+  background-color: white;
+}
+
+
 
 .links {
 display: flex;
@@ -27,8 +29,37 @@ flex-flow: row nowrap;
 justify-content: space-around;
 }
 
+.buttons {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  }
+
 .link {
   all: unset;
   color: inherit;
   font-size: 1.5vw;
 }
+
+.button {
+  background: rgb(196, 196, 245);
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 2.0vw;
+  padding: .3em .3em;
+  text-decoration: none;
+  margin: 0.3rem;
+  border: none;
+  width: 20rem;
+  text-align: center;
+  /* width: 10rem; */
+}
+
+.button:hover {
+  background-color: rgb(1, 20, 196);
+  font-weight: bolder;
+}
+
