@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    align-items: space-around;
+    background-color: #960BDA;
+  }
+
+.image {
+    width: 100vw;
+}
