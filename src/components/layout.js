@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <OutdoorService />
-      <LentenQuietDay />
+      {/* <LentenQuietDay /> */}
       <LentenStudy />
       {/* <AshWednesday /> */}
       {/* <AshWednesday1 /> */}
