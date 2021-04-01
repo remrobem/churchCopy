@@ -55,9 +55,17 @@ const Services = () => {
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9prju_xmshD-i9bLkT?e=WsTHi5"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9prkdR2gs4byKHpMud?e=Y1o4Wk"
             >
-              Order of Service for March 28, 2021
+              Order of Service for Maundy Thursday April 1, 2021
+            </button>
+          </form>
+          <form>
+            <button
+              className={`${styles.button} ${styles.button_wide}`}
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9prkhxfEOrcD2yKzbf?e=SZsMyb"
+            >
+              Order of Service for Good Friday April 2, 2021
             </button>
           </form>
         </main>

@@ -6,21 +6,46 @@ const OutdoorService = () => {
     <div className={styles.container} id="outdoor">
       <div className={styles.messageTop}>
         <div className={styles.message}>
-          <h1>Outdoor Service</h1>
-          <h2>Holy Eucharist</h2>
-          <h2>Sundays at 10 am </h2>
+          <h1>Outdoor Services</h1>
+          {/* <h2>Holy Eucharist</h2> */}
+          {/* <h2>Sundays at 10 am </h2> */}
         </div>
         <div className={styles.message}>
           <h2>
-            Attendence is limited to 20 people and must be reserved ahead of time.
+            Attendence is limited and must be reserved ahead of time.
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/146856934043"
+                formAction="https://www.eventbrite.com/e/outdoor-holy-eucharist-tickets-146856934043"
               >
-                Reserve A Spot
+                Sunday 10:00 am Services (including Easter Sunday)
               </button>
             </form>
+            <form>
+              <button
+                className={`${styles.button}`}
+                formAction="https://www.eventbrite.com/e/maundy-thursday-service-tickets-148921140139"
+              >
+                Maundy Thursday 6:00 pm Service
+              </button>
+            </form>
+            <form>
+              <button
+                className={`${styles.button}`}
+                formAction="https://www.eventbrite.com/e/good-friday-service-tickets-148922385865"
+              >
+                Good Friday 12:00 Noon Service
+              </button>
+            </form>
+            <form>
+              <button
+                className={`${styles.button}`}
+                formAction="https://www.eventbrite.com/e/easter-vigil-tickets-148923703807"
+              >
+                Easter Vigil 8:00 pm Service (Saturday)
+              </button>
+            </form>
+
           </h2>
           <p>Note that reservations are for individuals, not families</p>
           <p>

@@ -7,7 +7,7 @@ import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
 import Pledge from "./pledge"
 // import Advent from "./advent"
-import LentenStudy from "./lentenStudy"
+// import LentenStudy from "./lentenStudy"
 // import LentenQuietDay from "./lentenQuietDay"
 // import VBS from "./vbs"
 import OutdoorService from "./outdoorService"
@@ -28,7 +28,7 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <OutdoorService />
       {/* <LentenQuietDay /> */}
-      <LentenStudy />
+      {/* <LentenStudy /> */}
       {/* <AshWednesday /> */}
       {/* <AshWednesday1 /> */}
       {/* <ShroveTuesday /> */}
