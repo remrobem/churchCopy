@@ -24,9 +24,9 @@ const OutdoorService = () => {
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/maundy-thursday-service-tickets-148921140139"
+                formAction="https://www.facebook.com/madre.linda.7"
               >
-                Maundy Thursday 6:00 pm Service
+                Maundy Thursday service at 6:00 pm will be online only
               </button>
             </form>
             <form>
