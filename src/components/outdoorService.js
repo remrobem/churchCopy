@@ -24,14 +24,6 @@ const OutdoorService = () => {
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.facebook.com/madre.linda.7"
-              >
-                Maundy Thursday service at 6:00 pm will be online only
-              </button>
-            </form>
-            <form>
-              <button
-                className={`${styles.button}`}
                 formAction="https://www.eventbrite.com/e/good-friday-service-tickets-148922385865"
               >
                 Good Friday 12:00 Noon Service
