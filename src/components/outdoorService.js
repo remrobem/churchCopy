@@ -24,14 +24,6 @@ const OutdoorService = () => {
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/good-friday-service-tickets-148922385865"
-              >
-                Good Friday 12:00 Noon Service
-              </button>
-            </form>
-            <form>
-              <button
-                className={`${styles.button}`}
                 formAction="https://www.eventbrite.com/e/easter-vigil-tickets-148923703807"
               >
                 Easter Vigil 8:00 pm Service (Saturday)
