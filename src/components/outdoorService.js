@@ -18,18 +18,9 @@ const OutdoorService = () => {
                 className={`${styles.button}`}
                 formAction="https://www.eventbrite.com/e/outdoor-holy-eucharist-tickets-146856934043"
               >
-                Sunday 10:00 am Services (including Easter Sunday)
+                Sunday 10:00 am Services
               </button>
             </form>
-            <form>
-              <button
-                className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/easter-vigil-tickets-148923703807"
-              >
-                Easter Vigil 8:00 pm Service (Saturday)
-              </button>
-            </form>
-
           </h2>
           <p>Note that reservations are for individuals, not families</p>
           <p>
