@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    align-items: space-around;
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),url("../../content/assets/AndTheyTraveled.jpg");
+    background-position: bottom center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    margin: 1rem;
+}
+
+
+
+.cancel {
+  color: red;
+}
+
+.button {
+    background: rgb(74, 74, 241);
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0.3rem;
+    border: none;
+    width: 60vw;
+    height: 4rem;
+  }
+
+  .button:hover {
+    background-color: rgb(1, 20, 196);
+    font-weight: bolder;
+  }
+
+
+.messageTop {
+    color: white;
+    align-items: center;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+
+.message {
+    color:white;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+ol {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left; 
+    list-style-position: outside;
+}

@@ -5,12 +5,14 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+# publish_mode: editorial_workflow
+
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
     create: true
-    slug: 'index'
+    # slug: 'index'
     media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
@@ -19,33 +21,21 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      # - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'blog1'
-    label: 'Blog1'
-    folder: 'content/blog1'
-    create: true      
-    slug: 'blog1'
+  - name: 'services'
+    label: 'Services'
+    folder: 'content/services'
+    create: true
+    # slug: 'index'
     media_folder: ''
     public_folder: ''
-    path: '{{title}}/blog1'
+    path: '{{title}}/index'
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Service Date', name: 'title', widget: 'string' }
+      - { label: 'Video Link', name: 'videoLink', widget: 'string' }
+      - { label: 'Service Order Link', name: 'serviceOrderlink', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'videos'
-    label: 'videos'
-    folder: 'content/videos'
-    create: true      
-    slug: 'videos'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/videos'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Service', name: 'service', widget: 'string' }
-      - { label: 'Video', name: 'video', widget: 'string' }
+      - { label: 'Description', name: 'serviceDescription', widget: 'markdown' }

@@ -1,20 +1,44 @@
 module.exports = {
   siteMetadata: {
-    title: `Church of the Epiphany`,
-    description: `Website for Church of the Epiphany in Eden, NC`,
+    title: `The Episcopal Church of the Epiphany`,
+    description: `Church of the Epiphany. An Episcopal church in Eden, NC that is part of the Diocese of North Carolina`,
     siteUrl: `https://epiphanyeden.org/`,
     social: {
       facebook: `epiphanyeden`,
     },
   },
   plugins: [
-    'gatsby-plugin-sass',
+    "gatsby-plugin-sass",
     `gatsby-plugin-netlify-cms`,
+    `gatsby-background-image`,
+    `gatsby-plugin-anchor-links`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-mailgo`,
+      options: {
+        mailgoConfig: {
+          dark: true,
+          showFooter: false,
+          details: {
+            subject: false,
+            body: false,
+          },
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/services`,
+        name: `services`,
       },
     },
     {
@@ -46,8 +70,7 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+  
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -58,13 +81,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Church of the Epiphany`,
+        short_name: `Epiphany`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/shield.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
