@@ -55,17 +55,9 @@ const Services = () => {
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9prk5bTksO32XClc1J?e=GdxjEX"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9prl34WVfzA3903y9t?e=SX7Wte"
             >
-              Order of Service for Easter Vigil April 3, 2021
-            </button>
-          </form>
-          <form>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9prk8G28RusFAxfz5r?e=hILDNF"
-            >
-              Order of Service for Easter April 4, 2021
+              Order of Service for April 11, 2021
             </button>
           </form>
         </main>
