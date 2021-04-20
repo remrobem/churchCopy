@@ -12,7 +12,7 @@ const Pledge = () => {
         <footer>Luke 1:37</footer>
       </blockquote>
       <p className={styles.text}>
-        You can provide your estimate of giving by sending an email to pledge@epiphanyeden.org
+        You can provide your estimate of giving by sending an email to giving@epiphanyeden.org
       </p>
       <p className={styles.text}>
         or by using the Estimated Giving button below to open an email for you.
