@@ -16,7 +16,7 @@ const Donations = () => {
         <footer>Matthew 6: 19-21</footer>
       </blockquote>
       <p className={styles.text}>
-        Please remember to continue fulfilling your pledges or make
+        Please remember to continue fulfilling your estimated givin or make
         contributions to Epiphany.
       </p>
       <p className={styles.text}>
