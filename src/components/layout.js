@@ -10,7 +10,8 @@ import Pledge from "./pledge"
 // import LentenStudy from "./lentenStudy"
 // import LentenQuietDay from "./lentenQuietDay"
 // import VBS from "./vbs"
-import OutdoorService from "./outdoorService"
+// import OutdoorService from "./outdoorService"
+import IndoorService from "./indoorService"
 // import OutdoorServiceCancel from "./outdoorServiceCancel"
 // import VirtualGathering from "./virtualGathering"
 // import HealingService from "./healingService"
@@ -26,7 +27,8 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <OutdoorService />
+      {/* <OutdoorService /> */}
+      <IndoorService />
       {/* <LentenQuietDay /> */}
       {/* <LentenStudy /> */}
       {/* <AshWednesday /> */}
