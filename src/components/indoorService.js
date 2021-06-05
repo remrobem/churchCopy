@@ -14,7 +14,7 @@ const IndoorService = () => {
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/holy-eucharist-tickets-157059419953"
+                formAction="https://www.eventbrite.com/e/holy-eucharist-tickets-157661877921"
               >
                 Reserve Your Spot for Sunday 10:00 am Service
               </button>
