@@ -6,6 +6,7 @@ import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
 import Pledge from "./pledge"
+import Announcements from "./announcements"
 // import Advent from "./advent"
 // import LentenStudy from "./lentenStudy"
 // import LentenQuietDay from "./lentenQuietDay"
@@ -27,6 +28,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <Announcements />
       {/* <OutdoorService /> */}
       <IndoorService />
       {/* <LentenQuietDay /> */}
