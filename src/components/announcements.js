@@ -32,7 +32,7 @@ const Announcements = () => {
       </div>
 
       <div className={styles.announcement}>
-        <h1>Sunday School - on Tuesday's!!</h1>
+        <h1>Sunday School - on Tuesdays!!</h1>
         <div className={styles.text}>
           <p>
             Starting June 15, adult Sunday School will be Tuesdays at 7 pm. We
