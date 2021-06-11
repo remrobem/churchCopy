@@ -5,29 +5,21 @@ const Announcements = () => {
   return (
     <div className={styles.container}>
       <div className={styles.announcement}>
-        <h1>Women's Group Meeting</h1>
+        <h1>Estate Sale</h1>
         <div className={styles.text}>
           <p>
-            Let’s plan to meet Wednesday morning, June 9 at 10:00 a.m. at Ample
-            Storage (beside Tractor Supply) to begin pricing items for our sale.
+            The Epiphany Church Women are sponsoring an estate sale Friday, June
+            18 and Saturday, June 19 from 9:00 a.m. to 12:00 noon.
           </p>
+          <p>The sale will be held at <a href="https://goo.gl/maps/bZJxUri2hh6X7Vht5">Ample Storage.</a> </p>
+          <p>All proceeds will go to outreach. </p>
+          <p>We need volunteers to work the sale, set up and clean up.</p>
+          <p>We will also need men to help with this sale. </p>
           <p>
-            Go to the right side of the building, second door to get to our
-            storage unit, #21.
+            Please contact Mary Ivie for more details and/or to let her know how
+            you can help.
           </p>
-          <p>
-            Plan to have lunch at Rio Grande at 12:00. If you can’t meet us at
-            10:00, please feel free to join us for lunch.
-          </p>
-          <p>Each person is responsible for paying for her own lunch. </p>
-          <p>
-            If you have any questions, please contact Mary Ivie at
-            mary.ivie@gmail.com or 336-613-7952.{" "}
-          </p>
-          <p>
-            If you plan to join us for lunch, please let Mary know so she can
-            let Rio Grande know our number.
-          </p>
+          <p>Contact information: mary.ivie@gmail.com or 336-613-7952.</p>
         </div>
       </div>
 
