@@ -4,24 +4,6 @@ import styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.announcement}>
-        <h1>Estate Sale</h1>
-        <div className={styles.text}>
-          <p>
-            The Epiphany Church Women are sponsoring an estate sale Friday, June
-            18 and Saturday, June 19 from 9:00 a.m. to 12:00 noon.
-          </p>
-          <p>The sale will be held at <a href="https://goo.gl/maps/bZJxUri2hh6X7Vht5">Ample Storage.</a> </p>
-          <p>All proceeds will go to outreach. </p>
-          <p>We need volunteers to work the sale, set up and clean up.</p>
-          <p>We will also need men to help with this sale. </p>
-          <p>
-            Please contact Mary Ivie for more details and/or to let her know how
-            you can help.
-          </p>
-          <p>Contact information: mary.ivie@gmail.com or 336-613-7952.</p>
-        </div>
-      </div>
 
       <div className={styles.announcement}>
         <h1>Sunday School - on Tuesdays!!</h1>
