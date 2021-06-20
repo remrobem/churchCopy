@@ -55,19 +55,19 @@ const Services = () => {
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9psAOs_J6PKzln0jdy?e=QJc3H1"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9psDAZ1XwxX3UIBY5K"
             >
-              Order of Service for June 6, 2021
+              Order of Service for June 20, 2021
             </button>
           </form>
-          {/* <form>
+          <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9pr2-Zoxx2PoZtWmyB?e=XE8pBB"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9psEFjvbtTmPW5Xmt8"
             >
-              Music for May 30, 2021
+              Music for June 20, 2021
             </button>
-          </form> */}
+          </form>
         </main>
       </div>
 
