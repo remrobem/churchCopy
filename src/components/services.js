@@ -31,41 +31,28 @@ const Services = () => {
         <h1 className={styles.pageHeading}>Sunday Services</h1>
         <main>
           <p className={styles.text}>
-            In-person services and events at Epiphany have been suspended due to
-            the COVID-19 pandemic.
-          </p>
-          <p className={styles.text}>
             Sunday services have been recorded for your viewing.
           </p>
           <p className={styles.text}>
-            Most of the services are recorded on <a href="https://www.facebook.com/epiphanyeden">Facebook.</a> 
+            Videos can be found on <a href="https://www.facebook.com/epiphanyeden">Facebook</a> and <a href="https://www.youtube.com/channel/UCQhee_wvQ62Bcv5lr2ftGVg">YouTube</a>
           </p>
           <p className={styles.text}>
-            Starting January 17, 2021, the video will also be uploaded to
-            YouTube and the link below will open the video in YouTube.
+            or by clicking the links below.
           </p>
-          <p className={styles.text}>
-            This process takes some time so the Youtube video will not be
-            available for at least 1 hour after the service ends.
-          </p>
-          {/* <p className={styles.text}>
-            When you receive a page requesting you to logon, select the "Not
-            Now" option at the bottom.
-          </p> */}
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9psDAZ1XwxX3UIBY5K?e=2WUPn1"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9psFPqJPghR0TjHG16?e=QdQuRr"
             >
-              Order of Service for June 20, 2021
+              Order of Service for July 4, 2021
             </button>
           </form>
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9psEFjvbtTmPW5Xmt8?e=hczwy8"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9psF7xyOPL-Wwi2Iez?e=5y4XeW"
             >
-              Music for June 20, 2021
+              Music for July 4, 2021
             </button>
           </form>
         </main>
