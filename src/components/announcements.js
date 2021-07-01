@@ -4,7 +4,7 @@ import VBSImage from "../../content/assets/VBS_image.png"
 
 const Announcements = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="vbs">
       <div className={styles.announcement}>
         <div className={`${styles.image}`}>
           <img src={VBSImage} alt="Compassion VBS logo"></img>
