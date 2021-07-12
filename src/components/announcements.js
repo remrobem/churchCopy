@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./announcements.module.css"
-import VBSImage from "../../content/assets/VBS_image.png"
+import VBSImage from "../../content/assets/VBS2021.jpg"
 
 const Announcements = () => {
   return (

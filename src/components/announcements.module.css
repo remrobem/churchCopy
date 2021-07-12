@@ -18,9 +18,11 @@
 }
 .image {
   text-align: center;
-
 }
 
+img {
+  width: 50vw;
+}
 .text {
   margin: 0 0;
   display: flex;
