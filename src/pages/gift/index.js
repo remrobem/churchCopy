@@ -136,23 +136,22 @@ const GIFT = ({ env }) => {
          Since 1844, people have been growing in faith together at Epiphany.
        </p>
        <p className={styles.text}>
-         Growing in faith together through worship, outreach and fellowship.
-         Through celebration and mourning, giving and receiving, agreement and
-         disagreement. Through questioning and doubt, revelation and
-         undertanding.
+         We grow in faith together through worship, outreach and fellowship.
+         We grow together through celebration and mourning, giving and receiving, agreement and
+         disagreement. And we also grow together in faith through questioning and doubt, revelation and
+         understanding and the acceptance of Jesus and the Holy Spirit in our lives.
        </p>
        <p className={styles.text}>
-         And through the generosity of people sharing God's gifts with Epiphany.
-         Epiphany depends on the sharing of your money in order to continue, in
-         order for us to continue growing in faith together.
+         And through the generosity of people like you sharing God's gifts with Epiphany,
+         we will continue growing in faith together.
        </p>
  
-      
          <p className={styles.text}>
          It requires at least $180,000 per year to operate our church. 
        </p>
          <p className={styles.text}>
-         This information is very important for the vestry to plan and budget for 2022, and to be good stewards of the finacial gifts the church receives.
+         Your estimate of giving is very important for the vestry to plan and budget for 2022, 
+         and to be good stewards of the financial gifts the church receives.
        </p>
     <Footer />
     </div>
@@ -161,49 +160,3 @@ const GIFT = ({ env }) => {
 
 export default GIFT
 
-// import React from "react"
-// import styles from "./gift.module.css"
-
-// const GIFT = () => {
-//   return (
-//     <div className={styles.container} id="gift">
-//       <h2 className={styles.title}>Growing In Faith Together</h2>
-
-//       <p className={styles.text}>
-//         Since 1844, people have been growing in faith together at Epiphany.
-//       </p>
-//       <p className={styles.text}>
-//         Growing in faith together through worship, outreach and fellowship.
-//         Through celebration and mourning, giving and receiving, agreement and
-//         disagreement. Through questioning and doubt, revelation and
-//         undertanding.
-//       </p>
-//       <p className={styles.text}>
-//         And through the generosity of people sharing God's gifts with Epiphany.
-//         Epiphany depends on the sharing of your money in order to continue, in
-//         order for us to continue growing in faith together.
-//       </p>
-//       <p className={styles.text}>
-//         Epiphany requires at least $180,000 per year to operate.
-//       </p>
-//       <p className={styles.text}>
-//         Epiphany is asking for an estimate of your financial giving for 2022.
-//         This information is very important for the vestry to plan and budget for 2022, to be good stewards of the fincial gifts the church receives.
-//       </p>
-//       <p className={styles.text}>
-//         Checks can be made out to Church of the Epiphany and mailed to 538 Henry
-//         St, Eden NC 27288
-//       </p>
-//       <p className={styles.text}>
-//         Or you can use the link below to use your credit card to make a
-//         contribution directly to Epiphany.
-//       </p>
-
-//       <a href="https://tithe.ly/give?c=3897734">
-//         <button className={styles.button}>GIFT</button>
-//       </a>
-//     </div>
-//   )
-// }
-
-// export default GIFT
