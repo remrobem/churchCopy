@@ -82,10 +82,12 @@ const GIFT = ({ env }) => {
         <input
           className={styles.textInput}
           type="text"
-          name="donorName-entry"
-          id="donorName-entry"
+          name="donorName"
+          // value="donorName"
+          id="donorName"
           placeholder="Your Name(s)"
           required
+          onChange={ (e) => handleNameChange(e)}
         />
       </label>
 
@@ -94,9 +96,11 @@ const GIFT = ({ env }) => {
         <input
           className={styles.textInput}
           type="email"
-          name="donorEmail-entry"
-          id="donorEmail-entry"
+          name="donorEmail"
+          // value="donorEmail"
+          id="donorEmail"
           placeholder="Email"
+          onChange={ (e) => handleEmailChange(e)}
         />
       </label>
 
@@ -107,10 +111,12 @@ const GIFT = ({ env }) => {
           type="number"
           min="1"
           step="1"
-          name="donorAmoumt-entry"
-          id="donorAmount-entry"
+          name="donorAmount"
+          // value="donorAmount"
+          id="donorAmount"
           placeholder="Amount"
           required
+          onChange={ (e) => handleAmountChange(e)}
         />
       </label>
 
