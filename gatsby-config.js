@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `The Episcopal Church of the Epiphany`,
@@ -8,6 +12,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-env-variables`,
     "gatsby-plugin-sass",
     `gatsby-plugin-netlify-cms`,
     `gatsby-background-image`,
