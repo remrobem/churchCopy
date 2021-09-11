@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 // import styles from "./gift.module.css"
 import { navigate } from "gatsby-link"
 
@@ -15,7 +15,10 @@ import { navigate } from "gatsby-link"
 // init(EMAILJS_USER)
 
 const GIFT = ({ env }) => {
-  navigate("/#gift")
+
+  useEffect(() => {
+      navigate("/#gift")
+  })
   return null
   // const [donorName, setDonorName] = useState("")
   // const [donorEmail, setDonorEmail] = useState("")
