@@ -58,7 +58,7 @@ const Header = () => {
           </div>
           <div className={styles.buttons}>
             <Link className={styles.button} to="#epiphany_donate">Donate</Link>
-            <Link className={styles.button} to="#epiphany_pledge">Giving Estimate</Link>
+            <Link className={styles.button} to="#gift">Giving Estimate</Link>
           </div>
         </div>
       </div>

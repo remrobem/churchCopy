@@ -22,6 +22,7 @@ import IndoorService from "./indoorService"
 // import ShroveTuesday from "./shrove_tuesday"
 // import AshWednesday from "./ash-wednesday"
 // import AshWednesday1 from "./ash-wednesday1"
+import Gift from "./gift"
 
 const Layout = ({ location, title, children }) => {
   
@@ -29,6 +30,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <Gift />
       <Announcements />
       {/* <OutdoorService /> */}
       <IndoorService />
@@ -47,7 +49,7 @@ const Layout = ({ location, title, children }) => {
       {/* <VBS /> */}
       {/* <VirtualGathering /> */}
       <Services />
-      <Pledge />
+      {/* <Pledge /> */}
       <Donations />
       <Footer />
     </div>

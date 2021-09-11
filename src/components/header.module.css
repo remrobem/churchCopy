@@ -43,19 +43,24 @@ justify-content: space-around;
 }
 
 .button {
+ 
   background: rgb(196, 196, 245);
   border-radius: 8px;
   cursor: pointer;
   color: white;
   font-family: Arial;
-  font-size: 2.0vw;
-  padding: .3em .3em;
+  font-size: 1.5rem;
+  /* padding: .4rem .4rem; */
+  padding-top:15px;
   text-decoration: none;
   margin: 0.3rem;
   border: none;
-  width: 20rem;
+  width: 300px;
+  height: 50px;
   text-align: center;
-  /* width: 10rem; */
+  vertical-align: middle;
+  line-height: 1rem;
+  /* text-align: center; */
 }
 
 .button:hover {
