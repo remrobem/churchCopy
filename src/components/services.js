@@ -42,6 +42,7 @@ const Services = () => {
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
+
               formAction="https://1drv.ms/b/s!AiflQFCf7v9pskoDcJGUgnIedmxK?e=sQjLke"
             >
               Order of Service for Sept 12, 2021
@@ -50,9 +51,11 @@ const Services = () => {
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
+
               formAction="https://1drv.ms/b/s!AiflQFCf7v9pskwrhK7KgVqaO91o?e=QMMyba"
             >
               Music for Sept 12, 2021
+
             </button>
           </form>
         </main>
