@@ -134,7 +134,7 @@ const Gift = ({ env }) => {
               name="donorAmount"
               // value="donorAmount"
               id="donorAmount"
-              placeholder="Amount"
+              placeholder="Annual Amount"
               required
               onChange={e => handleAmountChange(e)}
             />
