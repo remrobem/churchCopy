@@ -4,8 +4,79 @@ import VBSImage from "../../content/assets/VBS2021.jpg"
 
 const Announcements = () => {
   return (
-    <div className={styles.container} id="vbs">
-       <div className={styles.announcement}>
+    <div className={styles.container} id="announcements">
+      <div className={styles.announcement}>
+        <h1>Bishop Anne at Epiphany Sept. 26</h1>
+        <div className={styles.text}>
+          <p>
+            The Rt. Rev. Anne Hodges-Copple and Archdeacon Jan Lamb will be with
+            us on September 26 for our annual visitation. This will be an
+            outdoor service in Epiphany's Memorial Garden, and we will be joined
+            by our sisters and brothers from St. Luke's.
+          </p>
+          <p>
+            Brynner Alsiyao will be baptized and several people from Epiphany
+            and St. Luke's will be confirmed or reaffirmed.
+          </p>
+          <p>
+            The service will begin at 10:00 am. Some chairs will be available,
+            but it's preferable that you bring your own so that our guests from
+            St. Luke's will have places to sit.{" "}
+          </p>
+          <p>
+            Following the service, there will be an informal lunch in the church
+            yard with the Bishop Suffergan and the Archdeacon. In order to plan
+            for the meal, sign up here or call the church office by Thursday,
+            September 23.
+          </p>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
+
+      <div className={styles.announcement}>
+        <h1>Blessing of Animals</h1>
+        <div className={styles.text}>
+          <p>
+            The annual Blessing of Animals will be held on Saturday, October 2,
+            at 10:00 am in the church yard. All pets are welcome, and should be
+            on a leash or in a carrier.
+          </p>
+          <p>
+            This event isn't limited to dogs; Mother Linda has blessed many
+            species in past years.
+          </p>
+          <p>Please invite your friends and their pet.</p>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
+      <div className={styles.announcement}>
+        <h1>Afghan Refugees - How to Help</h1>
+        <div className={styles.text}>
+          <p>
+            Potentially hundreds of Afghan refugees will be resettling in the
+            Triad in the coming days or weeks.
+          </p>
+          <p>
+            CWS-Greensboro (Church World Services) is a leader in the
+            resettlement effort.
+          </p>
+          <p>
+            Visit https://cwsgreensboro.org/protecting-afghan-refugees-at-risk/
+            for more information on how you can help.
+          </p>
+          <p>
+            Episcopal Migration Ministries is also helping nationally. Visit
+            https://episcopalmigrationministries.org/afghan-allies/ for more
+            information.
+          </p>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
+
+      <div className={styles.announcement}>
         <h1>Sunday School - on Tuesdays!!</h1>
         <div className={styles.text}>
           <p>
@@ -29,6 +100,8 @@ const Announcements = () => {
             It will remain a Zoom meeting with the{" "}
             <a href="https://us02web.zoom.us/j/86264215594">existing link.</a>
           </p>
+          <br></br>
+          <br></br>
         </div>
       </div>
     </div>
