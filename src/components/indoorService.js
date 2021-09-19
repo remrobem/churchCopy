@@ -14,7 +14,7 @@ const IndoorService = () => {
             <form>
               <button
                 className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/the-episcopal-church-of-the-epiphany-tickets-165260371219"
+                formAction="https://www.eventbrite.com/e/outdoor-visitation-with-bishop-anne-tickets-174803330467"
               >
                 Reserve Your Spot for Sunday 10:00 am Service
               </button>
