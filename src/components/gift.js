@@ -17,11 +17,11 @@ const Gift = ({ env }) => {
   const [formSubmitted, setFormSubmitted] = useState(false)
   const [formSubmitSuccessful, setFormSubmitSuccessful] = useState(false)
 
-  const handleCancel = () => {
-    setDonorName("")
-    setDonorEmail("")
-    setDonorAmount("")
-  }
+  // const handleCancel = () => {
+  //   setDonorName("")
+  //   setDonorEmail("")
+  //   setDonorAmount("")
+  // }
 
   const handleNameChange = event => {
     setDonorName(event.target.value)

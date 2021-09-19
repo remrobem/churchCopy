@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react"
-// import styles from "./gift.module.css"
+import { useEffect } from "react"
 import { navigate } from "gatsby-link"
 
 const GIFT = ({ env }) => {
