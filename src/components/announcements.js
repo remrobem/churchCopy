@@ -4,49 +4,7 @@ import styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
-      <div className={styles.announcement}>
-        <h1>Bishop Anne at Epiphany Sept. 26</h1>
-        <div className={styles.text}>
-          <p>
-            The Rt. Rev. Anne Hodges-Copple and Archdeacon Jan Lamb will be with
-            us on September 26 for our annual visitation. This will be an
-            outdoor service in Epiphany's Memorial Garden, and we will be joined
-            by our sisters and brothers from St. Luke's.
-          </p>
-          <p>
-            Brynner Alsiyao will be baptized and several people from Epiphany
-            and St. Luke's will be confirmed or reaffirmed.
-          </p>
-          <p>
-            The service will begin at 10:00 am. Some chairs will be available,
-            but it's preferable that you bring your own so that our guests from
-            St. Luke's will have places to sit.{" "}
-          </p>
-          <p>Please bring masks.</p>
-          <p>
-            Following the service, there will be an informal lunch in the church
-            yard with the Bishop Suffergan and the Archdeacon.
-          </p>
-          <p>
-            In order to plan for the meal, please be sure to reserve your spot by Thursday, September 23.
-          </p>
-          <h3>
-           Assistance with the logistics of this event in needed. Please contact the church if you can help.
-          </h3>
-          <form>
-              <button
-                className={`${styles.button}`}
-                formAction="https://www.eventbrite.com/e/outdoor-visitation-with-bishop-anne-tickets-174803330467"
-              >
-                Reserve Your Spot
-              </button>
-            </form>
-          <br></br>
-          <br></br>
-        </div>
-      </div>
-
-      <div className={styles.announcement}>
+     <div className={styles.announcement}>
         <h1>Blessing of Animals</h1>
         <div className={styles.text}>
           <p>
