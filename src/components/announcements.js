@@ -1,9 +1,19 @@
 import React from "react"
-import styles from "./announcements.module.css"
+import * as styles from "./announcements.module.css"
 
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
+      <div className={styles.announcement}>
+        <h1>Registration is not required for Sunday Services</h1>
+        <div className={styles.text}>
+          <p>
+            See the Indoor Services section below for more details.
+          </p>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
      <div className={styles.announcement}>
         <h1>Blessing of Animals</h1>
         <div className={styles.text}>
