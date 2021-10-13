@@ -44,9 +44,12 @@
   }
   
   .text {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     font-size: 0.9rem;
     color: black;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     margin-left: 12%;
     margin-right: 12%;
   }
