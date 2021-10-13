@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import styles from "./gift.module.css"
+import EstimateProgressBar from "./estimateProgressBar"
 
 import {
   EMAILJS_USER,
@@ -98,6 +99,7 @@ const Gift = ({ env }) => {
           budget for 2022, and to be good stewards of the financial gifts the
           church receives.
         </p>
+        <EstimateProgressBar />
         <form className={styles.form} onSubmit={handleSubmit}>
           <h2>Estimate of Giving for 2022</h2>
           <label>
