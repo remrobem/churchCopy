@@ -3,8 +3,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    margin: 0px;
     height: auto;
     /* align-items: left; */
     background-color: rgb(130, 185, 240);
@@ -19,7 +18,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     height: auto;
     align-items: center;
@@ -55,7 +54,7 @@
   }
   
   .button {
-      background: rgb(74, 74, 241);
+      background: rgb(14, 14, 240);
       border-radius: 12px;
       cursor: pointer;
       color: white;
