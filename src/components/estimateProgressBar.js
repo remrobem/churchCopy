@@ -7,18 +7,24 @@ const EstimateProgressBar = () => {
   const progress = Math.round((current / goal) * 100)
   return (
     <div className={styles.container}>
-      <h2 className={styles.text}>Goal: ${goal.toLocaleString('en', {useGrouping:true})}</h2>
-      <div className={styles.progressbarContainer}>
-        <div
-          className={styles.progressbarComplete}
-          style={{ width: `${progress}%` }}
-        >
-          <div className={styles.progressbarLiquid}></div>
-        </div>
-        <span className={styles.progress}>{progress}%</span>
-      </div>
-      <h2 className={styles.text}>Current: ${current.toLocaleString('en', {useGrouping:true})}</h2>
+      <div>
+        <h2 className={styles.text}>
+          Goal: ${goal.toLocaleString("en", { useGrouping: true })}
+        </h2>
 
+        <div className={styles.progressbarContainer}>
+          <div
+            className={styles.progressbarComplete}
+            style={{ width: `${progress}%` }}
+          >
+            <div className={styles.progressbarLiquid}></div>
+          </div>
+          <span className={styles.progress}>{progress}%</span>
+        </div>
+        <h2 className={styles.text}>
+          Current: ${current.toLocaleString("en", { useGrouping: true })}
+        </h2>
+      </div>
     </div>
   )
 }

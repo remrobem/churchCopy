@@ -17,23 +17,7 @@ const Announcements = () => {
       </div>
 
 
-     <div className={styles.announcement}>
-        <h1>Blessing of Animals</h1>
-        <div className={styles.text}>
-          <p>
-            The annual Blessing of Animals will be held on Saturday, October 2,
-            at 10:00 am in the church yard.
-          </p>
-          <p>All pets are welcome, and should be on a leash or in a carrier.</p>
-          <p>
-            This event isn't limited to dogs; Mother Linda has blessed many
-            species in past years.
-          </p>
-          <p>Please invite your friends and their pets.</p>
-          <br></br>
-          <br></br>
-        </div>
-      </div>
+     
       <div className={styles.announcement}>
         <h1>Afghan Refugees - How to Help</h1>
         <div className={styles.text}>

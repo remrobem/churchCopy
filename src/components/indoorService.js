@@ -9,7 +9,7 @@ const IndoorService = () => {
           <h1>Indoor Services</h1>
         </div>
         <div>
-          <div  className={styles.text}>
+          <div className={styles.text}>
             <p>
               Online registration for Sunday indoor services will no longer be
               used. We used that registration as a means of contact tracing in
@@ -25,9 +25,9 @@ const IndoorService = () => {
               Please make sure you sign the sheet in the narthex, along with
               your phone number, when you come into church. If you choose to
               form a "pod" of vaccinated worshippers, you may sit together
-              during the service. Masks are still required throughout the
-              service.
+              during the service.
             </p>
+            <p>Masks are still required throughout the service.</p>
             <p>
               We hope you'll join us in person each Sunday but, if you aren't
               able to attend, please watch the servie online. The link is on our
