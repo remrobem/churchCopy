@@ -58,8 +58,14 @@ const Announcements = () => {
           </p>
           <p>
             Our diocese is very active providing resources, information and
-            opportunities for Epiphany and each of us as individuals. As is the
-            Episcopal national church.
+            opportunities for Epiphany and each of us as individuals. As does the
+            <span>
+              <a href="https://www.episcopalchurch.org/">
+              {" "}national Episcopal church.
+              </a>
+            </span>
+            
+            
           </p>
           <p>
             Please take a few minutes to visit the Diocese of North Carolina web
