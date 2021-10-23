@@ -4,20 +4,16 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
-
       <div className={styles.announcement}>
         <h1>Registration is not required for Sunday Services</h1>
         <div className={styles.text}>
-          <p>
-            See the Indoor Services section below for more details.
-          </p>
+          <p>See the Indoor Services section below for more details.</p>
+          <p>Sunday service is at 10 am</p>
           <br></br>
           <br></br>
         </div>
       </div>
 
-
-     
       <div className={styles.announcement}>
         <h1>Afghan Refugees - How to Help</h1>
         <div className={styles.text}>
@@ -48,6 +44,48 @@ const Announcements = () => {
             </span>
             for more information.
           </p>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
+
+      <div className={styles.announcement}>
+        <h1>Keep up with the diocese</h1>
+        <div className={styles.text}>
+          <p>
+            Sometimes it is easy for us to forget that Church of the Epiphany is
+            part of the Diocese of North Carolina.
+          </p>
+          <p>
+            Our diocese is very active providing resources, information and
+            opportunities for Epiphany and each of us as individuals. As does the
+            <span>
+              <a href="https://www.episcopalchurch.org/">
+              {" "}national Episcopal church.
+              </a>
+            </span>
+            
+            
+          </p>
+          <p>
+            Please take a few minutes to visit the Diocese of North Carolina web
+            site at{" "}
+            <span>
+              <a href="https://www.episdionc.org/">
+                https://www.episdionc.org/
+              </a>
+            </span>{" "}
+            and poke around a bit.
+            
+          </p>
+          <strong>Pro tip: </strong>
+          Cruise over to the 
+          <span>
+            <a href="https://www.episdionc.org/publications/"> Publications </a>
+          </span>
+          page and make sure you are on the list to get "The Disciple" magazine
+          and the "Please Note" weekly email.
+          
           <br></br>
           <br></br>
         </div>
