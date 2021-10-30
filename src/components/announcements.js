@@ -1,13 +1,47 @@
 import React from "react"
+import { Link } from "gatsby"
+import {
+  FaPhone,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaFacebookSquare,
+  FaInstagramSquare,
+} from "react-icons/fa"
 import * as styles from "./announcements.module.css"
 
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
       <div className={styles.announcement}>
+        <h1>All Saints Day</h1>
+        <div className={styles.text}>
+          <p>We are observing All Saints Day on Sunday, November 7. </p>
+          <p>
+            If you have names to add to our remembrance list for the bulletin
+            that Sunday, get them to Carol in the church office by Wednesday,
+            November 3.
+          </p>
+          <p>
+            <a className={styles.link} href="tel:1-336-623-9410">
+              <FaPhone /> 336-623-9410
+            </a>
+          </p>
+          <p>
+            <a className={styles.link} href="mailto:church@epiphanyeden.org">
+              <FaEnvelope /> church@epiphanyeden.org
+            </a>
+          </p>
+          <br></br>
+        </div>
+      </div>
+
+      <div className={styles.announcement}>
         <h1>Registration is not required for Sunday Services</h1>
         <div className={styles.text}>
-          <p>See the Indoor Services section below for more details.</p>
+          <p>
+            See <Link to="/#indoor">Sunday Services</Link> below for more
+            details.
+          </p>
           <p>Sunday service is at 10 am</p>
           <br></br>
           <br></br>
@@ -58,14 +92,14 @@ const Announcements = () => {
           </p>
           <p>
             Our diocese is very active providing resources, information and
-            opportunities for Epiphany and each of us as individuals. As does the
+            opportunities for Epiphany and each of us as individuals. As does
+            the
             <span>
               <a href="https://www.episcopalchurch.org/">
-              {" "}national Episcopal church.
+                {" "}
+                national Episcopal church.
               </a>
             </span>
-            
-            
           </p>
           <p>
             Please take a few minutes to visit the Diocese of North Carolina web
@@ -76,16 +110,14 @@ const Announcements = () => {
               </a>
             </span>{" "}
             and poke around a bit.
-            
           </p>
           <strong>Pro tip: </strong>
-          Cruise over to the 
+          Cruise over to the
           <span>
             <a href="https://www.episdionc.org/publications/"> Publications </a>
           </span>
           page and make sure you are on the list to get "The Disciple" magazine
           and the "Please Note" weekly email.
-          
           <br></br>
           <br></br>
         </div>
