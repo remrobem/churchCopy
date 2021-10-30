@@ -12,7 +12,7 @@ const IndoorService = () => {
         <div>
           <div className={styles.text}>
             <p>Sunday service is at 10 am and is being held in the church.</p>
-            <p>Online registration for Sunday indoor is not required.</p>
+            <p>Online registration is no longer required.</p>
             <p>
               We do require all attendees sign-in for purposes of contact
               tracing.
