@@ -18,12 +18,6 @@ const Gift = ({ env }) => {
   const [formSubmitted, setFormSubmitted] = useState(false)
   const [formSubmitSuccessful, setFormSubmitSuccessful] = useState(false)
 
-  // const handleCancel = () => {
-  //   setDonorName("")
-  //   setDonorEmail("")
-  //   setDonorAmount("")
-  // }
-
   const handleNameChange = event => {
     setDonorName(event.target.value)
   }
@@ -107,7 +101,6 @@ const Gift = ({ env }) => {
               className={styles.textInput}
               type="text"
               name="donorName"
-              // value="donorName"
               id="donorName"
               placeholder="Your Name(s)"
               required
@@ -134,7 +127,6 @@ const Gift = ({ env }) => {
               min="10"
               step="10"
               name="donorAmount"
-              // value="donorAmount"
               id="donorAmount"
               placeholder="Annual Amount"
               required
