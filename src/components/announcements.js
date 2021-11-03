@@ -1,17 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
-import {
-  FaPhone,
-  FaMapMarkerAlt,
-  FaEnvelope,
-  FaFacebookSquare,
-  FaInstagramSquare,
-} from "react-icons/fa"
+import { FaPhone, FaEnvelope } from "react-icons/fa"
 import * as styles from "./announcements.module.css"
 
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
+      <div className={styles.announcement}>
+        <h1>Nov 7, 2021 - Daylight Saving Time Ends</h1>
+        <div className={styles.text}>
+          <p>Be sure to turn your clocks back 1 hour on Saturday night.</p>
+          <p> Enjoy the extra hour of sleep. </p>
+          <br></br>
+        </div>
+      </div>
       <div className={styles.announcement}>
         <h1>All Saints Day</h1>
         <div className={styles.text}>
@@ -34,7 +36,6 @@ const Announcements = () => {
           <br></br>
         </div>
       </div>
-
       <div className={styles.announcement}>
         <h1>Registration is not required for Sunday Services</h1>
         <div className={styles.text}>
@@ -47,7 +48,6 @@ const Announcements = () => {
           <br></br>
         </div>
       </div>
-
       <div className={styles.announcement}>
         <h1>Afghan Refugees - How to Help</h1>
         <div className={styles.text}>
@@ -82,7 +82,6 @@ const Announcements = () => {
           <br></br>
         </div>
       </div>
-
       <div className={styles.announcement}>
         <h1>Keep up with the diocese</h1>
         <div className={styles.text}>
@@ -122,7 +121,6 @@ const Announcements = () => {
           <br></br>
         </div>
       </div>
-
       <div className={styles.announcement}>
         <h1>Sunday School - on Tuesdays!!</h1>
         <div className={styles.text}>
