@@ -6,44 +6,29 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
-      <div className={styles.announcement}>
-        <h1>Nov 7, 2021 - Daylight Saving Time Ends</h1>
-        <div className={styles.text}>
-          <p>Be sure to turn your clocks back 1 hour on Saturday night.</p>
-          <p> Enjoy the extra hour of sleep. </p>
-          <br></br>
-        </div>
-      </div>
-      <div className={styles.announcement}>
-        <h1>All Saints Day</h1>
-        <div className={styles.text}>
-          <p>We are observing All Saints Day on Sunday, November 7. </p>
-          <p>
-            If you have names to add to our remembrance list for the bulletin
-            that Sunday, get them to Carol in the church office by Wednesday,
-            November 3.
-          </p>
-          <p>
-            <a className={styles.link} href="tel:1-336-623-9410">
-              <FaPhone /> 336-623-9410
-            </a>
-          </p>
-          <p>
-            <a className={styles.link} href="mailto:church@epiphanyeden.org">
-              <FaEnvelope /> church@epiphanyeden.org
-            </a>
-          </p>
-          <br></br>
-        </div>
-      </div>
-      <div className={styles.announcement}>
-        <h1>Registration is not required for Sunday Services</h1>
+      <div className={styles.announcement} id="20211114">
+        <h1>Sunday services are being held indoors at 10 am</h1>
         <div className={styles.text}>
           <p>
             See <Link to="/#indoor">Sunday Services</Link> below for more
             details.
           </p>
           <p>Sunday service is at 10 am</p>
+
+          <p>
+            The November 14 Sunday service will be a very special hymn service.
+            For the first part of the service, we will be singing hymns from the
+            &nbsp;
+            <a href="https://hymnary.org/hymnal/LEVS1993">
+              LIFT EVERY VOICE AND SING hymnal
+            </a>
+            , followed by the Eucharist. You will have the opportunity to select
+            your favorite hymns as we worship in song and communion. Plan now to
+            be in church Sunday for this special service. We look forward to
+            seeing you.
+          </p>
+          <p>The worship service will be held indoors.</p>
+          <p>Masks and social distancing will be observed.</p>
           <br></br>
           <br></br>
         </div>
