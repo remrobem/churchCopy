@@ -3,7 +3,7 @@ import styles from "./estimateProgressBar.module.css"
 
 const EstimateProgressBar = () => {
   const goal = 120000
-  const current = 50200
+  const current = 54780
   const progress = Math.round((current / goal) * 100)
   return (
     <div className={styles.container}>
