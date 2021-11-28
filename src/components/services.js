@@ -42,17 +42,17 @@ const Services = () => {
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://1drv.ms/b/s!AiflQFCf7v9ptGLUkgG7Bi1Z3T9B?e=mBOpZV"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9ptQQVkcp4baAFsb5j?e=y1pHUs"
             >
-              Order of Service for Nov 14, 2021
+              Order of Service for Nov 28, 2021
             </button>
           </form>
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://epiphanyeden.org/#announcements"
+              formAction="https://1drv.ms/b/s!AiflQFCf7v9ptQHxHSVSqJvmATYa?e=VgKL3c"
             >
-              Music for Nov 14, 2021
+              Music for Nov 28, 2021
 
             </button>
           </form>
