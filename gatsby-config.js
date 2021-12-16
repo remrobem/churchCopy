@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-env-variables`,
-    "gatsby-plugin-sass",
+    `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-background-image`,
     `gatsby-plugin-anchor-links`,
