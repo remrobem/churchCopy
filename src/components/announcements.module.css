@@ -47,7 +47,17 @@ h1 {
   margin-left: auto;
   text-align: center;
 }
-
+.serviceHeading {
+  margin: 1rem 0;
+  font-size: 2rem;
+  margin-left: auto;
+}
+.serviceSubHeading {
+  margin: 1rem 0;
+  font-size: 1.50rem;
+  margin-left: auto;
+  /* text-align: center; */
+}
 h3 {
   margin: 1rem 0;
 }
