@@ -22,10 +22,14 @@
   font-size: 1.5rem;
   justify-content: left;
 }
-h1, h2 {
+h1{
     margin: 1rem;
 }
 
+.heading2 {
+  color: red;
+  font-size: 1.75rem;
+}
 .button {
     background: rgb(74, 74, 241);
     border-radius: 8px;
