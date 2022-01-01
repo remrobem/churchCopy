@@ -58,7 +58,7 @@ const Header = () => {
           </div>
           <div className={styles.buttons}>
             <Link className={styles.button} to="#epiphany_donate">Offering</Link>
-            <Link className={styles.button} to="#indoor">Sunday Service 10 am</Link>
+            <Link className={styles.button} to="#indoor">Sunday Service Streaming Only</Link>
             <Link className={styles.button} to="#gift">Giving Estimate</Link>
           </div>
         </div>
