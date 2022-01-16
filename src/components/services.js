@@ -34,11 +34,13 @@ const Services = () => {
             Sunday services have been recorded for your viewing.
           </p>
           <p className={styles.text}>
-            Videos can be found on <a href="https://www.facebook.com/epiphanyeden">Facebook</a> and <a href="https://www.youtube.com/channel/UCQhee_wvQ62Bcv5lr2ftGVg">YouTube</a>
+            Videos can be found on{" "}
+            <a href="https://www.facebook.com/epiphanyeden">Facebook</a> and{" "}
+            <a href="https://www.youtube.com/channel/UCQhee_wvQ62Bcv5lr2ftGVg">
+              YouTube
+            </a>
           </p>
-          <p className={styles.text}>
-            or by clicking the links below.
-          </p>
+          <p className={styles.text}>or by clicking the links below.</p>
           <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
@@ -56,6 +58,15 @@ const Services = () => {
 
             </button>
           </form> */}
+          <iframe
+            width="90%"
+            // height="315"
+            src="https://www.youtube.com/embed/80wRoHZJb74"
+            title="Sunday January 16, 2022"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </main>
       </div>
 
