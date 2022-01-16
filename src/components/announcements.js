@@ -8,18 +8,6 @@ const Announcements = () => {
     <div className={styles.container} id="announcements">
 
       <div className={styles.announcement} id="20211114">
-        <h1>Office Hours</h1>
-        <div className={styles.text}>
-          <p>
-            The church office will be closed December 26 - January 3. Phone and
-            email messages will be checked periodically during that time. In
-            case of a pastoral emergency, contact Mother Linda directly.
-          </p>
-          <br></br>
-        </div>
-      </div>
-
-      <div className={styles.announcement} id="20211114">
         <h1>In-person Sunday services are suspended.</h1>
         {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
         <div className={styles.text}>
