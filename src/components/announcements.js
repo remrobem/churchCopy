@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import * as styles from "./announcements.module.css"
-import { FaEnvelope } from "react-icons/fa"
 
 const Announcements = () => {
   return (
