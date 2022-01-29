@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import styles from "./services.module.css"
 
 
@@ -43,15 +43,14 @@ const Services = () => {
             </a>
           </p>
           <p className={styles.text}>or by clicking the links below.</p>
-          {/* <form> */}
-          <Link className={styles.button} to="#orderOfService">Order of Service for Jan 30, 2022</Link>
-            {/* <button
+          <form>
+            <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://onedrive.live.com/?authkey=%21AH7zrA9ihXhDr9U&cid=69FFEE9F5040E527&id=69FFEE9F5040E527%216998&parId=69FFEE9F5040E527%215343&o=OneUp"
+              formAction="https://drive.google.com/file/d/1tuWJKYBV4d2bb6F_w3HghcU5tvul8Pz7/view?usp=sharing"
             >
               Order of Service for Jan 30, 2022
-            </button> */}
-          {/* </form> */}
+            </button>
+          </form>
           {/* <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
