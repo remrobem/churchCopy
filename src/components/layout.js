@@ -8,6 +8,8 @@ import Donations from "./donations"
 import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
+import OrderOfService from "./orderOfService"
+import PDF from "../../content/assets/orderOfService.pdf"
 
 const Layout = ({ location, title, children }) => {
   
@@ -21,6 +23,7 @@ const Layout = ({ location, title, children }) => {
       <ChurchLinks />
       <Services />
       <Donations />
+      <OrderOfService pdf= { PDF } />
       <Footer />
     </div>
   )

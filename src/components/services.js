@@ -1,6 +1,8 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 import styles from "./services.module.css"
+
+
 
 const Services = () => {
   const query = useStaticQuery(graphql`
@@ -41,14 +43,15 @@ const Services = () => {
             </a>
           </p>
           <p className={styles.text}>or by clicking the links below.</p>
-          <form>
-            <button
+          {/* <form> */}
+          <Link className={styles.button} to="#orderOfService">Order of Service for Jan 30, 2022</Link>
+            {/* <button
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://onedrive.live.com/?authkey=%21AH7zrA9ihXhDr9U&cid=69FFEE9F5040E527&id=69FFEE9F5040E527%216998&parId=69FFEE9F5040E527%215343&o=OneUp"
             >
               Order of Service for Jan 30, 2022
-            </button>
-          </form>
+            </button> */}
+          {/* </form> */}
           {/* <form>
             <button
               className={`${styles.button} ${styles.button_wide}`}
@@ -58,19 +61,18 @@ const Services = () => {
 
             </button>
           </form> */}
-           <div className="iframe-container">
-          <iframe
-            // width="100vw"
-            // height="100vh"
-            src="https://www.youtube.com/embed/y8I-b40m7pk"
-            title="Sunday January 23, 2022"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+          <div className="iframe-container">
+            <iframe
+              // width="100vw"
+              // height="100vh"
+              src="https://www.youtube.com/embed/y8I-b40m7pk"
+              title="Sunday January 23, 2022"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </main>
-       
       </div>
 
       <div className={styles.buttonContainer}>
