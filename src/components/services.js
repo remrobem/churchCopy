@@ -7,10 +7,10 @@ import styles from "./services.module.css"
 const Services = () => {
   const query = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
+      allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }, limit:52) {
         edges {
           node {
-            id
+            id 
             frontmatter {
               videoLink
               serviceOrderlink
