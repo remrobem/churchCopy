@@ -5,7 +5,7 @@ import { Document, Page } from "react-pdf"
 const OrderOfService = ({ pdf }) => {
   return (
     <div className={styles.container} id="orderOfService">
-        <Document file={pdf} renderMode={ "canvas" } options={{ workerSrc: "/pdf.worker.js" }}>
+        <Document file={pdf} options={{ workerSrc: "/pdf.worker.js" }}>
           <Page pageNumber={1} />
           <Page pageNumber={2} />
           <Page pageNumber={3} />
