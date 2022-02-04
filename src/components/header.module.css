@@ -67,3 +67,8 @@ justify-content: space-around;
   font-weight: bolder;
 }
 
+.sundayService {
+  color: red;
+  font-size: 2rem;
+  margin: 0;
+}

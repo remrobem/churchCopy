@@ -57,10 +57,17 @@ const Header = () => {
             </a>
           </div>
           <div className={styles.buttons}>
-            <Link className={styles.button} to="#epiphany_donate">Offering</Link>
-            <Link className={styles.button} to="#indoor">Sunday Service Streaming Only</Link>
-            <Link className={styles.button} to="#gift">Giving Estimate</Link>
+            <Link className={styles.button} to="#epiphany_donate">
+              Offering
+            </Link>
+            <Link className={styles.button} to="#indoor">
+              Sunday Services
+            </Link>
+            <Link className={styles.button} to="#gift">
+              Giving Estimate
+            </Link>
           </div>
+          <p className={styles.sundayService}>In-person Sunday Services have resumed. Service at 10 am.</p>
         </div>
       </div>
     </header>
