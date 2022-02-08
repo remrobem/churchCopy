@@ -28,7 +28,7 @@ const IndoorService = () => {
             <p>Masks are still required throughout the service.</p>
             <p>
               We hope you'll join us in person each Sunday but, if you aren't
-              able to attend, please watch the servie online{" "}
+              able to attend, please watch the service online{" "}
               <span>
                 <Link to="#epiphany_services">here.</Link>
               </span>
