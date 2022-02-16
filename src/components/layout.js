@@ -16,9 +16,9 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Gift />
+      <ChurchLinks />
       <Announcements />
       <IndoorService />
-      <ChurchLinks />
       <Services />
       <Donations />
       <Footer />

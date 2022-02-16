@@ -4,7 +4,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const ChurchLinks = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <form className={styles.buttonContainer}>
         <button className={styles.button}>
           <AnchorLink to="/#epiphany_services" className="anchorLink" stripHash>

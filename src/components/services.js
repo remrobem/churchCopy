@@ -30,20 +30,12 @@ const Services = () => {
   return (
     <div className={styles.background} id="epiphany_services">
       <div className={styles.message}>
-        <h1 className={styles.pageHeading}>Sunday Services</h1>
+        {/* <h1 className={styles.pageHeading}>Sunday Services</h1> */}
         <main>
-          <p className={styles.text}>
+          {/* <p className={styles.text}>
             Sunday services have been recorded for your viewing.
-          </p>
-          <p className={styles.text}>
-            Videos can be found on{" "}
-            <a href="https://www.facebook.com/epiphanyeden">Facebook</a> and{" "}
-            <a href="https://www.youtube.com/channel/UCQhee_wvQ62Bcv5lr2ftGVg">
-              YouTube
-            </a>
-          </p>
-          <p className={styles.text}>or by clicking the links below.</p>
-          <form>
+          </p> */}
+          <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://drive.google.com/file/d/1k20pPSPWdTSzBMhxjzgGFU91blX79jxJ/view?usp=sharing"
@@ -51,7 +43,7 @@ const Services = () => {
               Order of Service for Feb 13, 2022
             </button>
           </form>
-          <form>
+          <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://drive.google.com/file/d/14WpF0U2NBkxqv1PEAeYKlKxIM5f1MSwQ/view?usp=sharing"

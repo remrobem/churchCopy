@@ -17,22 +17,6 @@ const Announcements = () => {
           <br></br>
         </div>
       </div>
-      <div className={styles.announcement} id="backpackPals">
-        <h1>Super Bowl Event</h1>
-        <div className={styles.text}>
-            <p>
-              We will be supporting Backpack Pals at LUMC this year instead of
-              the Souper Bowl as we have done in the past.
-            </p>
-            <p>
-              Items requested are peanut butter, jelly, soups, muffin mixes,
-              canned ravioli and snack foods.
-            </p>
-            <p>
-              Please drop off items in the Blessing Box or in the church office.
-            </p>
-          </div>
-      </div>
       <div className={styles.announcement}>
         <h1>Afghan Refugees - How to Help</h1>
         <div className={styles.text}>
