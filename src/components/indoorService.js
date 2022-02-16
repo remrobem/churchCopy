@@ -27,13 +27,14 @@ const IndoorService = () => {
             </p>
             <p>Masks are still required throughout the service.</p>
             <p>
-              We hope you'll join us in person each Sunday but, if you aren't
-              able to attend, please watch the service online{" "}
-              <span>
-                <Link to="#epiphany_services">here.</Link>
+              We hope you'll join us in person each Sunday. </p> <p>If you aren't
+              able to attend, please watch the service live or recorded on <span>
+              <a href="https://www.facebook.com/epiphanyeden"> Facebook</a> or {" "}
+              <a href="https://www.youtube.com/channel/UCQhee_wvQ62Bcv5lr2ftGVg"> YouTube
+              </a>
               </span>
             </p>
-            
+            <p>Or use the links below.</p>
           </div>
         </div>
       </div>
