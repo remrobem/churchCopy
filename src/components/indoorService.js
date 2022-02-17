@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import * as styles from "./indoorService.module.css"
 
 const IndoorService = () => {
