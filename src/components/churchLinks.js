@@ -34,7 +34,7 @@ const ChurchLinks = () => {
               "https://us02web.zoom.us/j/86264215594"
           }}
         >
-          Sunday School at 2 pm
+          Sunday School (Tuesday 7 pm)
         </button>
       </form>
 
