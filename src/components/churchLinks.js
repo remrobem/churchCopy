@@ -8,22 +8,22 @@ const ChurchLinks = () => {
       <form className={styles.buttonContainer}>
         <button className={styles.button}>
           <AnchorLink to="/#epiphany_services" className="anchorLink" stripHash>
-            Epiphany Services
+            <span>Epiphany Services</span>
           </AnchorLink>
         </button>
 
         <button className={styles.button}>
           <AnchorLink to="/#epiphany_donate" className="anchorLink" stripHash>
-            Donate
+            <span>Donate</span>
           </AnchorLink>
         </button>
 
-        <button
+        {/* <button
           className={styles.button}
           formAction="https://1drv.ms/b/s!AiflQFCf7v9pqyDxjnFS53t99gR2?e=6LdhAD"
         >
           Newsletter
-        </button>
+        </button> */}
 
         <button
           type="button"
