@@ -5,7 +5,6 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
-
       <div className={styles.announcement} id="20211114">
         <h1>In-person Sunday services have restarted</h1>
         {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
@@ -17,6 +16,75 @@ const Announcements = () => {
           <br></br>
         </div>
       </div>
+      <div className={styles.announcement} id="20211114">
+        <h1>Homeless Shelter Meals</h1>
+        {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
+        <div className={styles.text}>
+          <p>
+            For at least 15 years, we have helped feed and shelter our homeless
+            neighbors. Our church was one of the founding churches for the
+            homeless shelter which is now run by Home of Refuge Outreach.
+          </p>
+          <p>
+            This year we have given financial support to help with operational
+            costs as well as for the new facility being developed.
+          </p>
+          <p>Now it is time for us to feed our neighbors.</p>
+          <p>
+            Our remaining dates are listed below. The date is when we are to
+            supply dinner. We also bring breakfast for the following morning.
+          </p>
+          <p>
+            Because of COVID, we can drop food off at a table outside the
+            shelter and the neighbors will bring it in and serve themselves.
+          </p>
+          <p className={styles.list}>
+            You can help by doing one or more of the following:
+            <li>Supply food for someone else to cook</li>
+            <li>Cook or prepare food</li>
+            <li>Deliver food to the shelter</li>
+            <li>Buy supplies needed for that night- from drinks to bowls to paper towels</li>
+            <li>Deliver supplies to the shelter</li>
+          </p>
+          <p>
+            For dinner, we should provide a tasty, nutritious, and fully
+            prepared meal. Some sort of dessert is real nice too.
+          </p>
+          <p>
+            For breakfast, most days it is ok to supply something like
+            bacon/sausage and eggs that the host can cook. Homemade breakfast
+            casseroles and biscuits are also enjoyed. Breakfast can be dropped
+            off in the evening.
+          </p>
+          <p>
+            As we get closer to the date, we will find out how many neighbors to
+            expect and what supplies we may need to bring.
+          </p>
+          <p>
+            We don’t have an online sign-up sheet so please reply to this email
+            or email{" "}
+            <a href="mailto: outreach@epiphanyeden.org">
+              {" "}
+              outreach@epiphanyeden.org
+            </a>
+            . In your email, please indicate which date you would like to help
+            and what you would like to do.
+          </p>
+          <p>
+            And there might be a special place in heaven for those who volunteer
+            to coordinate the meals and delivery for one night.
+          </p>
+          <p className={styles.list}>
+            These are the dates (all on a Thursday): 
+            <li>March 17</li>
+            <li>March 31</li>
+            <li>April 7</li>
+            <li>April 21</li>
+          </p>
+          <br></br>
+        </div>
+      </div>
+
       <div className={styles.announcement}>
         <h1>Afghan Refugees - How to Help</h1>
         <div className={styles.text}>
