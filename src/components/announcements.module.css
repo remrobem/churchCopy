@@ -16,6 +16,12 @@
   border: solid red 0.1rem;
 }
 
+.list {
+  margin-bottom: 0.1em;
+}
+.list > li{
+  margin-bottom: 0.1em;
+}
 a:hover,
 a:visited,
 a:link,
