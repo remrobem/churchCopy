@@ -2,15 +2,16 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import styles from "./services.module.css"
 
-
-
 const Services = () => {
   const query = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }, limit:52) {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: frontmatter___date }
+        limit: 52
+      ) {
         edges {
           node {
-            id 
+            id
             frontmatter {
               videoLink
               serviceOrderlink
@@ -49,15 +50,14 @@ const Services = () => {
               formAction="https://drive.google.com/file/d/1b2vPeGiKEAdxZlby7Z_P3VjzEcDGuDBz/view?usp=sharing"
             >
               Music for Feb 20, 2022
-
             </button>
-            <form className={styles.form}>
+          </form>
+          <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://drive.google.com/file/d/1T2MbawKEIXA8ZKvq_jZLLrMd9nwFgz5P/view?usp=sharing"
             >
-             Prayer List
-
+              Prayer List
             </button>
           </form>
           <div className="iframe-container">
