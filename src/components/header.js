@@ -66,6 +66,9 @@ const Header = () => {
             <Link className={styles.button} to="#gift">
               Giving Estimate
             </Link>
+            <Link className={styles.button} to="#newsletters">
+              Newsletters
+            </Link>
           </div>
           <p className={styles.sundayService}>In-person Sunday Services have resumed. Service at 10 am.</p>
         </div>
