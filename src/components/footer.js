@@ -12,7 +12,6 @@ const Footer = () => {
       }
     }
   `)
-  console.log('footer data: ', data.site.siteMetadata.title)
 
   return (
     <footer className={styles.footer}>

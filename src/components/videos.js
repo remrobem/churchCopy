@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./videos.module.scss"
+import styles from "./videos.module.css"
 
 let Videos = () => {
 

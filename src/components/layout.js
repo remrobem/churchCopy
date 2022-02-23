@@ -8,6 +8,7 @@ import Donations from "./donations"
 import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
+import Newsletters from "./newsletters"
 
 const Layout = ({ location, title, children }) => {
   
@@ -21,6 +22,7 @@ const Layout = ({ location, title, children }) => {
       <IndoorService />
       <Services />
       <Donations />
+      <Newsletters />
       <Footer />
     </div>
   )

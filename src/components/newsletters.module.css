@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+  background-color: moccasin;
+  font-size: 2.5vw;
+}
+
+.display_archive {
+  font-family: arial, verdana;
+}
+
+.campaign {
+  line-height: 125%;
+  margin: 5px;
+}

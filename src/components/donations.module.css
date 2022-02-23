@@ -29,12 +29,14 @@
     cursor: pointer;
     color: white;
     font-family: Arial;
-    font-size: 3vw;
-    padding: .5em .5em;
+    font-size: 5vw;
+    /* padding: .5em .5em; */
     text-decoration: none;
-    margin: 0.3rem;
+    margin: 2rem;
     border: none;
-    width: 40rem;
+    width: 60vw;
+    height: 15vh;
+
   }
   
   .button:hover {
