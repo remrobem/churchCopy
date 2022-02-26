@@ -8,21 +8,21 @@ public_folder: /img
 # publish_mode: editorial_workflow
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
-    create: true
-    # slug: 'index'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      # - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+  # - name: 'blog'
+  #   label: 'Blog'
+  #   folder: 'content/blog'
+  #   create: true
+  #   # slug: 'index'
+  #   media_folder: ''
+  #   public_folder: ''
+  #   path: '{{title}}/index'
+  #   editor:
+  #     preview: false
+  #   fields:
+  #     - { label: 'Title', name: 'title', widget: 'string' }
+  #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+  #     # - { label: 'Description', name: 'description', widget: 'string' }
+  #     - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'services'
     label: 'Services'
     folder: 'content/services'
@@ -39,3 +39,16 @@ collections:
       - { label: 'Service Order Link', name: 'serviceOrderlink', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'serviceDescription', widget: 'markdown' }
+  - name: 'oos'
+    label: 'Order Of Service'
+    folder: 'content/oos'
+    create: true
+    # slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Service Order Link', name: 'serviceOrderlink', widget: 'string' }
+

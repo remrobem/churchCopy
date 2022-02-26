@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react"
 import postscribe from "postscribe"
 import * as styles from "./newsletters.module.css"
-import Helmet from "react-helmet"
 
 const Newsletters = () => {
   const newsRef = useRef(null)
