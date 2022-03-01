@@ -5,6 +5,26 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
+      <div className={styles.announcement} id="ashWed">
+        <h1>Ash Wednesday Services</h1>
+        <div className={styles.text}>
+          <p>
+            We will join Leakesville United Methodist Church for Ash Wednesday
+            services on March 2.{" "}
+          </p>
+          <p>
+            There will be a service at Epiphany at 12 noon and another at 6:30
+            p.m. at LUMC.
+          </p>
+          <p>
+            {" "}
+            Please join us for the liturgy and Imposition of Ashes. Masks are
+            required for the service at Epiphany.
+          </p>
+          <br></br>
+        </div>
+      </div>
+
       <div className={styles.announcement} id="20211114">
         <h1>In-person Sunday services have restarted</h1>
         {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
@@ -43,7 +63,10 @@ const Announcements = () => {
             <li>Supply food for someone else to cook</li>
             <li>Cook or prepare food</li>
             <li>Deliver food to the shelter</li>
-            <li>Buy supplies needed for that night- from drinks to bowls to paper towels</li>
+            <li>
+              Buy supplies needed for that night- from drinks to bowls to paper
+              towels
+            </li>
             <li>Deliver supplies to the shelter</li>
           </p>
           <p>
@@ -75,7 +98,7 @@ const Announcements = () => {
             to coordinate the meals and delivery for one night.
           </p>
           <p className={styles.list}>
-            These are the dates (all on a Thursday): 
+            These are the dates (all on a Thursday):
             <li>March 17</li>
             <li>March 31</li>
             <li>April 7</li>
