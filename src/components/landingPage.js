@@ -6,13 +6,16 @@ const LandingPage = () => {
     <div className={styles.container}>
       
       <div className={styles.messageTop}>
-        <div className={styles.message}>
+        {/* <div className={styles.message}>
           <h1>ALL ARE WELCOME</h1>
-        </div>
+        </div> */}
         <div className={styles.message}>
-          <h1>
+          {/* <h1>
             We believe in a loving, liberating, and life-giving God: Father,
             Son, and Holy Spirit.
+          </h1> */}
+          <h1 className={styles.message}>
+            Pray for Ukraine
           </h1>
         </div>
       </div>
