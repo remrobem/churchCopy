@@ -5,25 +5,6 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
-      <div className={styles.announcement} id="ashWed">
-        <h1>Ash Wednesday Services</h1>
-        <div className={styles.text}>
-          <p>
-            We will join Leakesville United Methodist Church for Ash Wednesday
-            services on March 2.{" "}
-          </p>
-          <p>
-            There will be a service at Epiphany at 12 noon and another at 6:30
-            p.m. at LUMC.
-          </p>
-          <p>
-            {" "}
-            Please join us for the liturgy and Imposition of Ashes. Masks are
-            required for the service at Epiphany.
-          </p>
-          <br></br>
-        </div>
-      </div>
 
       <div className={styles.announcement} id="20211114">
         <h1>In-person Sunday services have restarted</h1>
