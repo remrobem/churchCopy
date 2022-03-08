@@ -63,6 +63,10 @@ const Header = () => {
             <Link className={styles.button} to="#indoor">
               Sunday Services
             </Link>
+            <Link className={styles.button} to="#announcements">
+              Announcements
+            </Link>
+            
             <Link className={styles.button} to="#gift">
               Giving Estimate
             </Link>
