@@ -86,11 +86,11 @@ const Services = () => {
             <iframe
               width="300"
               height="300"
-              src="https://www.youtube.com/embed/7BJIiGve-bw"
-              title="Prayer List March 6, 2022"
-              frameborder="0"
+              src="https://www.youtube.com/embed/4_FBLsYkOP0"
+              title="Sunday March 6, 2022"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </main>
