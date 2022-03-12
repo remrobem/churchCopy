@@ -5,7 +5,6 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
-
       <div className={styles.announcement} id="20211114">
         <h1>In-person Sunday services have restarted</h1>
         {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
@@ -17,10 +16,77 @@ const Announcements = () => {
           <br></br>
         </div>
       </div>
+
+      <div className={styles.announcement}>
+        <h1>Humanitarian Response to the Crisis in Ukraine</h1>
+        <div className={styles.text}>
+          <p>
+            Episcopal Relief & Development(ERD) is mobilizing with Anglican
+            agencies and other partners in order to provide humanitarian
+            assistance to people fleeing the violence in Ukraine.
+          </p>
+          <p>
+            For more information and to find out how you can help, please visit{" "}
+            <span>
+              <a href="https://www.episcopalrelief.org/press-resources/press-releases/2022-press-releases/supporting-humanitarian-response-to-the-crisis-in-ukraine/">
+                the ERD website{" "}
+              </a>
+            </span>
+            .
+          </p>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
+
+      <div className={styles.announcement}>
+        <h1>The Mission Strategy</h1>
+        <div className={styles.text}>
+          <p>
+            The mission strategy of the Diocese of North Carolina is a
+            grassroots, organic plan that invites every member of the Diocese to
+            be a part of it.
+          </p>
+          <p>
+            The mission strategy is not a starting point; rather, it is built
+            upon the work done throughout the diocese over the course of years.
+            It is not a first step; it is our next step on our collective
+            journey to Becoming Beloved Community.
+          </p>
+          <p>
+            To find out more about the mission strategy, visit {" "}
+            <span>
+              <a href="https://www.episdionc.org/mission-strategy/">
+                the mission strategy page on the diocesan website{" "}
+              </a>
+            </span>
+            .
+          </p>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
+
       <div className={styles.announcement} id="20211114">
         <h1>Homeless Shelter Meals</h1>
         {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
         <div className={styles.text}>
+          <p>
+            Our next date to provide meals at the shelter is Thursday, March 17.
+          </p>
+          <p>
+            A fellow parishioner has volunteered to pay expenses for food and
+            supplies.
+          </p>
+          <p>
+            If you can help, please email{" "}
+            <a href="mailto: outreach@epiphanyeden.org">
+              {" "}
+              outreach@epiphanyeden.org
+            </a>
+            .
+          </p>
+          <p>Details about providing meals to the homeless shelter are below:</p>
           <p>
             For at least 15 years, we have helped feed and shelter our homeless
             neighbors. Our church was one of the founding churches for the
@@ -58,7 +124,7 @@ const Announcements = () => {
             For breakfast, most days it is ok to supply something like
             bacon/sausage and eggs that the host can cook. Homemade breakfast
             casseroles and biscuits are also enjoyed. Breakfast can be dropped
-            off in the evening.
+            off in the evening or in the early morning.
           </p>
           <p>
             As we get closer to the date, we will find out how many neighbors to
