@@ -17,6 +17,43 @@ const Announcements = () => {
         </div>
       </div>
 
+      <div className={styles.announcement} id="holyWeek">
+        <h1>Holy Week Services</h1>
+        <div className={styles.text}>
+          <p>
+            We're in Holy Week, preparing for the suffering, death and
+            Resurrection of Jesus. The schedule of services follows.{" "}
+          </p>
+          <p>
+            Masks are optional at all services except the 8:30 Eucharist on
+            Easter Sunday.
+          </p>
+          <h2>Maundy Thursday </h2>
+          <p>
+            <em className={styles.bold}>7:00 pm</em> Holy Eucharist with foot washing and stripping of the
+            altar. We will be joined by the pastors and members of Leaksville
+            United Methodist Church (LUMC).
+          </p>
+          <h2>Good Friday </h2>
+          <p><em className={styles.bold}>12 noon</em> Good Friday Liturgy. </p>
+          <p>
+            <em className={styles.bold}>7:00 pm</em> Tenebrae at LUMC. This is a combined service of our
+            congregations.
+          </p>
+          <h2>Holy Saturday </h2>
+          <p>
+            <em className={styles.bold}>8:00 pm</em> The Great Vigil of Easter. This is the most ancient and
+            important service in all of Christianity. It begins in darkness and
+            ends with the first and primary celebration of Easter.
+          </p>
+          <h2>Easter Sunday </h2>
+          <p><em className={styles.bold}>8:30</em> Spoken Holy Eucharist (masks are required)</p>
+          <p><em className={styles.bold}>9:30</em> Flowering of the Cross </p>
+          <p><em className={styles.bold}>10:00</em> Festival Holy Eucharist</p>
+          <br></br>
+        </div>
+      </div>
+
       <div className={styles.announcement}>
         <h1>Humanitarian Response to the Crisis in Ukraine</h1>
         <div className={styles.text}>
@@ -54,7 +91,7 @@ const Announcements = () => {
             journey to Becoming Beloved Community.
           </p>
           <p>
-            To find out more about the mission strategy, visit {" "}
+            To find out more about the mission strategy, visit{" "}
             <span>
               <a href="https://www.episdionc.org/mission-strategy/">
                 the mission strategy page on the diocesan website{" "}
@@ -86,7 +123,9 @@ const Announcements = () => {
             </a>
             .
           </p>
-          <p>Details about providing meals to the homeless shelter are below:</p>
+          <p>
+            Details about providing meals to the homeless shelter are below:
+          </p>
           <p>
             For at least 15 years, we have helped feed and shelter our homeless
             neighbors. Our church was one of the founding churches for the
