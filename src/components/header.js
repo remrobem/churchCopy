@@ -60,9 +60,6 @@ const Header = () => {
             <Link className={styles.button} to="#epiphany_donate">
               Offering
             </Link>
-            <Link className={styles.button} to="#holyWeek">
-              Holy Week
-            </Link>
             <Link className={styles.button} to="#indoor">
               Sunday Services
             </Link>
