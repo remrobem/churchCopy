@@ -73,7 +73,7 @@ const Header = () => {
               Newsletters
             </Link>
           </div>
-          <p className={styles.sundayService}>In-person Sunday Services have resumed. Service at 10 am.</p>
+          <p className={styles.sundayService}>The Sunday Service is at 10 am only with masks optional</p>
         </div>
       </div>
     </header>

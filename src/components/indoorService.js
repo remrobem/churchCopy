@@ -7,8 +7,8 @@ const IndoorService = () => {
       <div className={styles.messageTop}>
         <div className={styles.message}>
           <h1>Sunday Service</h1>
-          <h1> 8:30 am Masks Required</h1>
-            <h1>10:00 am Masks Optional for fully vaccinated</h1>
+          {/* <h1> 8:30 am Masks Required</h1> */}
+            <h1>10:00 am Masks Optional</h1>
         </div>
         <div>
           <div className={styles.text}>
@@ -25,12 +25,12 @@ const IndoorService = () => {
               time. Those who are not fully vaccinated will still be required to
               wear a mask throughout the service.
             </p>
-            <p>
+            {/* <p>
               We'll offer a service at 8:30 on Sundays with masks required for
               four weeks to determine how many people are at this comfort level.
               At the end of that time, we'll determine the need and desire for a
               fully masked service.
-            </p>
+            </p> */}
             <p>
               We will use two metrics to determine the safety of a mask-optional
               service. The first is the NCDHHS percentage that we have used
