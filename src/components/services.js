@@ -53,47 +53,28 @@ const Services = () => {
   return (
     <div className={styles.background} id="epiphany_services">
       <div className={styles.message}>
-        {/* <h1 className={styles.pageHeading}>Sunday Services</h1> */}
         <main>
-          {/* <p className={styles.text}>
-            Sunday services have been recorded for your viewing.
-          </p> */}
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1mjid66INKacSyULmgqrV458nbsynapyS/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1Yy7gYkTdG5jnJZnFxbmUhO4DWbba2ouv/view?usp=sharing"
             >
-              Order of Service for The Great Vigil
+              Order of Service for May 1, 2022
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1eoDQceglIfUxVp7_4LTlZMJikLmfRi6B/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1Z-sItslxCX6zj9-SgZ3nqXxyq0wRNpiv/view?usp=sharing"
             >
-              Order of Service for Easter, 2022
+              Music for for May 1, 2022
             </button>
           </form>
+    
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1WodBP_D083iMEm3i-a3Gbf2_VeqDogMu/view?usp=sharing"
-            >
-              Music for The Great Vigil
-            </button>
-          </form>
-          <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1MSGKrCggvS_ZI3wVu4n7R61cI2pEqQdb/view?usp=sharing"
-            >
-              Music for Easter, 2022
-            </button>
-          </form>
-          <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1poYnvXCyVcaOmuAz6tSwNba11Ys4_HOm/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1D0b7IFuAVHFUBwCHurpyUwfiyIDcYF8-/view?usp=sharing"
             >
               Prayer List
             </button>
