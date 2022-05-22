@@ -59,15 +59,15 @@ const Services = () => {
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://drive.google.com/file/d/1GrmZBbSzsaXwykSgBIWSmTCEHeZveZU5/view?usp=sharing"
             >
-              Order of Service for May 15, 2022
+              Order of Service for May 22, 2022
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1qU4BGvBGRifBlIxCyX-h3lwGK8LN633J/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1BSKcmkVDbpAcFE_G7cYxtZnyy83SKEPs/view?usp=sharing"
             >
-              Music for for May 15, 2022
+              Music for for May 22, 2022
             </button>
           </form>
     
