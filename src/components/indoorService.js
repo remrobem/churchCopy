@@ -8,12 +8,24 @@ const IndoorService = () => {
         <div className={styles.message}>
           <h1>Sunday Service</h1>
           {/* <h1> 8:30 am Masks Required</h1> */}
-            <h1>10:00 am Masks Optional</h1>
+          <h1>10:00 am Masks Optional</h1>
         </div>
         <div>
           <div className={styles.text}>
-           
             <p>
+              Rockingham County has moved into the yellow zone according to the
+              CDC Covid metrics.
+            </p>
+            <p>
+              Masks will be required at Sunday services for as long as the
+              County remains at this level.
+            </p>
+            <p>
+              Masks will be available in the narthex on Sunday, in case you
+              forget yours.
+            </p>
+            <p>Thank you for helping to keep Epiphany safe.</p>
+            {/* <p>
               With the percentage of Covid cases declining in our area, and with
               the approval of the Diocese of NC, we are lifting some of the
               restrictions in our Covid protocols for worship.
@@ -24,14 +36,14 @@ const IndoorService = () => {
               a mask at this service if you wish, but it is not required at this
               time. Those who are not fully vaccinated will still be required to
               wear a mask throughout the service.
-            </p>
+            </p> */}
             {/* <p>
               We'll offer a service at 8:30 on Sundays with masks required for
               four weeks to determine how many people are at this comfort level.
               At the end of that time, we'll determine the need and desire for a
               fully masked service.
             </p> */}
-            <p>
+            {/* <p>
               We will use two metrics to determine the safety of a mask-optional
               service. The first is the NCDHHS percentage that we have used
               since the beginning of the pandemic.
@@ -45,7 +57,7 @@ const IndoorService = () => {
               will require masks at the 10:00 service. In such cases, masks will
               be available in the narthex, and there will be signage noting the
               mask requirement.
-            </p>
+            </p> */}
             <p>We hope you'll join us in person each Sunday. </p>
             <p>
               If you aren't able to attend, please watch the service live or

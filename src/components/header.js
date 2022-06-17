@@ -73,7 +73,17 @@ const Header = () => {
               Newsletters
             </Link>
           </div>
-          <p className={styles.sundayService}>The Sunday Service is at 10 am only with masks optional</p>
+          <p className={styles.sundayService}>
+            The Sunday Service is at 10 am only with masks REQUIRED
+          </p>
+          <p className={styles.sundayService}>
+            Rockingham County has moved into the yellow zone according to the
+            CDC Covid metrics.
+          </p>
+          <p className={styles.sundayService}>
+            Masks will be required at Sunday services for as long as the County
+            remains at this level.
+          </p>
         </div>
       </div>
     </header>
