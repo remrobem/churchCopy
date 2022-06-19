@@ -57,17 +57,17 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1YS8bDdGFHh2UEEJFp6TtmP9dRjSl0egS/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1KZT1EfQvrseQk39bP_KMu49vOImHjQb6/view?usp=sharing"
             >
-              Order of Service for June 12, 2022
+              Order of Service for June 19, 2022
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1SWf3PNW5bbeMQnAXtMm0Tn6KVWn8mdOn/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1TrA_q3Vjp-5x4zZXSyz0__qRpG1y_S4j/view?usp=sharing"
             >
-              Music for for June 12, 2022
+              Music for for June 19, 2022
             </button>
           </form>
     
