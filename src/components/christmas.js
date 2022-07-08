@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./christmas.module.css"
+import * as styles from "./christmas.module.css"
 
 const Christmas = () => {
   return (

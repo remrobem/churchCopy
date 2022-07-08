@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./outdoorService.module.css"
+import * as styles from "./outdoorService.module.css"
 
 const OutdoorService = () => {
   return (

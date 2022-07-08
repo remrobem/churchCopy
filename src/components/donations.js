@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./donations.module.css"
+import * as styles from "./donations.module.css"
 
 const Donations = () => {
   return (

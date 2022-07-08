@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./virtualGathering.module.css"
+import * as styles from "./virtualGathering.module.css"
 import image from "../../content/assets/AndTheySaw.jpg"
 
 const Vbs = () => {

@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./healingService.module.css"
+import * as styles from "./healingService.module.css"
 import image from "./../../content/assets/HoldingHope_Calendar-756x624.jpg"
 
 const HealingService = () => {

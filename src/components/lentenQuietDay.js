@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "./lentenQuietDay.module.css"
+import * as styles from "./lentenQuietDay.module.css"
 import image from "../../content/assets/LentenQuietDay.png"
 
 const LentenQuietDay = () => {

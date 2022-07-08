@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./vbs.module.css"
+import * as styles from "./vbs.module.css"
 import image from "../../content/assets/VBS_image.png"
 import { FaPhone } from "react-icons/fa"
 

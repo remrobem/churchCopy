@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import styles from "./gift.module.css"
+import * as styles from "./gift.module.css"
 import EstimateProgressBar from "./estimateProgressBar"
 
 import {

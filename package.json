@@ -1,14 +1,12 @@
 {
   "name": "epiphany",
   "private": true,
-  "description": "Church of the Epiphany website using Gaysby",
+  "description": "Church of the Epiphany website using Gatsby",
   "version": "0.1.0",
   "author": "Rob Martin <rob.martin.5758@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
   "dependencies": {
     "@loadable/component": "^5.15.2",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "dotenv": "^16.0.1",
     "emailjs": "^4.0.0",
     "emailjs-com": "^3.2.0",
@@ -16,9 +14,10 @@
     "gatsby-background-image": "^1.6.0",
     "gatsby-env-variables": "^2.0.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-mailgo": "^0.12.2",
     "gatsby-plugin-feed": "^4.18.0",
+    "gatsby-plugin-google-analytics": "^4.18.0",
     "gatsby-plugin-image": "^2.18.0",
+    "gatsby-plugin-mailgo": "^0.12.2",
     "gatsby-plugin-manifest": "^4.18.0",
     "gatsby-plugin-netlify-cms": "^6.18.0",
     "gatsby-plugin-offline": "^5.18.0",
@@ -26,7 +25,6 @@
     "gatsby-plugin-sass": "^5.18.0",
     "gatsby-plugin-sharp": "^4.18.0",
     "gatsby-plugin-typography": "^4.18.0",
-    "gatsby-plugin-google-analytics": "^4.18.0",
     "gatsby-remark-copy-linked-files": "^5.18.0",
     "gatsby-remark-images": "^6.18.0",
     "gatsby-remark-prismjs": "^6.18.0",
@@ -43,24 +41,31 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
+    "react-refresh": "^0.10.0",
     "react-typography": "^0.16.19",
     "typeface-merriweather": "1.1.13",
     "typeface-montserrat": "1.1.13",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-wordpress-2016": "^0.16.19",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "prettier": "2.7.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://epiphanyeden.org",
   "keywords": [
-    "gatsby"
+    "epiphany",
+    "eden",
+    "episcopal",
+    "church",
+    "nc",
+    "north carolina"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/epiphanyeden/website-202006.git"
   },
   "scripts": {
     "build": "gatsby build",

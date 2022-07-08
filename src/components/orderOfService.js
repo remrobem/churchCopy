@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./orderOfService.module.css"
+import * as styles from "./orderOfService.module.css"
 import { Document, Page } from "react-pdf"
 
 const OrderOfService = ({ pdf }) => {

@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./estimateProgressBar.module.css"
+import * as styles from "./estimateProgressBar.module.css"
 
 const EstimateProgressBar = () => {
   const goal = 120000
