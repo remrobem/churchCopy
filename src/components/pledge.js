@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./pledge.module.css"
+import * as styles from "./pledge.module.css"
 
 const Pledge = () => {
   return (

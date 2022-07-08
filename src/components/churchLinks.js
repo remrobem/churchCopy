@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./churchLinks.module.css"
+import * as styles  from "./churchLinks.module.css"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const ChurchLinks = () => {

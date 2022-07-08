@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./shrove_tuesday.module.css"
+import * as styles from "./shrove_tuesday.module.css"
 import image from "../../content/assets/shrove_tuesday.jpeg"
 // import { FaPhone } from "react-icons/fa"
 

@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./longestNight.module.css"
+import * as styles from "./longestNight.module.css"
 import image from "../../content/assets/longest-night.jpeg"
 // import { FaPhone } from "react-icons/fa"
 

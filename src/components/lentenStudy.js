@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "./lentenStudy.module.css"
+import * as styles from "./lentenStudy.module.css"
 import announcement from "../../content/assets/LentenStudy.jpg"
 
 const LentenStudy = () => {

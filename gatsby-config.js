@@ -19,6 +19,7 @@ module.exports = {
     `gatsby-plugin-anchor-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-mailgo`,
       options: {
@@ -79,10 +80,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-20632834-1`,
       },
     },
-    `gatsby-plugin-feed`,
+    {
+    resolve: `gatsby-plugin-feed`,
+    options: {
+      feeds: [],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

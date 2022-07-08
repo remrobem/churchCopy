@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./ash-wednesday1.module.css"
+import * as styles from "./ash-wednesday1.module.css"
 
 const AshWednesday1 = () => {
   return (

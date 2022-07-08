@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./outdoorServiceCancel.module.css"
+import * as styles from "./outdoorServiceCancel.module.css"
 import { Link } from "gatsby"
 
 const OutdoorServiceCancel = () => {

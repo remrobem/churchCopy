@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./advent.module.css"
+import * as styles from "./advent.module.css"
 
 const Advent = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
-import styles from "./header.module.css"
+import * as styles from "./header.module.css"
 import {
   FaPhone,
   FaMapMarkerAlt,
