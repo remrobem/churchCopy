@@ -15,11 +15,10 @@ module.exports = {
     `gatsby-env-variables`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cms`,
-    `gatsby-background-image`,
     `gatsby-plugin-anchor-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-image`,
+    `gatsby-image`,
     {
       resolve: `gatsby-plugin-mailgo`,
       options: {
@@ -36,7 +35,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/content/assets`,
         name: `blog`,
       },
     },
