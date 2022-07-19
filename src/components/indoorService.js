@@ -14,7 +14,7 @@ const IndoorService = () => {
           <div className={styles.text}>
             <p>The Sunday Service is at 10 am with masks optional.</p>
             <p>
-              The church is monitors the{" "}
+              The church monitors the{" "}
               <a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html">
                 CDC Community{" "}
               </a>
