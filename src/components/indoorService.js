@@ -8,11 +8,23 @@ const IndoorService = () => {
         <div className={styles.message}>
           <h1>Sunday Service</h1>
           {/* <h1> 8:30 am Masks Required</h1> */}
-          <h1>10:00 am Masks Required</h1>
+          <h1>10:00 am Masks Optional</h1>
         </div>
         <div>
           <div className={styles.text}>
+            <p>The Sunday Service is at 10 am with masks optional.</p>
             <p>
+              The church is monitors the{" "}
+              <a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html">
+                CDC Community{" "}
+              </a>
+              levels.
+              <p>
+                If the level is yellow or red, masks will be required and other
+                procedural changes may be made.
+              </p>
+            </p>
+            {/* <p>
               Rockingham County has moved into the yellow zone according to the
               CDC Covid metrics.
             </p>
@@ -24,7 +36,7 @@ const IndoorService = () => {
               Masks will be available in the narthex on Sunday, in case you
               forget yours.
             </p>
-            <p>Thank you for helping to keep Epiphany safe.</p>
+            <p>Thank you for helping to keep Epiphany safe.</p> */}
             {/* <p>
               With the percentage of Covid cases declining in our area, and with
               the approval of the Diocese of NC, we are lifting some of the
