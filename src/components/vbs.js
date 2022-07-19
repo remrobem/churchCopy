@@ -20,7 +20,7 @@ const Vbs = () => {
   return (
     <div className={styles.container}>
       <Img fluid={data.file.childImageSharp.fluid} alt="VBS 2022" />
-      <p className={styles.text}>Please click on the below Registration Link –</p>
+      <p className={styles.text}>Please click on the below Registration Link by Friday July 22</p>
       <p className={styles.text}>Because …</p>
       <p className={styles.text}>VBS is back, live and n-person again !!!</p>
       <p className={styles.text}>
