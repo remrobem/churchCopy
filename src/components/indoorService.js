@@ -12,17 +12,18 @@ const IndoorService = () => {
         </div>
         <div>
           <div className={styles.text}>
-            <p>The Sunday Service is at 10 am with masks required.</p>
+            <p>The Sunday Service is at 10 am with masks optional.</p>
             <p>
               The church monitors the{" "}
               <a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html">
                 CDC Community{" "}
               </a>
               levels.
-              <p>
-                If the level is yellow or red, masks will be required and other
-                procedural changes may be made.
-              </p>
+            </p>
+            <p>The current level is green(low)</p>
+            <p>
+              If the level is yellow or red, masks will be required and other
+              procedural changes may be made.
             </p>
             {/* <p>
               Rockingham County has moved into the yellow zone according to the
