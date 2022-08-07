@@ -8,7 +8,7 @@ const IndoorService = () => {
         <div className={styles.message}>
           <h1>Sunday Service</h1>
           {/* <h1> 8:30 am Masks Required</h1> */}
-          <h1>10:00 am Masks Required</h1>
+          <h1>10:00 am Masks Optional</h1>
         </div>
         <div>
           <div className={styles.text}>
