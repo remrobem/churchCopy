@@ -57,17 +57,17 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/13FVstVt3iu4vBB2uZkTeD2rICSZCOaIj/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1ZGkkexS0rC6hNbgRE9z_gBPQrtrknVUG/view?usp=sharing"
             >
-              Order of Service for August 7, 2022
+              Order of Service for August 14, 2022
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1i2i-YSaY1lKeX2_GXXLd0-6b7EO4x8UW/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/14Bo4Qj1yWjfYgCbLCmClQAqHORAq5Fx-/view?usp=sharing"
             >
-              Music for for August 7, 2022
+              Music for for August 14, 2022
             </button>
           </form>
     
@@ -83,8 +83,8 @@ const Services = () => {
             <iframe
               width="300"
               height="300"
-              src="https://www.youtube.com/embed/-uTg1t2GkYI"
-              title="July 31, 2022"
+              src="https://www.youtube.com/embed/YAZISVIzzkM"
+              title="August 7, 2022"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
