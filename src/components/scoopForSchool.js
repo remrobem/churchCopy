@@ -19,9 +19,10 @@ const ScoopForSchool = () => {
         </p>
         <p className={styles.text}>
           {" "}
-          We will be collecting school supplies. Here are some ideas on what to
-          bring. You can drop of items early at the church when the office is open.
+          We will be collecting elementary school supplies. Here are some ideas on what to
+          bring. You can drop off items at the church Sunday or when the office is open.
         </p>
+        <p className={styles.text}>Thank You!!</p>
         <p>
           <ul className={styles.list}>
             <li>Crayons-24 count</li>
