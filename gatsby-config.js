@@ -16,9 +16,8 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-anchor-links`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    `gatsby-image`,
     {
       resolve: `gatsby-plugin-mailgo`,
       options: {
