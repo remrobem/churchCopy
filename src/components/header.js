@@ -74,10 +74,10 @@ const Header = () => {
             </Link>
           </div>
           <p className={styles.sundayService}>
-            The Sunday Service is at 10 am with masks required.
+            The Sunday Service is at 10 am with masks optional and singing.
           </p>
           <p className={styles.sundayService}>
-            Rockingham County is in the red (high) level according to the
+            Rockingham County is at the yellow (medium) level according to the
             CDC Covid Community metrics.
           </p>
         </div>
