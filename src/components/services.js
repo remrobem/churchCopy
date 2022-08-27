@@ -57,24 +57,24 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/11YZtQ3t55w3ilvzPl6HIa9Ds2zoDvp_B/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1QMc5Wg-ptVmsT9Bs_KX6Dwp44IushBX_/view?usp=sharing"
             >
-              Order of Service for August 21, 2022
+              Order of Service for August 28, 2022
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1uaFrkvPsaEJbY5GpWf_6vwTPvAjC_kUp/view?usp=sharing"
-            >
-              Music for for August 21, 2022
+              formAction="https://drive.google.com/file/d/1VgCtpTB8bDebVrCU-1W7IjJZUlO_Oz65/view?usp=sharing"
+            >sharing
+              Music for for August 28, 2022
             </button>
           </form>
     
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1DCbCEwpvggRcyZGZaHI6DInLSZWm1HaK/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/12kkLXwffRb02qjhtaOaEiQrDqdMqceaV/view?usp=sharing"
             >
               Prayer List
             </button>
@@ -83,8 +83,8 @@ const Services = () => {
             <iframe
               width="300"
               height="300"
-              src="https://www.youtube.com/embed/yvhB7bY8ryE"
-              title="August 14, 2022"
+              src="https://www.youtube.com/embed/62iKmw5ROEs"
+              title="August 21, 2022"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

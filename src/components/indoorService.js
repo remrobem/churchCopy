@@ -8,11 +8,11 @@ const IndoorService = () => {
         <div className={styles.message}>
           <h1>Sunday Service</h1>
           {/* <h1> 8:30 am Masks Required</h1> */}
-          <h1>10:00 am Masks Required</h1>
+          <h1>10:00 am Masks Optional</h1>
         </div>
         <div>
           <div className={styles.text}>
-            <p>The Sunday Service is at 10 am with masks required.</p>
+            <p>The Sunday Service is at 10 am with singing and masks optional.</p>
             <p>
               The church monitors the{" "}
               <a href="https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html">
@@ -20,7 +20,7 @@ const IndoorService = () => {
               </a>
               levels.
             </p>
-            <p>The current CDC Community level for Rockingham County is red(high)</p>
+            <p>The current CDC Community level for Rockingham County is yellow (medium).</p>
             {/* <p>
               If the level is yellow or red, masks will be required and other
               procedural changes may be made.
