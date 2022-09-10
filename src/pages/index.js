@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Main = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -10,7 +10,7 @@ const Main = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Episcopal Church of the Epiphany Eden NC" />
+      <Seo title="Episcopal Church of the Epiphany Eden NC" />
     </Layout>
   )
 }

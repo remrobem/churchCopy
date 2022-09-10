@@ -66,7 +66,7 @@ const Services = () => {
             <button
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://drive.google.com/file/d/13H3ssG6eIoz9vIduwfuR4nq0DlEyTGF3/view?usp=sharing"
-            >sharing
+            >
               Music for for September 11, 2022
             </button>
           </form>

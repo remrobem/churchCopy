@@ -9,6 +9,7 @@ import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
 import DisplayNewsletters from "./displayNewsletters"
+import MorningPrayer from "./morningPrayer"
 
 const Layout = ({ location, title, children }) => {
   
@@ -16,6 +17,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <MorningPrayer />
       <Gift />
       <ChurchLinks />
       <Announcements />
