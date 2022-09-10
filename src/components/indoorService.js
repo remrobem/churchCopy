@@ -20,7 +20,7 @@ const IndoorService = () => {
               </a>
               levels.
             </p>
-            <p>The current CDC Community level for Rockingham County is yellow (medium).</p>
+            <p>The current CDC Community level for Rockingham County is green (low).</p>
             {/* <p>
               If the level is yellow or red, masks will be required and other
               procedural changes may be made.

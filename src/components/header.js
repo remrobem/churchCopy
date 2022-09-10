@@ -77,7 +77,7 @@ const Header = () => {
             The Sunday Service is at 10 am with masks optional and singing.
           </p>
           <p className={styles.sundayService}>
-            Rockingham County is at the yellow (medium) level according to the
+            Rockingham County is at the green (low) level according to the
             CDC Covid Community metrics.
           </p>
         </div>

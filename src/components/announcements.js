@@ -152,8 +152,7 @@ const Announcements = () => {
             people.
           </p>
           <p>
-            The format will remain the same: watch the National Cathedral sermon
-            from the prior Sunday and discuss it.
+            Right now wee are watching a series of talks on the Old Testament given by Amy-Jill Levine.
           </p>
           <p>
             It is very informal. It is not uncommon for the discussions to
