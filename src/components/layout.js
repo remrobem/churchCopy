@@ -10,6 +10,7 @@ import IndoorService from "./indoorService"
 import Gift from "./gift"
 import DisplayNewsletters from "./displayNewsletters"
 import MorningPrayer from "./morningPrayer"
+import BookStudy from "./bookStudy"
 
 const Layout = ({ location, title, children }) => {
   
@@ -18,6 +19,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <MorningPrayer />
+      <BookStudy />
       <Gift />
       <ChurchLinks />
       <Announcements />

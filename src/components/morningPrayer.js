@@ -5,7 +5,7 @@ import * as styles from "./morningPrayer.module.css"
 const MorningPrayer = () => {
   return (
     <main>
-      <section className={styles.imageContainer}>
+      <section className={styles.imageContainer} id="morningprayer">
         <StaticImage
           src="../..//content/assets/prayerBook.jpg"
           alt="Scoop For School"

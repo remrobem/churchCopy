@@ -9,6 +9,7 @@
     "dotenv": "^16.0.1",
     "emailjs": "^4.0.0",
     "emailjs-com": "^3.2.0",
+    "env-cmd": "^10.1.0",
     "gatsby": "^4.0.0-next",
     "gatsby-background-image": "^1.6.0",
     "gatsby-env-variables": "^2.0.0",
@@ -68,7 +69,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "develop": "env-cmd -f .env gatsby develop",
+    "develop": "env-cmd -f env gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
