@@ -5,6 +5,29 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
+
+<div className={styles.announcement}>
+        <h1>Book Study</h1>
+        <div className={styles.text}>
+          <p>We are having a book study on Wednesday evenings</p>
+          <p>
+            Click <Link to="/#bookstudy">here</Link> for details.
+          </p>
+          <br></br>
+        </div>
+      </div>
+
+      <div className={styles.announcement}>
+        <h1>Morning Prayer Online</h1>
+        <div className={styles.text}>
+          <p>We are having morning prayer online on Mondays</p>
+          <p>
+            Click <Link to="/#morningprayer">here</Link> for details.
+          </p>
+          <br></br>
+        </div>
+      </div>
+
       <div className={styles.announcement} id="20211114">
         <h1>In-person Sunday services have restarted</h1>
         {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
@@ -152,7 +175,8 @@ const Announcements = () => {
             people.
           </p>
           <p>
-            Right now wee are watching a series of talks on the Old Testament given by Amy-Jill Levine.
+            Right now wee are watching a series of talks on the Old Testament
+            given by Amy-Jill Levine.
           </p>
           <p>
             It is very informal. It is not uncommon for the discussions to
