@@ -5,8 +5,19 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
+      <div className={styles.announcement}>
+        <h1>Blessing of the Animals</h1>
+        <div className={styles.text}>
+          <p>Blessing of the Animals will start at 5:30 pm on Wednesday October 5.</p>
+          <p>The blessings will start at 6 pm</p>
+          <p>
+            Click <Link to="/#bota">here</Link> for details.
+          </p>
+          <br></br>
+        </div>
+      </div>
 
-<div className={styles.announcement}>
+      <div className={styles.announcement}>
         <h1>Book Study</h1>
         <div className={styles.text}>
           <p>We are having a book study on Wednesday evenings</p>
