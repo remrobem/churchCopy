@@ -19,11 +19,11 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <ChurchLinks />
       <Bota />
       <MorningPrayer />
       <BookStudy />
       <Gift />
-      <ChurchLinks />
       <Announcements />
       <IndoorService />
       <Services />
