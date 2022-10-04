@@ -11,6 +11,7 @@ import Gift from "./gift"
 import DisplayNewsletters from "./displayNewsletters"
 import MorningPrayer from "./morningPrayer"
 import BookStudy from "./bookStudy"
+import Bota from "./bota"
 
 const Layout = ({ location, title, children }) => {
   
@@ -18,6 +19,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
+      <Bota />
       <MorningPrayer />
       <BookStudy />
       <Gift />

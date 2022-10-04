@@ -1,0 +1,54 @@
+.imageContainer {
+  margin: 0;
+  /* padding: 1vw; */
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 0;
+  padding: 1vw;
+  background-color: blueviolet;
+  color: white;
+  display: flex row;
+  justify-content: center;
+}
+
+
+.text {
+  margin-left: 10vw;
+  margin-right:10vw;
+  font-size: 1rem;
+}
+
+.list {
+  font-size: 1rem;
+  line-height: 0.5rem;
+  margin-left: 12vw;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background: rgb(129, 129, 236);
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 5vw;
+  /* padding: .5em .5em; */
+  text-decoration: none;
+  /* margin: 2rem; */
+  border: none;
+  width: 60vw;
+  height: 15vh;
+}
+
+.button:hover {
+  background-color: rgb(1, 20, 196);
+  font-weight: bolder;
+}
