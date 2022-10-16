@@ -57,17 +57,17 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/16dYiLYkcMEnC2X0S3AezgrgjPOFhlJQ9/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1Qk1j0s3kdKGScWUZG4wS_glVX72rf3CT/view?usp=sharing"
             >
-              Order of Service for October 9, 2022
+              Order of Service for October 16, 2022
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1kPHIwsFqYUPZNqH2cuN5bm6nwjWRKUgw/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/10bDxIwStfy2m0rHGXHkKQlsPu9l6P5Ij/view?usp=sharing"
             >
-              Music for for October 9, 2022
+              Music for for October 16, 2022
             </button>
           </form>
     
@@ -79,7 +79,7 @@ const Services = () => {
               Prayer List
             </button>
           </form>
-          <div className="iframe-container">
+          {/* <div className="iframe-container">
             <iframe
               width="300"
               height="300"
@@ -89,7 +89,7 @@ const Services = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-          </div>
+          </div> */}
         </main>
       </div>
 
