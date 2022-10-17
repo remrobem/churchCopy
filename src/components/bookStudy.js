@@ -15,13 +15,15 @@ const BookStudy = () => {
       </section>
       <section className={styles.container}>
         <p className={styles.book}>
-          "Accidental Saints:Finding God in All the Wrong People"
+          "Accidental Saints: Finding God in All the Wrong People"
         </p>
         <p className={styles.text}>by</p>
         <p className={styles.book}>Nadia Bolz-Weber</p>
         <p className={styles.text}>
-          Beginning Wednesday September 21 at 6:00 pm, there will be a book
-          study at Epiphany - in person and on Zoom.
+          Wednesday at 6:00 pm
+        </p>
+        <p className={styles.text}>
+          On 10/19, we plan on discussing chapters 6 and 7
         </p>
 
         <p className={styles.text}>
@@ -36,11 +38,6 @@ const BookStudy = () => {
           If you need help getting a copy, please email
           outreach@epiphanyeden.org.
         </p>
-        <p className={styles.text}>
-          Please join us, even if you haven't startted reading it by the first
-          meeting.
-        </p>
-
         <p className={styles.text}>
           <button
             type="button"
