@@ -23,27 +23,25 @@ const Services = () => {
     }
   `)
 
-
-// const oos = useStaticQuery(graphql`
-//     query {
-//       allMarkdownRemark(
-//         sort: { order: DESC, fields: frontmatter___date }
-//         limit: 52
-//       ) {
-//         edges {
-//           node {
-//             id
-//             frontmatter {
-//               videoLink
-//               serviceOrderlink
-//               title
-//             }
-//           }
-//         }
-//       }
-//     }
-//   `)
-
+  // const oos = useStaticQuery(graphql`
+  //     query {
+  //       allMarkdownRemark(
+  //         sort: { order: DESC, fields: frontmatter___date }
+  //         limit: 52
+  //       ) {
+  //         edges {
+  //           node {
+  //             id
+  //             frontmatter {
+  //               videoLink
+  //               serviceOrderlink
+  //               title
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `)
 
   // filter out md that does not have a video link
   let services = servicesList.allMarkdownRemark.edges.filter(service => {
@@ -70,7 +68,14 @@ const Services = () => {
               Music for for October 23, 2022
             </button>
           </form> */}
-    <p>The Service on 10/30 will feature a selection of songs from the "“Lift Every Voice and Sing” hymnal.</p><p>The actual songs to sing will be selected by the congregation during the service.</p>
+          <p>
+            The Service on 10/30 will feature a selection of songs from the
+            "“Lift Every Voice and Sing” hymnal.
+          </p>
+          <p>
+            The actual songs to sing will be selected by the congregation during
+            the service.
+          </p>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
