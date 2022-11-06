@@ -55,19 +55,19 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1h0svTIXQ_fjG-hc3_87HdhKG07ltEZjN/view?usp=share_link"
+              formAction="https://drive.google.com/file/d/13wofE8b9ElAgwdmcvk3lXmtvNRTxi9E8/view?usp=share_link"
             >
-              Order of Service for October 30, 2022
+              Order of Service for November 6, 2022
             </button>
           </form>
-          {/* <form className={styles.form}>
+          <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1xxvvRwdq9mWGXCugtf5-3n5Cby-d-MsM/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1P5nPCBD4tJt2jmpXGQv2FKNjFuVnTov3/view?usp=share_link"
             >
-              Music for for October 23, 2022
+              Music for for November 6, 2022
             </button>
-          </form> */}
+          </form>
           <p>
             The Service on 10/30 will feature a selection of songs from the
             "“Lift Every Voice and Sing” hymnal.
