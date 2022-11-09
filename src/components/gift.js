@@ -59,14 +59,29 @@ const Gift = ({ env }) => {
       )
   }
 
-  if (formSubmitted && formSubmitSuccessful) {
-    return <h2>Thank You! Your Pledge has been sent.</h2>
-  }
+  // if (formSubmitted && formSubmitSuccessful) {
+  //   return (
+  //     <div id="pledge">
+  //       <div className={styles.container}>
+  //         <h2 className={styles.title}>Pledge for 2023</h2>
+  //         <br />
+  //         <br />
+  //         <br />
+  //         <h2 className={styles.title}>Thank You!</h2>
+  //         <br />
+  //         <h2 className={styles.title}>Your Pledge has been received.</h2>
+  //         <br />
+  //         <br />
+  //         <br />
+  //       </div>
+  //     </div>
+  //   )
+  // }
 
   return (
-    <div id="gift">
+    <div id="pledge">
       <div className={styles.container}>
-        <h2 className={styles.title}>Growing In Faith Together</h2>
+        <h2 className={styles.title}>Pledge for 2023</h2>
         <p className={styles.text}>
           Epiphany is asking for a pledge of your financial giving for 2023.
         </p>
@@ -93,51 +108,66 @@ const Gift = ({ env }) => {
           budget for 2023, and to be good stewards of the financial gifts the
           church receives.
         </p>
-        <EstimateProgressBar />
-        <form className={styles.form} onSubmit={handleSubmit}>
-          <h2>Your Estimate of Giving for 2023</h2>
-          <label>
-            <input
-              className={styles.textInput}
-              type="text"
-              name="donorName"
-              id="donorName"
-              placeholder="Your Name(s)"
-              required
-              onChange={e => handleNameChange(e)}
-            />
-          </label>
+        {/* <EstimateProgressBar /> */}
 
-          <label>
-            <input
-              className={styles.textInput}
-              type="email"
-              name="donorEmail"
-              // value="donorEmail"
-              id="donorEmail"
-              placeholder="Email"
-              onChange={e => handleEmailChange(e)}
-            />
-          </label>
-
-          <label>
-            <input
-              className={styles.textInput}
-              type="number"
-              min="10"
-              step="10"
-              name="donorAmount"
-              id="donorAmount"
-              placeholder="Annual Amount"
-              required
-              onChange={e => handleAmountChange(e)}
-            />
-          </label>
-
+        {formSubmitted && formSubmitSuccessful ? (
           <div>
-            <input type="submit" value="Submit" className={styles.button} />
+            <div className={styles.container}>
+              <br />
+              <br />
+              <h2 className={styles.title}>Thank You!</h2>
+              <br />
+              <h2 className={styles.title}>Your Pledge has been received.</h2>
+              <br />
+              <br />
+            </div>
           </div>
-        </form>
+        ) : (
+          <form className={styles.form} onSubmit={handleSubmit}>
+            <h2>Your Pledge for 2023</h2>
+            <label>
+              <input
+                className={styles.textInput}
+                type="text"
+                name="donorName"
+                id="donorName"
+                placeholder="Your Name(s)"
+                required
+                onChange={e => handleNameChange(e)}
+              />
+            </label>
+
+            <label>
+              <input
+                className={styles.textInput}
+                type="email"
+                name="donorEmail"
+                // value="donorEmail"
+                id="donorEmail"
+                placeholder="Email"
+                onChange={e => handleEmailChange(e)}
+              />
+            </label>
+
+            <label>
+              <input
+                className={styles.textInput}
+                type="number"
+                min="10"
+                step="5"
+                name="donorAmount"
+                id="donorAmount"
+                placeholder="Annual Amount"
+                required
+                onChange={e => handleAmountChange(e)}
+              />
+            </label>
+
+            <div>
+              <input type="submit" value="Submit" className={styles.button} />
+            </div>
+          </form>
+        )}
       </div>
     </div>
   )

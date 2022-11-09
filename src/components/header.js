@@ -60,14 +60,14 @@ const Header = () => {
             <Link className={styles.button} to="#epiphany_donate">
               Offering
             </Link>
+            <Link className={styles.button} to="#pledge">
+              2023 Pledge
+            </Link>
             <Link className={styles.button} to="#indoor">
               Sunday Services
             </Link>
             <Link className={styles.button} to="#announcements">
               Announcements
-            </Link>
-            <Link className={styles.button} to="#gift">
-              Giving Estimate
             </Link>
             <Link className={styles.button} to="#newsletters">
               Newsletters
@@ -77,8 +77,8 @@ const Header = () => {
             The Sunday Service is at 10 am with masks optional and singing.
           </p>
           <p className={styles.sundayService}>
-            Rockingham County is at the green (low) level according to the
-            CDC Covid Community metrics.
+            Rockingham County is at the green (low) level according to the CDC
+            Covid Community metrics.
           </p>
         </div>
       </div>
