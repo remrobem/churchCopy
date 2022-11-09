@@ -60,7 +60,7 @@ const Gift = ({ env }) => {
   }
 
   if (formSubmitted && formSubmitSuccessful) {
-    return <h2>Thank You! Your Estimate of Giving has been sent.</h2>
+    return <h2>Thank You! Your Pledge has been sent.</h2>
   }
 
   return (
@@ -68,7 +68,7 @@ const Gift = ({ env }) => {
       <div className={styles.container}>
         <h2 className={styles.title}>Growing In Faith Together</h2>
         <p className={styles.text}>
-          Epiphany is asking for an estimate of your financial giving for 2022.
+          Epiphany is asking for a pledge of your financial giving for 2023.
         </p>
         <p className={styles.text}>
           Since 1844, people have been growing in faith together at Epiphany.
@@ -90,12 +90,12 @@ const Gift = ({ env }) => {
         </p>
         <p className={styles.text}>
           Your estimate of giving is very important for the vestry to plan and
-          budget for 2022, and to be good stewards of the financial gifts the
+          budget for 2023, and to be good stewards of the financial gifts the
           church receives.
         </p>
         <EstimateProgressBar />
         <form className={styles.form} onSubmit={handleSubmit}>
-          <h2>Your Estimate of Giving for 2022</h2>
+          <h2>Your Estimate of Giving for 2023</h2>
           <label>
             <input
               className={styles.textInput}
