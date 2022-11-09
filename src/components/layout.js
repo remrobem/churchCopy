@@ -2,7 +2,6 @@ import React from "react"
 import Footer from "../components/footer"
 import Header from "../components/header"
 import LandingPage from "./landingPage"
-// import Pledge from "./pledge"
 import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
@@ -19,11 +18,10 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      {/* <Pledge /> */}
+      <Gift />
       <ChurchLinks />
       <MorningPrayer />
       <BookStudy />
-      <Gift />
       <Announcements />
       <IndoorService />
       <Services />
