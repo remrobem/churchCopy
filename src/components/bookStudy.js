@@ -23,7 +23,7 @@ const BookStudy = () => {
           Wednesday at 6:00 pm
         </p>
         <p className={styles.text}>
-          On 11/9, we plan on discussing chapters 12, 13 and 14
+          On 11/16, we plan on discussing chapters 15 and 16.
         </p>
 
         <p className={styles.text}>
