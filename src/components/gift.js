@@ -15,6 +15,7 @@ const Gift = ({ env }) => {
   const [donorName, setDonorName] = useState("")
   const [donorEmail, setDonorEmail] = useState("")
   const [donorAmount, setDonorAmount] = useState("")
+  const [donorComment, setDonorComment] = useState("")
   const [formSubmitted, setFormSubmitted] = useState(false)
   const [formSubmitSuccessful, setFormSubmitSuccessful] = useState(false)
 
@@ -28,6 +29,10 @@ const Gift = ({ env }) => {
     setDonorAmount(event.target.value)
   }
 
+  const handleCommentChange = event => {
+    setDonorComment(event.target.value)
+  }
+
   const handleSubmit = event => {
     event.preventDefault()
 
@@ -37,6 +42,7 @@ const Gift = ({ env }) => {
       donorName,
       donorEmail,
       donorAmount,
+      donorComment,
     }
 
     sendEmail(serviceID, templateID, templateParams)
@@ -160,6 +166,17 @@ const Gift = ({ env }) => {
                 placeholder="Annual Amount"
                 required
                 onChange={e => handleAmountChange(e)}
+              />
+            </label>
+
+            <label>
+              <input
+                className={styles.textInput}
+                type="text"
+                name="donorComment"
+                id="donorComment"
+                placeholder="Comments"
+                onChange={e => handleCommentChange(e)}
               />
             </label>
 
