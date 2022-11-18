@@ -57,20 +57,17 @@ const Header = () => {
             </a>
           </div>
           <div className={styles.buttons}>
-            <Link className={styles.button} to="#epiphany_donate">
-              Offering
+            <Link className={styles.button} to="#donate">
+              Make an Offering
             </Link>
             <Link className={styles.button} to="#pledge">
-              2023 Pledge
+              Pledge for 2023
             </Link>
-            <Link className={styles.button} to="#indoor">
+            <Link className={styles.button} to="#services">
               Sunday Services
             </Link>
             <Link className={styles.button} to="#announcements">
               Announcements
-            </Link>
-            <Link className={styles.button} to="#newsletters">
-              Newsletters
             </Link>
           </div>
           <p className={styles.sundayService}>

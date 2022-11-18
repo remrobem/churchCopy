@@ -19,7 +19,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     padding: 10px;
-    margin: 0;
+    margin: 2% 20%;
     height: auto;
     align-items: center;
     background-color: rgb(26, 128, 230);
@@ -46,13 +46,32 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+    padding: 0.5rem;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  
+  .formText {
+    /* display: flex;
+    align-items: center;
+    justify-content: left; */
+    font-size: 0.8rem;
     color: black;
     /* padding: 0.5rem; */
     margin-left: 12%;
     margin-right: 12%;
   }
-  
+
+
+.offering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
   .button {
       background: rgb(14, 14, 240);
       border-radius: 12px;
@@ -64,10 +83,10 @@
       margin-top: 1rem;
       margin-bottom: 3rem;
       border: none;
-      width: 35vw;
-      height: 5vh;
+      width: 25vw;
+      height: 8vh;
     }
-    
+  
     .button:hover {
       background-color: rgb(1, 20, 196);
       font-weight: bolder;

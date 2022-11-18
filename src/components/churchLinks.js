@@ -6,7 +6,7 @@ const ChurchLinks = () => {
   return (
     <div className={styles.container}>
       <form className={styles.buttonContainer}>
-        <button className={styles.button}>
+        {/* <button className={styles.button}>
           <AnchorLink to="/#epiphany_services" className="anchorLink" stripHash>
             <span>Epiphany Services</span>
           </AnchorLink>
@@ -16,7 +16,7 @@ const ChurchLinks = () => {
           <AnchorLink to="/#epiphany_donate" className="anchorLink" stripHash>
             <span>Donate</span>
           </AnchorLink>
-        </button>
+        </button> */}
 
         {/* <button
           className={styles.button}

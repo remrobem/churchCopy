@@ -8,16 +8,16 @@ import Donations from "./donations"
 import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
-import DisplayNewsletters from "./displayNewsletters"
 import MorningPrayer from "./morningPrayer"
 import BookStudy from "./bookStudy"
+// import EmailSignUp from "./emailSignUp"
 
 const Layout = ({ location, title, children }) => {
   
   return (
     <div>
       <Header />
-      <LandingPage />
+      {/* <LandingPage /> */}
       <Gift />
       <ChurchLinks />
       <MorningPrayer />
@@ -26,7 +26,7 @@ const Layout = ({ location, title, children }) => {
       <IndoorService />
       <Services />
       <Donations />
-      <DisplayNewsletters />
+      {/* <EmailSignUp /> */}
       <Footer />
     </div>
   )
