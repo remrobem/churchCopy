@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import * as styles from "./gift.module.css"
-import EstimateProgressBar from "./estimateProgressBar"
+// import EstimateProgressBar from "./estimateProgressBar"
+import { Link } from "gatsby"
 
 import {
   EMAILJS_USER,
@@ -65,57 +66,56 @@ const Gift = ({ env }) => {
       )
   }
 
-  // if (formSubmitted && formSubmitSuccessful) {
-  //   return (
-  //     <div id="pledge">
-  //       <div className={styles.container}>
-  //         <h2 className={styles.title}>Pledge for 2023</h2>
-  //         <br />
-  //         <br />
-  //         <br />
-  //         <h2 className={styles.title}>Thank You!</h2>
-  //         <br />
-  //         <h2 className={styles.title}>Your Pledge has been received.</h2>
-  //         <br />
-  //         <br />
-  //         <br />
-  //       </div>
-  //     </div>
-  //   )
-  // }
-
   return (
     <div id="pledge">
       <div className={styles.container}>
-        <h2 className={styles.title}>Pledge for 2023</h2>
+        <h1 className={styles.title}>Pledge for 2023</h1>
         <p className={styles.text}>
-          Epiphany is asking for a pledge of your financial giving for 2023.
+          It’s time for stewardship and pledging once again. This year’s
+          campaign will be decidedly low-key. Last year’s program resulted in
+          fewer than expected pledges and, ultimately, less giving. We don’t
+          know why, but please read on.
         </p>
         <p className={styles.text}>
-          Since 1844, people have been growing in faith together at Epiphany.
+          First, thank you to those who pledged for 2022 and to those who
+          faithfully give to Epiphany, pledge or no pledge. It is because of you
+          that Epiphany exists and supports a worshipping community doing God’s
+          work in the world.
         </p>
         <p className={styles.text}>
-          We grow in faith together through worship, outreach and fellowship. We
-          grow together through celebration and mourning, giving and receiving,
-          agreement and disagreement. And we also grow together in faith through
-          questioning and doubt, revelation and understanding and the acceptance
-          of Jesus and the Holy Spirit in our lives.
+          We are asking that you consider, or reconsider, your financial giving
+          to Epiphany. This should be a prayerful decision between you and God.
+          Please don’t consider this a chore; it is an opportunity to reflect on
+          your God-given abundance and God’s intent for your use of this
+          abundance.
         </p>
         <p className={styles.text}>
-          And through the generosity of people like you sharing God's gifts with
-          Epiphany, we will continue growing in faith together.
+          All we ask is that you let us know what that answer is, even if it’s a
+          commitment to pray each day for our ministries. It is important for
+          the vestry to plan how to do God’s work at Epiphany and outside our
+          doors in 2023. Without some indication of what to expect, it is very
+          difficult for Epiphany to plan on living in the abundance received.
         </p>
+        <p className={styles.text}>
+          We know you want to know the numbers for this year. We had pledges of
+          $66,000. We expect to receive about $124,000 in giving this year. Our
+          expenses will be about $176,000, resulting in an expected deficit of
+          $52,000. Our budget for 2022 was $198,000 so spending is much lower
+          than expected. Outreach is the big loser when expenses exceed giving.
+          While it’s the most important of our ministries, we can’t share what
+          we don’t have.
+        </p>
+        <p className={styles.text}>
+          We hope that this year’s financial situation isn’t the new norm for
+          Epiphany and is, rather, an anomaly. We certainly hope the latter is
+          true.
+        </p>
+        <p className={styles.text}>Please Pray. Please Pledge. Please Give.</p>
+        <p className={styles.text}>Thank you.</p>
+        <p className={styles.text}>In Christ,</p>
+        <p className={styles.text}>Your Vestry</p>
 
-        <p className={styles.text}>
-          It requires at least $180,000 per year to operate our church.
-        </p>
-        <p className={styles.text}>
-          Your estimate of giving is very important for the vestry to plan and
-          budget for 2023, and to be good stewards of the financial gifts the
-          church receives.
-        </p>
-        {/* <EstimateProgressBar /> */}
-
+        {/* display thank you message if form just submitted successfully. */}
         {formSubmitted && formSubmitSuccessful ? (
           <div>
             <div className={styles.container}>
@@ -148,7 +148,6 @@ const Gift = ({ env }) => {
                 className={styles.textInput}
                 type="email"
                 name="donorEmail"
-                // value="donorEmail"
                 id="donorEmail"
                 placeholder="Email"
                 onChange={e => handleEmailChange(e)}
@@ -181,10 +180,36 @@ const Gift = ({ env }) => {
             </label>
 
             <div>
-              <input type="submit" value="Submit" className={styles.button} />
+              <input
+                type="submit"
+                value="Submit Pledge"
+                className={styles.button}
+              />
             </div>
+
+            <p className={styles.formText}>Other Ways to Pledge:</p>
+            <ol className={styles.formText}>
+              <li>
+                Email pledge@epiphanyeden.org with your name and pledge amount.
+              </li>
+              <li>
+                Mail a pledge to the church. You just need to provide your name
+                and the pledge amount. No form is needed,
+              </li>
+              <li>
+                Put a pledge in the collection plate. You just need to provide
+                your name and the pledge amount. A form will be available at the
+                church if needed or preferred.
+              </li>
+            </ol>
           </form>
         )}
+
+        <div className={styles.offering}>
+          <a href="https://tithe.ly/give?c=3897734">
+            <button className={` ${styles.button} `}>Make an Offering</button>
+          </a>
+        </div>
       </div>
     </div>
   )
