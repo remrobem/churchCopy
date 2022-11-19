@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import * as styles from "./gift.module.css"
 // import EstimateProgressBar from "./estimateProgressBar"
-import { Link } from "gatsby"
 
 import {
   EMAILJS_USER,
@@ -100,10 +99,16 @@ const Gift = ({ env }) => {
           We know you want to know the numbers for this year. We had pledges of
           $66,000. We expect to receive about $124,000 in giving this year. Our
           expenses will be about $176,000, resulting in an expected deficit of
-          $52,000. Our budget for 2022 was $198,000 so spending is much lower
-          than expected. Outreach is the big loser when expenses exceed giving.
-          While it’s the most important of our ministries, we can’t share what
-          we don’t have.
+          $52,000.{" "}
+        </p>
+        <p className={styles.text}>
+          Obviously, deficits of this amount are not sustainable.{" "}
+        </p>
+        <p className={styles.text}>
+          Our budget for 2022 was $198,000 so spending is much lower than
+          expected. Outreach is the big loser when expenses exceed giving. While
+          it’s the most important of our ministries, we can’t share what we
+          don’t have.
         </p>
         <p className={styles.text}>
           We hope that this year’s financial situation isn’t the new norm for
