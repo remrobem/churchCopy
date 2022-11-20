@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import * as styles from "./gift.module.css"
+import PledgeForm from "../../content/assets/PledgeFormOnline.pdf"
 // import EstimateProgressBar from "./estimateProgressBar"
 
 import {
@@ -199,7 +200,12 @@ const Gift = ({ env }) => {
               </li>
               <li>
                 Mail a pledge to the church. You just need to provide your name
-                and the pledge amount. No form is needed,
+                and the pledge amount. No form is needed, but you can{" "}
+                <a href={PledgeForm} target="blank">
+                  {" "}
+                  download a form here
+                </a>{" "}
+                if you prefer.
               </li>
               <li>
                 Put a pledge in the collection plate. You just need to provide
