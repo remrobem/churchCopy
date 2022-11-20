@@ -199,7 +199,7 @@ const Gift = ({ env }) => {
               </li>
               <li>
                 Mail a pledge to the church. You just need to provide your name
-                and the pledge amount. No form is needed,
+                and the pledge amount. No form is needed, but you can download a form <a href="../../content/assets/PledgeFormOnline.pdf">here</a>
               </li>
               <li>
                 Put a pledge in the collection plate. You just need to provide
