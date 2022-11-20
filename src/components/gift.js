@@ -98,9 +98,9 @@ const Gift = ({ env }) => {
         </p>
         <p className={styles.text}>
           We know you want to know the numbers for this year. We had pledges of
-          $66,000. We expect to receive about $124,000 in giving this year. Our
-          expenses will be about $176,000, resulting in an expected deficit of
-          $52,000.{" "}
+          $66,000. We expect to receive about $120,000 in giving this year. Our
+          expenses will be about $177,000, resulting in an expected deficit of
+          $57,000.{" "}
         </p>
         <p className={styles.text}>
           Obviously, deficits of this amount are not sustainable.{" "}
