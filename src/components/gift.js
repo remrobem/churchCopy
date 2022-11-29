@@ -164,8 +164,8 @@ const Gift = ({ env }) => {
               <input
                 className={styles.textInput}
                 type="number"
-                min="10"
-                step="5"
+                min="1"
+                step="1"
                 name="donorAmount"
                 id="donorAmount"
                 placeholder="Annual Amount"
