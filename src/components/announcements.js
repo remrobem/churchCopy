@@ -7,17 +7,6 @@ const Announcements = () => {
     <div className={styles.container} id="announcements">
 
       <div className={styles.announcement}>
-        <h1>Book Study</h1>
-        <div className={styles.text}>
-          <p>We are having a book study on Wednesday evenings</p>
-          <p>
-            Click <Link to="/#bookstudy">here</Link> for details.
-          </p>
-          <br></br>
-        </div>
-      </div>
-
-      <div className={styles.announcement}>
         <h1>Morning Prayer Online</h1>
         <div className={styles.text}>
           <p>We are having morning prayer online on Mondays</p>
