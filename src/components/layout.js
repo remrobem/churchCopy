@@ -1,7 +1,7 @@
 import React from "react"
 import Footer from "../components/footer"
 import Header from "../components/header"
-import LandingPage from "./landingPage"
+// import LandingPage from "./landingPage"
 import Services from "./services"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
@@ -9,6 +9,7 @@ import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
 import MorningPrayer from "./morningPrayer"
+import LaundryLove from "./laundryLove"
 // import EmailSignUp from "./emailSignUp"
 
 const Layout = ({ location, title, children }) => {
@@ -18,7 +19,8 @@ const Layout = ({ location, title, children }) => {
       <Header />
       {/* <LandingPage /> */}
       <Gift />
-      <ChurchLinks />
+      <ChurchLinks />ß
+      <LaundryLove />
       <MorningPrayer />
       <Announcements />
       <IndoorService />
