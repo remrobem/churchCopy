@@ -8,7 +8,6 @@ import Donations from "./donations"
 import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
-import MorningPrayer from "./morningPrayer"
 import LaundryLove from "./laundryLove"
 // import EmailSignUp from "./emailSignUp"
 
@@ -21,7 +20,6 @@ const Layout = ({ location, title, children }) => {
       <Gift />
       <ChurchLinks />ß
       <LaundryLove />
-      <MorningPrayer />
       <Announcements />
       <IndoorService />
       <Services />
