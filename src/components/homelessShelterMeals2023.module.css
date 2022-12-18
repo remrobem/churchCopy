@@ -1,10 +1,14 @@
 .imageContainer {
   margin: 0;
   /* padding: 1vw; */
-  background-color: blueviolet;
-  color: white;
-  display: flex;
+  /* background-color: blueviolet; */
+  /* color: white; */
+  /* display: flex;
   justify-content: center;
+  align-items: center; */
+  /* align-content: center; */
+  /* text-align: center; */
+  width: 50vw;
 }
 
 .container {
