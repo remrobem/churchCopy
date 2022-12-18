@@ -69,6 +69,16 @@ const Header = () => {
             <Link className={styles.button} to="#announcements">
               Announcements
             </Link>
+            <Link className={styles.button} to="#textSignUp">
+              Text SignUp
+            </Link>
+            <a
+              className={styles.button}
+              href="https://mailchi.mp/7585f512f250/email-signup"
+            >
+              Email SignUp
+            </a>
+
           </div>
           <p className={styles.sundayService}>
             The Sunday Service is at 10 am with masks optional and singing.
