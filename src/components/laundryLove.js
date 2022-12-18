@@ -8,7 +8,7 @@ const LaundryLove = () => {
       <h1 className={styles.title}>Laundry Love</h1>
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../..//content/assets/laundryLove1.jpg"
+          src="../..//content/assets/LaundryLove1.jpg"
           alt="Laundry Love Poster"
           loading="eager"
         />
