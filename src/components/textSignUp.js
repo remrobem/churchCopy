@@ -8,8 +8,8 @@ const textSignUp = () => {
         <div class="tm-widget-inner">
           <iframe
             src="https://my.textmagic.com/userwidgets/cmd/show/code/657e81770d34809/default"
-            // width="568"
-            // height="349"
+            width="568"
+            height="349"
             frameborder="0"
             marginheight="0"
             marginwidth="0"
