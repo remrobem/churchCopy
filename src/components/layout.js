@@ -9,6 +9,7 @@ import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
 import LaundryLove from "./laundryLove"
+// import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 // import EmailSignUp from "./emailSignUp"
 
 const Layout = ({ location, title, children }) => {
@@ -20,6 +21,7 @@ const Layout = ({ location, title, children }) => {
       <Gift />
       <ChurchLinks />ß
       <LaundryLove />
+      {/* <HomelessShelterMeals2023 /> */}
       <Announcements />
       <IndoorService />
       <Services />
