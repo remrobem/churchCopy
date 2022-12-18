@@ -8,9 +8,9 @@ import Donations from "./donations"
 import Announcements from "./announcements"
 import IndoorService from "./indoorService"
 import Gift from "./gift"
-import MorningPrayer from "./morningPrayer"
 import LaundryLove from "./laundryLove"
-// import EmailSignUp from "./emailSignUp"
+import TextSignUp from "./textSignup"
+// import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 
 const Layout = ({ location, title, children }) => {
   
@@ -21,12 +21,13 @@ const Layout = ({ location, title, children }) => {
       <Gift />
       <ChurchLinks />ß
       <LaundryLove />
-      <MorningPrayer />
+      {/* <HomelessShelterMeals2023 /> */}
       <Announcements />
       <IndoorService />
       <Services />
       <Donations />
       {/* <EmailSignUp /> */}
+      <TextSignUp />
       <Footer />
     </div>
   )
