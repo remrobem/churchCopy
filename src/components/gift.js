@@ -135,7 +135,7 @@ const Gift = ({ env }) => {
             </div>
           </div>
         ) : (
-          <form className={styles.form} onSubmit={handleSubmit}>
+          <form className={styles.form} onSubmit={handleSubmit} id="pledgeform">
             <h2>Your Pledge for 2023</h2>
             <label>
               <input
