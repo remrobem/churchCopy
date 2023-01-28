@@ -6,17 +6,6 @@ const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
 
-      <div className={styles.announcement}>
-        <h1>Morning Prayer Online</h1>
-        <div className={styles.text}>
-          <p>We are having morning prayer online on Mondays</p>
-          <p>
-            Click <Link to="/#morningprayer">here</Link> for details.
-          </p>
-          <br></br>
-        </div>
-      </div>
-
       <div className={styles.announcement} id="20211114">
         <h1>In-person Sunday services have restarted</h1>
         {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
