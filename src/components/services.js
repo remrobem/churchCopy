@@ -52,27 +52,29 @@ const Services = () => {
     <div className={styles.background} id="services">
       <div className={styles.message}>
         <main>
-        <form className={styles.form}>
+          <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1gXhLf8nHtPtFKvZWfm14GQFerYbsidiT/view?usp=share_link"
+              formAction="https://drive.google.com/file/d/1oO50a0OJNzv0Gc7XQ5frf7TIoXJ1PGaC/view?usp=share_link"
             >
-              Order of Service for January 22, 2023
+              Order of Service for January 29, 2023
             </button>
           </form>
-          
-          <form className={styles.form}>
+
+          <p>The congregation will select songs during the service.</p>
+
+          {/* <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://drive.google.com/file/d/1NVxWeExPw7QvOx0RrKEGAr-MiN9ZNuEc/view?usp=share_link"
             >
               Music for for January 22, 2023
             </button>
-          </form>
+          </form> */}
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1E4wcd9TqZygOMgfVXkB_CwW0qnKgLzLy/view?usp=share_link"
+              formAction="https://drive.google.com/file/d/1bA7wgT6KOn0AFfWcCvmzP4bc6JAfzLsc/view?usp=share_link"
             >
               Prayer List
             </button>
