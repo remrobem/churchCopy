@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./bookStudy.module.css"
+import * as styles from "./laundryLove.module.css"
 
 const LaundryLove = () => {
   return (
@@ -31,7 +31,7 @@ const LaundryLove = () => {
           We meet our neighbors, pay for their laundry and share some coffee and snacks.
         </p>
         <p className={styles.text}>
-          The next dates are December 3 and January 7.
+          The next dates are February 4 and March 4.
         </p>
         <p className={styles.text}>
           if you have questions, please email outreach@epiphanyeden.org or
