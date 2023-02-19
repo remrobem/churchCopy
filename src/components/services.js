@@ -61,8 +61,6 @@ const Services = () => {
             </button>
           </form>
 
-          <p>The congregation will select songs during the service.</p>
-
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
