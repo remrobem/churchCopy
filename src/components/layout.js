@@ -11,6 +11,7 @@ import Gift from "./gift"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import PancakeSupper2023 from "./pancakeSupper2023"
+import AshWednesday2023 from "./ashWednesday2023"
 // import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 
 const Layout = ({ location, title, children }) => {
@@ -19,6 +20,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       {/* <LandingPage /> */}
       <PancakeSupper2023 />
+      <AshWednesday2023 />
       <Gift />
       <ChurchLinks />ß
       <LaundryLove />
