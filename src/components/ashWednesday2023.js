@@ -7,6 +7,7 @@ const AshWednesday2023 = () => {
       <h1 className={styles.text}>Ashes.</h1>
       <h1 className={styles.text}>Wednesday.</h1>
       <h1 className={styles.text}>Noon and 6 pm.</h1>
+      <h1 className={styles.text}>The 6 pm service as at LUMC</h1>
       <StaticImage
         src="../../content/assets/AshWednesday2023.png"
         alt="Ash Wednesday info"
