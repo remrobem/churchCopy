@@ -10,7 +10,7 @@ import IndoorService from "./indoorService"
 import Gift from "./gift"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
-import AshWednesday2023 from "./ashWednesday2023"
+import LentStudy2023 from "./lentStudy2023"
 // import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 
 const Layout = ({ location, title, children }) => {
@@ -18,7 +18,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       {/* <LandingPage /> */}
-      <AshWednesday2023 />
+      <LentStudy2023 />
       <Gift />
       <ChurchLinks />ß
       <LaundryLove />
