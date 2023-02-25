@@ -3,7 +3,7 @@ import * as styles from "./bellTowerTreasures.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 const BellTowerTreasures = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="bellTower">
       {/* <h1 className={styles.text}>Ashes.</h1>
       <h1 className={styles.text}>Wednesday.</h1>
       <h1 className={styles.text}>Noon and 6 pm.</h1>
