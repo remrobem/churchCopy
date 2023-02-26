@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Rob Martin <rob.martin.5758@gmail.com>",
   "dependencies": {
+    "@fontsource/aboreto": "^4.5.1",
     "@loadable/component": "^5.15.2",
     "dotenv": "^16.0.1",
     "emailjs": "^4.0.0",

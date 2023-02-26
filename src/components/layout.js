@@ -12,6 +12,7 @@ import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import LentStudy2023 from "./lentStudy2023"
 import BellTowerTreasures from "./bellTowerTreasures"
+import TaizeLent2023 from "./taizeLent2023"
 // import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 
 const Layout = ({ location, title, children }) => {
@@ -20,6 +21,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       {/* <LandingPage /> */}
       <LentStudy2023 />
+      <TaizeLent2023 />
       <BellTowerTreasures />
       <Gift />
       <ChurchLinks />ß
