@@ -7,6 +7,8 @@
   "dependencies": {
     "@fontsource/aboreto": "^4.5.1",
     "@fontsource/glory": "^4.5.12",
+    "@fontsource/oswald": "^4.5.12",
+    "@fontsource/raleway": "^4.5.12",
     "@loadable/component": "^5.15.2",
     "dotenv": "^16.0.1",
     "emailjs": "^4.0.0",
