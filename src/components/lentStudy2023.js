@@ -1,6 +1,6 @@
 import React from "react"
-import "@fontsource/aboreto"
-import "@fontsource/glory"
+import "@fontsource/oswald"
+import "@fontsource/raleway"
 
 import * as styles from "./lentStudy2023.module.css"
 
@@ -14,19 +14,22 @@ const LentStudy2023 = () => {
         </p>
         <p className={styles.text}>
           We will begin with a light soup supper at 5:00 and the program will
-          begin at 6:00. Soup, bread, salad and drinks will be provided.{" "}
-        </p>{" "}
+          begin at 6:00.{" "}
+        </p>
+        <p className={styles.text}>
+          Soup, bread, salad and drinks will be provided.
+        </p>
         <p className={styles.text}>
           We will alternate between Epiphany and St. Thomas for our meetings
-          each week.{" "}
-        </p>{" "}
+          each week.
+        </p>
         <p className={styles.text}>
           We’ll try a hybrid meeting starting at 6:00 and see if that will work
           for future weeks.
         </p>
         <p className={styles.text}>
           The full schedule and zoom link are below.
-        </p>{" "}
+        </p>
         <p className={styles.text}>
           <a href="https://us02web.zoom.us/j/89237049357">Zoom Link</a>
         </p>
