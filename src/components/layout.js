@@ -13,6 +13,7 @@ import TextSignUp from "./textSignUp"
 import LentStudy2023 from "./lentStudy2023"
 import BellTowerTreasures from "./bellTowerTreasures"
 import TaizeLent2023 from "./taizeLent2023"
+import HolyWeek2023 from "./holyWeek2023"
 // import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 
 const Layout = ({ location, title, children }) => {
@@ -20,6 +21,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       {/* <LandingPage /> */}
+      <HolyWeek2023 />
       <LentStudy2023 />
       <TaizeLent2023 />
       <BellTowerTreasures />
