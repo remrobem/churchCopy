@@ -11,6 +11,7 @@
     justify-content: center;
     color: black;
     background-color: white;
+    margin-left: 5px;
 }
 
 ul {
@@ -31,4 +32,9 @@ strong {
 
 ul ul {
     margin-left: 20px;
+}
+
+.description {
+    font-size: 0.8rem;
+    margin: 0 0;
 }
