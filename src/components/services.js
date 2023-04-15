@@ -55,24 +55,24 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://epiphanyeden.us17.list-manage.com/track/click?u=a3f429c9b2ab91d27de19f6cd&id=453f4287d5&e=19e2f816a5"
+              formAction="https://drive.google.com/file/d/1PDkYbEGZYfmsiSCMIYDp-zGJQQ-spwk0/view?usp=share_link"
             >
-              Order of Service for April 2, 2023
+              Order of Service for April 16, 2023
             </button>
           </form>
 
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://epiphanyeden.us17.list-manage.com/track/click?u=a3f429c9b2ab91d27de19f6cd&id=2f92139415&e=19e2f816a5"
+              formAction="https://drive.google.com/file/d/1swP7LqSTamHYSoD2pY-zkr7nZz-GcsLI/view?usp=share_link"
             >
-              Music for for April 2, 2023
+              Music for for April 16, 2023
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://epiphanyeden.us17.list-manage.com/track/click?u=a3f429c9b2ab91d27de19f6cd&id=2e43eabde1&e=19e2f816a5"
+              formAction="https://drive.google.com/file/d/1QG6azh45wBK5yLvFg147PSgGQ2R7paOM/view?usp=share_link"
             >
               Prayer List
             </button>
