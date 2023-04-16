@@ -7,11 +7,10 @@ import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
 import Announcements from "./announcements"
 import IndoorService from "./indoorService"
-import Gift from "./gift"
+// import Gift from "./gift"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
-import HolyWeek2023 from "./holyWeek2023"
 // import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 
 const Layout = ({ location, title, children }) => {
@@ -19,9 +18,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       {/* <LandingPage /> */}
-      <HolyWeek2023 />
       <BellTowerTreasures />
-      <Gift />
       <ChurchLinks />ß
       <LaundryLove />
       {/* <HomelessShelterMeals2023 /> */}

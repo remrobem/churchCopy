@@ -5,19 +5,6 @@ import * as styles from "./announcements.module.css"
 const Announcements = () => {
   return (
     <div className={styles.container} id="announcements">
-
-      <div className={styles.announcement} id="20211114">
-        <h1>In-person Sunday services have restarted</h1>
-        {/* <h1>Sunday services are being held indoors at 10 am</h1> */}
-        <div className={styles.text}>
-          <p>
-            See <Link to="/#indoor">Sunday Services</Link> below for more
-            details.
-          </p>
-          <br></br>
-        </div>
-      </div>
-
       <div className={styles.announcement}>
         <h1>Humanitarian Response to the Crisis in Ukraine</h1>
         <div className={styles.text}>
@@ -144,17 +131,10 @@ const Announcements = () => {
       <div className={styles.announcement}>
         <h1>Sunday School - on Tuesdays!!</h1>
         <div className={styles.text}>
+          <p>Sunday School is on Tuesdays at 7 pm. We meet for about 1 hour.</p>
           <p>
-            Starting June 15, adult Sunday School will be Tuesdays at 7 pm. We
-            will meet for about 1 hour.
-          </p>
-          <p>
-            We hope this change might make Sunday School available to more
-            people.
-          </p>
-          <p>
-            Right now wee are watching a series of talks on the Old Testament
-            given by Amy-Jill Levine.
+            We watch and discuss the sermon delivered at the National Cathedral
+            the previous Sunday.
           </p>
           <p>
             It is very informal. It is not uncommon for the discussions to
@@ -162,8 +142,8 @@ const Announcements = () => {
           </p>
           <p>We hope you will join us.</p>
           <p>
-            It will remain a Zoom meeting with the{" "}
-            <a href="https://us02web.zoom.us/j/86264215594">existing link.</a>
+            We meet over Zoom. The link is{" "}
+            <a href="https://us02web.zoom.us/j/86264215594">here.</a>
           </p>
           <br></br>
           <br></br>
