@@ -20,18 +20,16 @@ const LaundryLove = () => {
           The first Saturday of each month in Laundry Love day at Epiphany.
         </p>
 
+        <p className={styles.text}>We meet at the </p>
         <p className={styles.text}>
-          We meet at the </p><p className={styles.text}><a href="https://goo.gl/maps/x77QSUtpZxMLVjRw6">
+          <a href="https://goo.gl/maps/x77QSUtpZxMLVjRw6">
             Wash Tub Laundry 403 Kings Hwy, Eden NC
-          </a></p><p className={styles.text}>
-          from 9-11 a.m.!
-
+          </a>
         </p>
+        <p className={styles.text}>from 9-11 a.m.!</p>
         <p className={styles.text}>
-          We meet our neighbors, pay for their laundry and share some coffee and snacks.
-        </p>
-        <p className={styles.text}>
-          The next dates are February 4 and March 4.
+          We meet our neighbors, pay for their laundry and share some coffee and
+          snacks.
         </p>
         <p className={styles.text}>
           if you have questions, please email outreach@epiphanyeden.org or
