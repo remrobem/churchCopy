@@ -18,6 +18,7 @@ module.exports = {
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-mailgo`,
       options: {
@@ -53,6 +54,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `images`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -74,7 +82,7 @@ module.exports = {
         ],
       },
     },
-  
+
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -82,9 +90,9 @@ module.exports = {
       },
     },
     {
-    resolve: `gatsby-plugin-feed`,
-    options: {
-      feeds: [],
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        feeds: [],
       },
     },
     {
