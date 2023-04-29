@@ -11,6 +11,7 @@ import IndoorService from "./indoorService"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
+import MentalHealthMonth2023 from "./mentalHealthMonth2023"
 // import HomelessShelterMeals2023 from "./homelessShelterMeals2023"
 
 const Layout = ({ location, title, children }) => {
@@ -18,6 +19,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       {/* <LandingPage /> */}
+      <MentalHealthMonth2023 />
       <BellTowerTreasures />
       <ChurchLinks />ß
       <LaundryLove />
