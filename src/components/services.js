@@ -55,7 +55,7 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://mcusercontent.com/a3f429c9b2ab91d27de19f6cd/files/bb18c2f7-5caf-5a9f-b19f-626e9de7ec0e/OOS_Easter_5_May_7_2023.pdf"
+              formAction="https://drive.google.com/file/d/13ob8WUj68p3gv73QhmjeiKI7HNtPvwiz/view?usp=share_link"
             >
               Order of Service for May 7, 2023
             </button>
@@ -64,7 +64,7 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://mcusercontent.com/a3f429c9b2ab91d27de19f6cd/files/6e3368d6-262a-ae00-eeab-394666a0af2d/Music_for_Sun._May_7.01.pdfk"
+              formAction="https://drive.google.com/file/d/1jF1d_TVc8dZAX5WBSVRBOXA09JZ5Owlg/view?usp=share_link"
             >
               Music for May 7, 2023
             </button>
