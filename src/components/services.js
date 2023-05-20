@@ -7,7 +7,7 @@ const Services = () => {
     query {
       allMarkdownRemark(
         sort: { order: DESC, fields: frontmatter___date }
-        limit: 52
+        limit: 26
       ) {
         edges {
           node {
@@ -55,9 +55,9 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1o8UBvoWISG7ikVyTvpLJnE1pscBa4jXB/view?usp=share_link"
+              formAction="https://drive.google.com/file/d/1OSF5I6dHWdYROusak4v654wTyCu0-lPZ/view?usp=share_link"
             >
-              Order of Service for May 14, 2023
+              Order of Service for May 21, 2023
             </button>
           </form>
 
@@ -66,13 +66,13 @@ const Services = () => {
               className={`${styles.button} ${styles.button_wide}`}
               formAction="https://drive.google.com/file/d/1DY4IOhlIHJDuW01WkaRV9gO2ZY-HrVgN/view?usp=share_link"
             >
-              Music for May 14, 2023
+              Music for May 21, 2023
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1QG6azh45wBK5yLvFg147PSgGQ2R7paOM/view?usp=share_link"
+              formAction="https://drive.google.com/file/d/1hG3sUkRT2edt5BOJUjNT0SHfAvYzy4_8/view?usp=share_link"
             >
               Prayer List
             </button>
