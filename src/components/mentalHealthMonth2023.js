@@ -53,6 +53,7 @@ const MentalHealthMonth2023 = () => {
     data.image6,
     data.image7,
   ]
+
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
@@ -74,7 +75,7 @@ const MentalHealthMonth2023 = () => {
       />
       <GatsbyImage
         image={images[currentIndex].childImageSharp.gatsbyImageData}
-        alt={`Image ${currentIndex + 1}`}
+        alt={`Quote ${currentIndex + 1}`}
         className={styles.container}
       />
     </div>
