@@ -17,16 +17,17 @@ const LaundryLove = () => {
         <p className={styles.book}>"Giving the Gift of Clean Clothes"</p>
 
         <p className={styles.text}>
-          The first Saturday of each month in Laundry Love day at Epiphany.
+          The first Saturday of each month is Laundry Love day at Epiphany.
         </p>
 
         <p className={styles.text}>We meet at the </p>
+        <p className={styles.text}>Wash Tub Laundry</p>
         <p className={styles.text}>
           <a href="https://goo.gl/maps/x77QSUtpZxMLVjRw6">
-            Wash Tub Laundry 403 Kings Hwy, Eden NC
+            403 Kings Hwy in Eden
           </a>
         </p>
-        <p className={styles.text}>from 9-11 a.m.!</p>
+        <p className={styles.text}>from 9 am to 11 am.</p>
         <p className={styles.text}>
           We meet our neighbors, pay for their laundry and share some coffee and
           snacks.
