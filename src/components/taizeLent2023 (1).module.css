@@ -1,0 +1,32 @@
+.container {
+    background-color: rgb(158, 211, 243);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.image {
+    margin: 2rem 2rem;
+    justify-content: center;
+}
+
+.text {
+    font-family: "Aboreto", cursive;
+    font-size: 1.5em;
+    color: black;
+    padding: 0.5em;
+    margin: 1rem;
+}
+.smallText {
+    font-family: "Aboreto", cursive;
+    font-size: 1em;
+    color: black;
+    padding: 0.5em;
+    margin: 1rem;
+}
