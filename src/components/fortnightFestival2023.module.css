@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+.image {
+  /* Define any specific styles for the image */
+}
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
