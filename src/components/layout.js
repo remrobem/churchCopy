@@ -10,15 +10,12 @@ import IndoorService from "./indoorService"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
-import BishopJennifer2023 from "./bishopJennifer2023"
-import BishopJennifer2023copy from "./bishopJennifer2023copy"
 
 const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
       <LandingPage />
-      <BishopJennifer2023copy />
       <LaundryLove />
       <BellTowerTreasures />
       <ChurchLinks />
