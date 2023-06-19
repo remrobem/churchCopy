@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.imageWrapper {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  flex: 0 0 50%;
+  max-width: 40%;
+}
