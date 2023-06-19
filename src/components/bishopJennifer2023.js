@@ -37,7 +37,11 @@ const BishopJennifer2023 = () => {
               .
             </p>
             <p className={styles.additionalText}>
+<<<<<<< HEAD
               Three people from Epiphany will be confirmed.
+=======
+              Three people from Epiphany will be confirmed that day.
+>>>>>>> 9568257797859e1a127326e07d8c0e733275494e
             </p>
             <p className={styles.additionalText}>
               The service will begin at 11:00 am and a reception will follow in St.
