@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 .container {
   text-align: center;
   background-color: cornflowerblue;
@@ -9,5 +11,14 @@
 
 .text {
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 10px;
 }
