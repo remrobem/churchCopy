@@ -6,6 +6,10 @@ const LaundryLove = () => {
   return (
     <main className={styles.container} id="laundrylove">
       <h1 className={styles.title}>Laundry Love</h1>
+      <p className={styles.book}>Coming Up:</p>
+      <p className={styles.book}>Saturday July 1</p>
+      <p className={styles.book}>9 to 11 am</p>
+     
       <section className={styles.imageContainer}>
         <StaticImage
           src="../..//content/assets/LaundryLove1.jpg"
