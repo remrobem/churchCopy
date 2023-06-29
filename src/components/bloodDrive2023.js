@@ -13,7 +13,7 @@ const BloodDrive2023 = () => {
       <div id="blooddrive">
         <iframe
           src="https://mailchi.mp/31639742b872/your-help-is-needed-in-our-community-13817074"
-          style={{ width: "800px", height: "600px" }}
+          style={{ width: "100vw", height: "100vh" }}
           title="Blood Drive"
         ></iframe>
       </div>
