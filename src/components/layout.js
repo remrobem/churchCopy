@@ -10,12 +10,14 @@ import IndoorService from "./indoorService"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
+import BloodDrive2023 from "./bloodDrive2023"
 
 const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
       <LandingPage />
+      <BloodDrive2023 />
       <LaundryLove />
       <BellTowerTreasures />
       <ChurchLinks />
