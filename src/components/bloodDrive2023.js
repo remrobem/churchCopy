@@ -3,6 +3,7 @@ import React from "react"
 const BloodDrive2023 = () => {
   return (
     <div
+      id="blooddrive"
       style={{
         display: "flex",
         alignContent: "center",
@@ -10,7 +11,7 @@ const BloodDrive2023 = () => {
         justifyContent: "space-around",
       }}
     >
-      <div id="blooddrive">
+      <div>
         <iframe
           src="https://mailchi.mp/31639742b872/your-help-is-needed-in-our-community-13817074"
           style={{ width: "100vw", height: "100vh" }}
