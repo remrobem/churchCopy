@@ -36,13 +36,13 @@ collections:
     fields:
       - { label: "Service Date", name: "title", widget: "string" }
       - { label: "Video Link", name: "videoLink", widget: "string" }
-      - {
-          label: "Service Order Link",
-          name: "serviceOrderlink",
-          widget: "string",
-        }
+      # - {
+      #     label: "Service Order Link",
+      #     name: "serviceOrderlink",
+      #     widget: "string",
+      #   }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "serviceDescription", widget: "markdown" }
+      # - { label: "Description", name: "serviceDescription", widget: "markdown" }
   - name: "oos"
     label: "Order Of Service"
     folder: "content/oos"
@@ -54,8 +54,9 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: "New Service Date", name: "title", widget: "string" }
       - {
-          label: "Service Order Link",
-          name: "serviceOrderlink",
+          label: "New Service Order Link",
+          name: "newServiceOrderlink",
           widget: "string",
         }
