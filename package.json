@@ -1,6 +1,6 @@
 {
   "name": "epiphany",
-  "private": true,
+  "private": false,
   "description": "Church of the Epiphany website using Gatsby",
   "version": "0.1.0",
   "author": "Rob Martin <rob.martin.5758@gmail.com>",
