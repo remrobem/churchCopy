@@ -54,6 +54,7 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: "New Service Date", name: "title", widget: "string" }
       - {
           label: "New Service Order Link",
           name: "newServiceOrderlink",
