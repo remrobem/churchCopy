@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 
 media_folder: static/img
 public_folder: /img
@@ -23,32 +23,39 @@ collections:
   #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
   #     # - { label: 'Description', name: 'description', widget: 'string' }
   #     - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'services'
-    label: 'Services'
-    folder: 'content/services'
+  - name: "services"
+    label: "Services"
+    folder: "content/services"
     create: true
     # slug: 'index'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
+    media_folder: ""
+    public_folder: ""
+    path: "{{title}}/index"
     editor:
       preview: false
     fields:
-      - { label: 'Service Date', name: 'title', widget: 'string' }
-      - { label: 'Video Link', name: 'videoLink', widget: 'string' }
-      - { label: 'Service Order Link', name: 'serviceOrderlink', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'serviceDescription', widget: 'markdown' }
-  - name: 'oos'
-    label: 'Order Of Service'
-    folder: 'content/oos'
+      - { label: "Service Date", name: "title", widget: "string" }
+      - { label: "Video Link", name: "videoLink", widget: "string" }
+      - {
+          label: "Service Order Link",
+          name: "serviceOrderlink",
+          widget: "string",
+        }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "serviceDescription", widget: "markdown" }
+  - name: "oos"
+    label: "Order Of Service"
+    folder: "content/oos"
     create: true
     # slug: 'index'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
+    media_folder: ""
+    public_folder: ""
+    path: "{{title}}/index"
     editor:
       preview: false
     fields:
-      - { label: 'Service Order Link', name: 'serviceOrderlink', widget: 'string' }
-
+      - {
+          label: "Service Order Link",
+          name: "serviceOrderlink",
+          widget: "string",
+        }
