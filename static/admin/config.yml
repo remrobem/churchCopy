@@ -50,7 +50,7 @@ collections:
     # slug: 'index'
     media_folder: ""
     public_folder: ""
-    path: "{{serviceTitle}}/index"
+    # path: "{{serviceTitle}}/index"
     editor:
       preview: false
     fields:
