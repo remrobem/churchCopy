@@ -23,26 +23,23 @@ const Services = () => {
     }
   `)
 
-  // const oos = useStaticQuery(graphql`
-  //     query {
-  //       allMarkdownRemark(
-  //         sort: { order: DESC, fields: frontmatter___date }
-  //         limit: 52
-  //       ) {
-  //         edges {
-  //           node {
-  //             id
-  //             frontmatter {
-  //               videoLink
-  //               serviceOrderlink
-  //               title
-  //             }
+  // const test = useStaticQuery(graphql`
+  //   query {
+  //     allMarkdownRemark {
+  //       edges {
+  //         node {
+  //           id
+  //           frontmatter {
+  //             newServiceOrderlink
+  //             title
   //           }
   //         }
   //       }
   //     }
-  //   `)
+  //   }
+  // `)
 
+  // console.log(test)
   // filter out md that does not have a video link
   let services = servicesList.allMarkdownRemark.edges.filter(service => {
     return service.node.frontmatter.videoLink

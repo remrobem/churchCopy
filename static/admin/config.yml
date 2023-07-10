@@ -50,11 +50,11 @@ collections:
     # slug: 'index'
     media_folder: ""
     public_folder: ""
-    path: "{{title}}/index"
+    # path: "{{title}}/index"
     editor:
       preview: false
     fields:
-      - { label: "New Service Date", name: "title", widget: "string" }
+      - { label: "New Service Date", name: "serviceTitle", widget: "string" }
       - {
           label: "New Service Order Link",
           name: "newServiceOrderlink",
